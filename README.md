@@ -74,7 +74,7 @@ RM Workforce
               type: 'sheet',  
               url: 'testresult.xlsx',
                 request: {
-                      sheet: 1
+                      sheet: 'CPS'
                   }
             }
         }
