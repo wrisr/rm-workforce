@@ -1,6 +1,6 @@
 layout: page
 title: "WORKFORCE CPS"
-permalink: /workforce/cps
+permalink: /cps
 
 
 Test.....
