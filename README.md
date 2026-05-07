@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL6 :
+  Test Workforce Graph ALL7 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -94,18 +94,16 @@ RM Workforce
   const testctxall = document.getElementById('testChartAll');
   new Chart (testctxall, {
     data: {
-        datasets: [{
             type: 'line',
+        datasets: [{
             borderWidth: 2,
             borderColor: 'red',
             fill: false
         }, {
-            type: 'line',
             borderWidth: 1,
             borderColor: 'green',
             fill: false
         }, {
-            type: 'line',
             borderWidth: 2,
             borderColor: 'blue',
             fill: false
