@@ -93,32 +93,32 @@ RM Workforce
 <script>
   const testctxall = document.getElementById('testChartAll');
   new Chart (testctxall, {
-    type: 'line',
+    type: 'bar',
     data: {
         datasets: [{
+            type: 'line',
             borderWidth: 2,
             borderColor: 'red',
             fill: false
         }, {
+            type: 'line',
             borderWidth: 1,
             borderColor: 'green',
             fill: false
         }, {
+            type: 'line',
             borderWidth: 2,
             borderColor: 'blue',
             fill: false
         }, {
-          type: 'bar',
             borderWidth: 1,
             borderColor: 'yellow',
             fill: false
         }, {
-          type: 'bar',
             borderWidth: 1,
             borderColor: 'orange',
             fill: false
         }, {
-          type: 'bar',
             borderWidth: 1,
             borderColor: 'grey',
             fill: false
@@ -132,7 +132,9 @@ RM Workforce
             text: 'SCG Digital Workforce 2026'
         },
         scales: {
+            x: { stacked: true },
             y: {
+              stacked: true,
               beginAtZero: true
             }
         },
