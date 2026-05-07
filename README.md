@@ -2,7 +2,7 @@
 RM Workforce
 
 <div>
-  Graph :
+  Graph A :
   <canvas id="myChart"></canvas>
 </div>
 
@@ -10,7 +10,6 @@ RM Workforce
 
 <script>
   const ctx = document.getElementById('myChart');
-
   new Chart(ctx, {
     type: 'bar',
     data: {
@@ -31,4 +30,49 @@ RM Workforce
   });
 </script>
 
+<div>
+  Graph B :
+  <canvas id="testChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('testChart');
+  new Chart (ctx, {
+    type: 'line',
+    data: {
+        datasets: [{
+            borderWidth: 6,
+            borderColor: 'rgba(146, 242, 42, 0.85)',
+            fill: false
+        }, {
+            borderWidth: 6,
+            borderColor: 'rgba(207, 0, 15, 0.85)',
+            fill: false
+        }
+    ]},
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'ENCARTUCHAMENTO 05'
+        },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    max: 100,
+                    min: 0,
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'testresult.xlsx'
+            }
+        }
+    }
+});
+</script>
 - End Graph -
