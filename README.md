@@ -34,7 +34,7 @@ RM Workforce
 </script>
 
 <div>
-  Test Workforce Graph CPS1a :
+  Test Workforce Graph CPS1q :
   <canvas id="testChart"></canvas>
 </div>
 
@@ -71,12 +71,12 @@ RM Workforce
         },
         plugins: {
             datasource: {
-              type: 'sheet',  
               url: 'testresult.xlsx',
+              type: 'sheet',  
               rowMapping: 'dataset',
-                request: {
-                      sheet: 'CPS'
-                  }
+              datasetLabels: 'CPS!A2:A4', // Column for series names
+                indexLabels: 'CPS!B1:P1',    // Row for X-axis labels
+                data: 'CPS!B2:P4' 
             }
         }
     }
