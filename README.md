@@ -44,12 +44,16 @@ RM Workforce
     type: 'line',
     data: {
         datasets: [{
-            borderWidth: 6,
-            borderColor: 'rgba(146, 242, 42, 0.85)',
+            borderWidth: 2,
+            borderColor: 'blue',
             fill: false
         }, {
-            borderWidth: 6,
-            borderColor: 'rgba(207, 0, 15, 0.85)',
+            borderWidth: 2,
+            borderColor: 'black',
+            fill: false
+        }, {
+            borderWidth: 2,
+            borderColor: 'orange',
             fill: false
         }
     ]},
