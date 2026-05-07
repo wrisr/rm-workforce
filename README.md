@@ -73,7 +73,7 @@ RM Workforce
             datasource: {
                 url: 'testresult.xlsx',
                 request: {
-                      sheet: 'CPS'
+                      sheet: 1
                   }
             }
         }
