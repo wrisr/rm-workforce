@@ -1,3 +1,3 @@
 layout: page
 title: "WORKFORCE: CPS"
-permalink: /cps
+permalink: /workforce/cps
