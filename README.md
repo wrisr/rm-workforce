@@ -39,8 +39,8 @@ RM Workforce
 </div>
 
 <script>
-  const ctx = document.getElementById('testChart');
-  new Chart (ctx, {
+  const testctx2 = document.getElementById('testChart');
+  new Chart (testctx2, {
     type: 'line',
     data: {
         datasets: [{
