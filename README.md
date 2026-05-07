@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL1 :
+  Test Workforce Graph ALL2 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -125,11 +125,11 @@ RM Workforce
             datasource: {
               url: 'testresult.xlsx',
               type: 'sheet',  
-              sheetName: 'Test',
+              sheetName: 'ALL-Graph',
               rowMapping: 'dataset',
-              datasetLabels: 'B2:B4,B7,B10,B13', // Column for series names
-                indexLabels: 'C1:Q1',    // Row for X-axis labels
-                data: 'C2:Q4,C7:Q7,C10:Q10,C13:Q13' 
+              datasetLabels: 'A2:A7', // Column for series names
+                indexLabels: 'B1:P1',    // Row for X-axis labels
+                data: 'B2:P7' 
             }
         }
     }
