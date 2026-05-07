@@ -111,16 +111,13 @@ RM Workforce
             borderColor: 'blue',
             fill: false
         }, {
-            borderWidth: 1,
-            borderColor: 'yellow',
+            backgroundColor: 'yellow',
             fill: false
         }, {
-            borderWidth: 1,
-            borderColor: 'orange',
+            backgroundColor: 'orange',
             fill: false
         }, {
-            borderWidth: 1,
-            borderColor: 'grey',
+            backgroundColor: 'grey',
             fill: false
         }
     ]},
