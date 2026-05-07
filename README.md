@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL7 :
+  Test Workforce Graph ALL1 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -106,6 +106,18 @@ RM Workforce
         }, {
             borderWidth: 2,
             borderColor: 'blue',
+            fill: false
+        }, {
+            borderWidth: 1,
+            borderColor: 'yellow',
+            fill: false
+        }, {
+            borderWidth: 1,
+            borderColor: 'orange',
+            fill: false
+        }, {
+            borderWidth: 1,
+            borderColor: 'grey',
             fill: false
         }
     ]},
