@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL4 :
+  Test Workforce Graph ALL5 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -131,8 +131,6 @@ RM Workforce
               stacked: true,
               beginAtZero: true
             },
-            xAxes: [{ stacked: true }],
-            yAxes: [{ stacked: true }]
         },
         plugins: {
             datasource: {
