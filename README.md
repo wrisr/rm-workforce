@@ -2,6 +2,7 @@
 RM Workforce
 
 <div>
+  Graph :
   <canvas id="myChart"></canvas>
 </div>
 
@@ -29,3 +30,5 @@ RM Workforce
     }
   });
 </script>
+
+- End Graph -
