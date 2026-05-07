@@ -34,7 +34,7 @@ RM Workforce
 </script>
 
 <div>
-  Test Workforce Graph :
+  Test Workforce Graphhhh :
   <canvas id="testChart"></canvas>
 </div>
 
@@ -65,12 +65,9 @@ RM Workforce
             text: 'SCG Digital Workforce 2026'
         },
         scales: {
-            yAxes: [{
-                ticks: {
-                    max: 160,
-                    min: 0,
-                }
-            }]
+            y: {
+              beginAtZero: true
+            }
         },
         plugins: {
             datasource: {
