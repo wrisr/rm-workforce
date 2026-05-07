@@ -34,7 +34,7 @@ RM Workforce
 </script>
 
 <div>
-  Test Workforce Graph CPS :
+  Test Workforce Graph CPS1 :
   <canvas id="testChart"></canvas>
 </div>
 
@@ -71,7 +71,8 @@ RM Workforce
         },
         plugins: {
             datasource: {
-                url: 'testresult.xlsx',
+              type: 'sheet',  
+              url: 'testresult.xlsx',
                 request: {
                       sheet: 1
                   }
