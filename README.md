@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL2 :
+  Test Workforce Graph ALL3 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -97,15 +97,15 @@ RM Workforce
     data: {
         datasets: [{
             borderWidth: 2,
+            borderColor: 'red',
+            fill: false
+        }, {
+            borderWidth: 2,
+            borderColor: 'green',
+            fill: false
+        }, {
+            borderWidth: 2,
             borderColor: 'blue',
-            fill: false
-        }, {
-            borderWidth: 2,
-            borderColor: 'black',
-            fill: false
-        }, {
-            borderWidth: 2,
-            borderColor: 'orange',
             fill: false
         }
     ]},
@@ -125,7 +125,7 @@ RM Workforce
             datasource: {
               url: 'testresult.xlsx',
               type: 'sheet',  
-              sheetName: 'ALL-Graph',
+              sheetName: 'ALLGraph',
               rowMapping: 'dataset',
               datasetLabels: 'A2:A7', // Column for series names
                 indexLabels: 'B1:P1',    // Row for X-axis labels
