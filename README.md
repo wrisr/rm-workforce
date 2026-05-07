@@ -58,12 +58,12 @@ RM Workforce
         title: {
             display: true,
             fontSize: 20,
-            text: 'ENCARTUCHAMENTO 05'
+            text: 'SCG Digital Workforce 2026'
         },
         scales: {
             yAxes: [{
                 ticks: {
-                    max: 100,
+                    max: 160,
                     min: 0,
                 }
             }]
