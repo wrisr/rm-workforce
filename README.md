@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL2 :
+  Test Workforce Graph ALL3 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -112,13 +112,10 @@ RM Workforce
             fill: false
         }, {
             backgroundColor: 'yellow',
-            fill: false
         }, {
             backgroundColor: 'orange',
-            fill: false
         }, {
             backgroundColor: 'grey',
-            fill: false
         }
     ]},
     plugins: [ChartDataSource],
