@@ -2,7 +2,7 @@
 RM Workforce
 
 <div>
-  Graph A :
+  Original Graph :
   <canvas id="myChart"></canvas>
 </div>
 
@@ -34,7 +34,7 @@ RM Workforce
 </script>
 
 <div>
-  Graph New :
+  Test Workforce Graph :
   <canvas id="testChart"></canvas>
 </div>
 
