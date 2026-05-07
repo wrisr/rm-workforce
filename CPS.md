@@ -1,3 +1,3 @@
 layout: page
-title: "WORKFORCE: CPS"
+title: "WORKFORCE CPS"
 permalink: /workforce/cps
