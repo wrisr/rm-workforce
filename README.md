@@ -93,8 +93,8 @@ RM Workforce
 <script>
   const testctxall = document.getElementById('testChartAll');
   new Chart (testctxall, {
+    type: 'line',
     data: {
-            type: 'line',
         datasets: [{
             borderWidth: 2,
             borderColor: 'red',
