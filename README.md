@@ -153,7 +153,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph :
+  DO Workforce Graph test :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
