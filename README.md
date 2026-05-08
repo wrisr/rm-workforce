@@ -211,6 +211,10 @@
         legend: {
              position: 'bottom',
         },
+        interaction: {
+            mode: 'index',
+            intersect: false
+        },
         responsive: true,
         scales: {
             x: [{
