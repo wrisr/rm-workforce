@@ -185,7 +185,7 @@
             borderColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {color: 'black'}
+            datalabels: {color: 'rgba(68, 114, 196)', z: 1}
         },{
             type: 'line',
             borderWidth: 1,
