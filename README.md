@@ -260,6 +260,7 @@
               borderRadius: 4,
               color: 'white',
               font: {
+                fontFamily: 'SCG-Font';
                 //weight: 'bold'
               },
               //formatter: Math.round,
