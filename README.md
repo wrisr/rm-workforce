@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body class="body-main">
   
 <div class="subtitle">
   DO Workforce Graph test interactmode
