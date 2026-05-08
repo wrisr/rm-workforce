@@ -88,7 +88,11 @@
             fontFamily: "MindSans"
         },
         legend: {
-            position: 'bottom'
+            position: 'bottom',
+              font: {
+                family: "'MindSans', sans-serif", // Set font family
+                size: 10
+              }
         },
         responsive: true,
         scales: {
@@ -121,7 +125,7 @@
               color: 'white',
               font: {
                 family: "'MindSans', sans-serif", // Set font family
-                size: 16,
+                size: 10,
                 weight: 'normal'
               },
               padding: 0
