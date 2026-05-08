@@ -39,7 +39,7 @@ h1 a {
 .subtitle {
   /* background-color: white; */
   color: #424242;
-  font-family: SCG-Font, sans-serif;
+  font-family: 'MindSans', sans-serif;
   font-weight: bold;
   font-size: 20px;
   padding: 20px 32px 20px 32px;
@@ -48,7 +48,7 @@ h1 a {
 .chart {
   /* background-color: yellow; */
   color: #424242;
-  font-family: SCG-Font, sans-serif;
+  font-family: 'MindSans', sans-serif;
   margin: 20px 0px 0px 0px;
 }
 
