@@ -165,16 +165,16 @@
         datasets: [{
           type: 'line',
             backgroundColor: 'red',
-          order: 1
+          order: 2
         }, {
             backgroundColor: 'green',
-          order: 2
+          order: 1
         }, {
             backgroundColor: 'blue',
-          order: 2
+          order: 1
         }, {
             backgroundColor: 'yellow',
-          order: 2
+          order: 1
         }
     ]},
     plugins: [ChartDataSource],
