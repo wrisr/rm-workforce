@@ -163,6 +163,10 @@
   new Chart (workforcedo, {
     type: 'bar',
     displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
     data: {
         datasets: [{
             type: 'line',
@@ -210,10 +214,6 @@
         },
         legend: {
              position: 'bottom',
-        },
-        interaction: {
-            mode: 'index',
-            intersect: false
         },
         responsive: true,
         scales: {
