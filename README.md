@@ -87,7 +87,7 @@
 --------- -->
 
 <div>
-  Test Workforce Graph ALL :
+  Test Workforce Graph ALL 1 :
   <canvas id="testChartAll"></canvas>
 </div>
 
