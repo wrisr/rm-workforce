@@ -87,7 +87,7 @@
 ---------
 
 <div>
-  Test Workforce Graph ALL :
+  Test Workforce Graph ALL1 :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -100,7 +100,7 @@
             type: 'line',
             borderWidth: 2,
             borderColor: 'red',
-            fill: false
+            tension: 0.4
         }, {
             type: 'line',
             borderWidth: 1,
