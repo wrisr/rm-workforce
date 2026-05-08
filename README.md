@@ -153,11 +153,21 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test interact :
+  DO Workforce Graph test interactmode :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
 <script>
+
+  const actions = [
+  {
+    name: 'Mode: index',
+    handler(chart) {
+      chart.options.interaction.axis = 'xy';
+      chart.options.interaction.mode = 'index';
+      chart.update();
+    }
+  }];
     
   const workforcedo = document.getElementById('workforceChartDO');
   new Chart (workforcedo, {
