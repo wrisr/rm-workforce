@@ -153,7 +153,7 @@
 ---------
 
 <div>
-  Test Workforce Graph stack6 :
+  Test Workforce Graph stack7 :
   <canvas id="testChartStack"></canvas>
 </div>
 
@@ -179,13 +179,16 @@
           order: 2
         }, {
             backgroundColor: 'yellow',
-          order: 1
+          order: 1,
+          stack: 'group1'
         }, {
             backgroundColor: 'orange',
-          order: 1
+          order: 1,
+          stack: 'group1'
         }, {
             backgroundColor: 'black',
-          order: 1
+          order: 1,
+          stack: 'group1'
         }
     ]},
     plugins: [ChartDataSource],
