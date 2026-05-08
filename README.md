@@ -122,7 +122,7 @@ RM Workforce
     options: {
         title: {
             display: true,
-            fontSize: 20,
+            //fontSize: 20,
             text: 'SCG Digital Workforce 2026'
         },
         scales: {
