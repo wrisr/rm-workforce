@@ -1,4 +1,4 @@
-<div class="title"> SCG Digital Workforce 2026</div>
+<div class="title"> SCG Digital Workforce 2026 1</div>
 
 <style>
   .title {
@@ -6,8 +6,9 @@
     font-family: SCG-Font, sans-serif;
     font-weight: bold;
     font-size: 16px;
+    height: 64px
     background-color: #041e42;
-    padding: 10px;
+    padding: 40px;
   }
   .subtitle {
     color: #424242;
