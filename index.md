@@ -84,7 +84,7 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 f',
+            text: 'SCG Digital Workforce 2026 g',
             fontFamily: "MindSans"
         },
         legend: {
