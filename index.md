@@ -94,7 +94,8 @@
                       // This more specific font property overrides the global property
                       font: {
                         family: "'MindSans', sans-serif", // Set font family
-                        size: 10
+                        size: 10,
+                weight: 'normal'
                       }
                   }
         },
@@ -104,7 +105,8 @@
                 stacked: true,
               font: {
                         family: "'MindSans', sans-serif", // Set font family
-                        size: 10
+                        size: 10,
+                weight: 'normal'
                       }
             }],
             y: [{
@@ -112,7 +114,8 @@
                 beginAtZero: true,
               font: {
                         family: "'MindSans', sans-serif", // Set font family
-                        size: 10
+                        size: 10,
+                weight: 'normal'
                       }
             }]
         },
