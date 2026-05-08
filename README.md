@@ -184,17 +184,20 @@
         }, {
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
-            borderRadius: 2,
+            borderRadius: 5,
+            borderSkipped: false,
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(255, 191, 0)',
             order: 4,
-            borderRadius: 3,
+            borderRadius: 5,
+            borderSkipped: false,
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
-            borderRadius: 4,
+            borderRadius: 5,
+            borderSkipped: false,
             stack: 'groupplan'
         }
     ]},
