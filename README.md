@@ -153,7 +153,7 @@
 ---------
 
 <div>
-  Test Workforce Graph ALL stack only1 :
+  Test Workforce Graph ALL stack only2 :
   <canvas id="testChartStack"></canvas>
 </div>
 
