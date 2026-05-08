@@ -252,7 +252,16 @@
                 formatter: (value, ctx) => {
                   return;
                 },
-                color: '#fff',
+              backgroundColor: function(context) {
+                return context.dataset.backgroundColor;
+              },
+              borderRadius: 4,
+              color: 'white',
+              font: {
+                weight: 'bold'
+              },
+              formatter: Math.round,
+              padding: 6
             }
         }
     }
