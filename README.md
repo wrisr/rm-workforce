@@ -245,6 +245,9 @@
                 data: 'GraphAll!B2:P7' 
             },
             datalabels: {
+                formatter: (value, ctx) => {
+                  return;
+                },
                 color: '#fff',
             }
         }
