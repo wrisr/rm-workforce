@@ -118,9 +118,6 @@
               },
               borderRadius: 4,
               //formatter: Math.round,
-              font {
-                family: "'MindSans', sans-serif"
-              },
               color: 'white',
               padding: 0
             }
