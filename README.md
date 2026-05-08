@@ -130,8 +130,8 @@
         },
         responsive: true,
         scales: {
-            x: { stacked: true },
-            y: {
+            xAxes: { stacked: true },
+            yAxes: {
               stacked: true,
               beginAtZero: true
             },
@@ -153,7 +153,7 @@
 ---------
 
 <div>
-  Test Workforce Graph stack2 :
+  Test Workforce Graph stack3 :
   <canvas id="testChartStack"></canvas>
 </div>
 
@@ -163,13 +163,17 @@
     type: 'bar',
     data: {
         datasets: [{
-            backgroundColor: 'red'
+            backgroundColor: 'red',
+          order: 2
         }, {
-            backgroundColor: 'green'
+            backgroundColor: 'green',
+          order: 1
         }, {
-            backgroundColor: 'blue'
+            backgroundColor: 'blue',
+          order: 1
         }, {
-            backgroundColor: 'yellow'
+            backgroundColor: 'yellow',
+          order: 1
         }
     ]},
     plugins: [ChartDataSource],
