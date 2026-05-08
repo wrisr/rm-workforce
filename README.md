@@ -99,8 +99,7 @@
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'red',
-            //tension: 0.4
+            borderColor: 'red'
         }, {
             type: 'line',
             borderWidth: 1,
