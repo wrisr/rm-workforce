@@ -183,6 +183,7 @@
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
             datalabels: {color: 'rgba(68, 114, 196)', align: 'end', anchor: 'end'}
