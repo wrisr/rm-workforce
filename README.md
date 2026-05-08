@@ -154,7 +154,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test interactmode10 :
+  DO Workforce Graph test interactmode11 :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
@@ -230,11 +230,6 @@
         },
         legend: {
              position: 'bottom',
-            labels: {
-                    font: {
-                        family: 'sans-serif';
-                    }
-                }
         },
         responsive: true,
         scales: {
