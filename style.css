@@ -1,21 +1,17 @@
 h1 {
-  
-  background-color: yellow;
   color: #ffffff;
   font-family: SCG-Font, sans-serif;
   font-weight: bold;
   font-size: 16px;
   height: 48px;
-  /* background-color: #041e42; */
+  background-color: #041e42;
   padding: 0px 0px 0px 32px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
 }
 
 h1 a {
-  background-color: blue;
   color: #ffffff;
   font-size: 16px;
-  /* background-color: #041e42; */
 }
 
 .body-main {
