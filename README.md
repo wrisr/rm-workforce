@@ -183,28 +183,20 @@
             fill: false,
             order: 3
         }, {
-            borderColor: 'rgba(165, 165, 165)',
+            //borderColor: 'rgba(165, 165, 165)',
+            //borderWidth: 2,
+            //borderRadius: 10,
+            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
-            borderWidth: 2,
-            borderRadius: 10,
-            borderSkipped: false,
             stack: 'groupplan'
         }, {
-            borderColor: 'rgba(165, 165, 165)',
             backgroundColor: 'rgba(255, 191, 0)',
             order: 4,
-            borderWidth: 2,
-            borderRadius: 10,
-            borderSkipped: false,
             stack: 'groupplan'
         }, {
-            borderColor: 'rgba(165, 165, 165)',
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
-            borderWidth: 2,
-            borderRadius: 10,
-            borderSkipped: false,
             stack: 'groupplan'
         }
     ]},
