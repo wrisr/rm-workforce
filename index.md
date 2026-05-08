@@ -89,7 +89,7 @@
         },
         legend: {
             position: 'bottom',
-            fontFamily: "MindSans"
+            fontFamily: "'MindSans'"
         },
         responsive: true,
         scales: {
