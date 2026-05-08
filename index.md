@@ -89,7 +89,8 @@
             display: true,
             fontSize: 20,
             text: 'SCG Digital Workforce 2026',
-            padding: 20
+            padding: 20,
+            fontColor: '#616161',
         },
         legend: {
             position: 'bottom',
