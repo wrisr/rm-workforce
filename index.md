@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <!-- script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script -->
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
@@ -84,18 +84,24 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 a',
+            text: 'SCG Digital Workforce 2026 C',
             fontFamily: "MindSans"
         },
         legend: {
-            position: 'bottom',
-            fontColor: 'red',
-            fontFamily: "'MindSans', sans-serif"
+            position: 'bottom'
         },
         responsive: true,
         scales: {
             x: [{
-                stacked: true
+                stacked: true,
+                ticks: {
+                font: {
+                  family: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+                  size: 14,
+                  weight: 'bold',
+                  lineHeight: 1.2,
+                },
+                color: 'blue'
             }],
             y: [{
                 stacked: true,
