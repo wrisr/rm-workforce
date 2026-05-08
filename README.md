@@ -1,4 +1,4 @@
-<div class="title"> SCG Digital Workforce 2026 777</div>
+<div class="title"> SCG Digital Workforce 2026 888</div>
 
 <style>
   .title {
