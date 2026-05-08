@@ -237,7 +237,7 @@
                 stacked: true,
                 beginAtZero: true
             }]
-          },
+        },
         plugins: {
             datasource: {
                 url: 'testresult.xlsx',
@@ -250,7 +250,8 @@
             datalabels: {
                 color: '#fff',
             }
-      }
+        }
+    }
 });
 </script>
 
