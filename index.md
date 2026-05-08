@@ -100,7 +100,7 @@
           mode: 'index',
           intersect: false,
           titleFontSize: 12,
-          backgroundColor: '#EEEEEE'
+          position: 'nearest'
         },
         responsive: true,
         scales: {
