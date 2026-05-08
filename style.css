@@ -52,10 +52,10 @@ h1 a {
   margin: 20px 0px 0px 0px;
 }
 
-canvas {
+/* canvas {
   background-color: yellow; 
   font-family: 'MindSans', sans-serif;
-}
+} */
 
 .rounded-div {
   border-radius: 20px; /* ปรับขนาดมุมมน */
