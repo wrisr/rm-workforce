@@ -166,28 +166,28 @@
           type: 'line',
             borderWidth: 2,
             borderColor: 'red',
-          order: 4
+          order: 1
         },{
           type: 'line',
             borderWidth: 1,
             borderColor: 'green',
-          order: 3
+          order: 2
         },{
           type: 'line',
             borderWidth: 2,
             borderColor: 'blue',
-          order: 2
+          order: 3
         }, {
             backgroundColor: 'yellow',
-          order: 1,
+          order: 4,
           stack: 'group1'
         }, {
             backgroundColor: 'orange',
-          order: 1,
+          order: 4,
           stack: 'group1'
         }, {
             backgroundColor: 'black',
-          order: 1,
+          order: 4,
           stack: 'group1'
         }
     ]},
