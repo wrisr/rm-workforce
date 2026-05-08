@@ -15,7 +15,8 @@
     font-family: SCG-Font, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin: 20px 0px 32px 0px;
+    padding-left: 32px;
+    margin: 20px 0px 20px 0px;
   }
 </style>
 
