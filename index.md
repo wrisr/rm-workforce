@@ -18,6 +18,9 @@
 
 <script>
 
+  Chart.defaults.global.defaultFontColor = 'red';
+  Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
+
   const actions = [
   {
     name: 'Mode: index',
@@ -84,7 +87,7 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 m',
+            text: 'SCG Digital Workforce 2026 n',
             fontFamily: "MindSans"
         },
         legend: {
@@ -108,12 +111,7 @@
             },
             y: {
                 stacked: true,
-                beginAtZero: true,
-                ticks: {
-                  fontColor: 'red',
-                  fontSize: 10,
-                  fontFamily: "'MindSans', sans-serif"
-                }
+                beginAtZero: true
             }
         },
         scaleLabel: {
