@@ -225,6 +225,9 @@
         legend: {
              position: 'bottom',
         },
+        tooltips: {
+          enabled: false
+        },
         responsive: true,
         scales: {
             x: [{
@@ -244,11 +247,10 @@
                 indexLabels: 'GraphAll!B1:P1',
                 data: 'GraphAll!B2:P7' 
             },
-            tooltips: {
-                mode: 'label'
+            datalabels: {
+                color: '#fff',
             }
-        }
-    }
+      }
 });
 </script>
 
