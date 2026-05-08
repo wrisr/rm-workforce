@@ -12,7 +12,7 @@
 <body class="body-main">
   
 <div class="subtitle">
-  DO Workforce Graph test...
+  DO Workforce
   <div class="chart rounded-div"><canvas id="workforceChartDO"></canvas></div>
 </div>
 
