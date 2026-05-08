@@ -1,8 +1,4 @@
-<head>
-  <title>Your Website Title</title>
-  <meta name="description" content="A short summary of your site.">
-
-<div class="title"> TESTTT INNNN DECCC SCG Digital Workforce 2026 111</div>
+<div class="title"> SCG Digital Workforce 2026 </div>
 
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -11,9 +7,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
 
-</head>
-
-<body class="body-main">
+<div class="body-main">
   
 <div class="subtitle">
   DO Workforce Graph test interactmode
@@ -129,4 +123,4 @@
 });
 </script>
 
-</body>
+</div>
