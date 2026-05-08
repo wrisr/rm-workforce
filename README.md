@@ -245,7 +245,7 @@
             legend: {
                 labels: {
                     font: {
-                        family: "'SCG-Font', 'sans-serif;";
+                        family: "'SCG-Font', 'sans-serif'";
                     }
                 }
             },
