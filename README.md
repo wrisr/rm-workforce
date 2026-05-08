@@ -125,7 +125,7 @@
     options: {
         title: {
             display: true,
-            //fontSize: 20,
+            fontSize: 20,
             text: 'SCG Digital Workforce 2026'
         },
         responsive: true,
@@ -144,6 +144,58 @@
               datasetLabels: 'GraphAll!A2:A7', // Column for series names
                 indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
                 data: 'GraphAll!B2:P7' 
+            }
+        }
+    }
+});
+</script>
+
+---------
+
+<div>
+  Test Workforce Graph stack :
+  <canvas id="testChartStack"></canvas>
+</div>
+
+<script>
+  const testctxstack = document.getElementById('testChartStack');
+  new Chart (testctxstack, {
+    type: 'bar',
+    data: {
+        datasets: [{
+            backgroundColor: 'red',
+          order: 3
+        }, {
+            backgroundColor: 'green',
+          order: 2
+        }, {
+            backgroundColor: 'blue',
+          order: 1
+        }
+    ]},
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'SCG Digital Workforce 2026'
+        },
+        responsive: true,
+        scales: {
+            x: { stacked: true },
+            y: {
+              stacked: true,
+              beginAtZero: true
+            },
+        },
+        plugins: {
+            datasource: {
+              url: 'testresult.xlsx',
+              type: 'sheet',  
+              rowMapping: 'dataset',
+              datasetLabels: 'GraphAll!A4:A7', // Column for series names
+                indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
+                data: 'GraphAll!B4:P7' 
             }
         }
     }
