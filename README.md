@@ -164,7 +164,7 @@
     data: {
         datasets: [{
           type: 'line',
-            backgroundColor: 'red',
+            borderColor: 'red',
           order: 2
         }, {
             backgroundColor: 'green',
