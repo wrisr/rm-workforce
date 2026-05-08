@@ -185,7 +185,7 @@
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
-            order: 1,
+            order: 2,
             datalabels: {align: 'end', anchor: 'end', padding: 6}
         },{
             type: 'line',
@@ -193,7 +193,7 @@
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
-            order: 2,
+            order: 3,
             datalabels: {display: false}
         },{
             type: 'line',
@@ -201,7 +201,7 @@
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
-            order: 3,
+            order: 1,
             datalabels: {align: 'end', anchor: 'end', padding: 6}
         }, {
             borderColor: 'rgba(165, 165, 165)',
