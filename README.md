@@ -6,8 +6,8 @@
     font-family: SCG-Font, sans-serif;
     font-weight: bold;
     font-size: 16px;
-    background-color:#041e42;
-    padding: 10px;
+    background-color: #041e42;
+    padding: 0px 10px 0px 0px;
   }
   .subtitle {
     color: #424242;
@@ -18,7 +18,6 @@
     margin-bottom: 20px;
   }
 </style>
----
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
