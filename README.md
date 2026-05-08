@@ -14,7 +14,7 @@
   
 <div class="subtitle">
   DO Workforce Graph test interactmode
-  <canvas id="workforceChartDO"></canvas>
+  <div class="chart"><canvas id="workforceChartDO"></canvas></div>
 </div>
 
 <script>
