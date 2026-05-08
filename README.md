@@ -1,4 +1,7 @@
 <head>
+  <title>Your Website Title</title>
+  <meta name="description" content="A short summary of your site.">
+
 <div class="title"> SCG Digital Workforce 2026 111</div>
 
 <link rel="stylesheet" href="style.css">
