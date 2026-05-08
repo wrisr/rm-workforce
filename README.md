@@ -1,5 +1,4 @@
-<div style="color: #ffffff; font-family: SCG-Font, sans-serif;
-    font-style: normal; background-color:#041e42; padding:10px;"> SCG Digital Workforce 2026</div>
+<div style="color: #ffffff; font-family: SCG-Font, sans-serif; font-style: normal; background-color:#041e42; padding:10px;"> SCG Digital Workforce 2026</div>
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
