@@ -23,3 +23,10 @@
   font-size: 20px;
   padding: 20px 32px 20px 32px;
 }
+
+.chart {
+  background-color: yellow;
+  color: #424242;
+  font-family: SCG-Font, sans-serif;
+  padding: 20px 0px 20px 0px;
+}
