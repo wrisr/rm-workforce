@@ -11,7 +11,7 @@ RM Workforce
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 
-<script>
+/* <script>
   const ctx = document.getElementById('myChart');
   new Chart(ctx, {
     type: 'bar',
@@ -31,7 +31,7 @@ RM Workforce
       }
     }
   });
-</script>
+</script> */
 
 <div>
   Test Workforce Graph CPS1 :
@@ -74,8 +74,8 @@ RM Workforce
               url: 'testresult.xlsx',
               type: 'sheet',  
               rowMapping: 'dataset',
-              datasetLabels: 'CPS!A2:A4', // Column for series names
-                indexLabels: 'CPS!B1:P1',    // Row for X-axis labels
+              datasetLabels: 'CPS!A2:A4',
+                indexLabels: 'CPS!B1:P1',
                 data: 'CPS!B2:P4' 
             }
         }
@@ -112,10 +112,13 @@ RM Workforce
             fill: false
         }, {
             backgroundColor: 'yellow',
+          order: 3
         }, {
             backgroundColor: 'orange',
+          order: 2
         }, {
             backgroundColor: 'grey',
+          order: 1
         }
     ]},
     plugins: [ChartDataSource],
