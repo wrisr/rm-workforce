@@ -1,11 +1,11 @@
-<div class="title"> SCG Digital Workforce 2026 classs2</div>
+<div class="title"> SCG Digital Workforce 2026 classs3</div>
 
 <style>
   .title {
     color: #ffffff;
     font-family: SCG-Font, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     background-color:#041e42;
     padding: 10px;
   }
@@ -13,7 +13,7 @@
     color: #424242;
     font-family: SCG-Font, sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     padding: 24px;
   }
 </style>
@@ -26,7 +26,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
 
 <div class="subtitle">
-  DO Workforce Graph test interactmode11 :
+  DO Workforce Graph test interactmode
+</div>
+
+<div>
   <canvas id="workforceChartDO"></canvas>
 </div>
 
