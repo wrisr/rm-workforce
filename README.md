@@ -154,23 +154,20 @@
 
 <div>
   Test Workforce Graph ALL stack only :
-  <canvas id="testChartAll"></canvas>
+  <canvas id="testChartStack"></canvas>
 </div>
 
 <script>
-  const testctxall = document.getElementById('testChartAll');
-  new Chart (testctxall, {
+  const testctxst = document.getElementById('testChartStack');
+  new Chart (testctxst, {
     type: 'bar',
     data: {
         datasets: [{
-            backgroundColor: 'yellow',
-          order: 3
+            backgroundColor: 'yellow'
         }, {
-            backgroundColor: 'orange',
-          order: 2
+            backgroundColor: 'orange'
         }, {
-            backgroundColor: 'grey',
-          order: 1
+            backgroundColor: 'grey'
         }
     ]},
     plugins: [ChartDataSource],
