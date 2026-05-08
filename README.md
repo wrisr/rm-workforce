@@ -158,14 +158,6 @@
 </div>
 
 <script>
-
-  export const CHART_COLORS = {
-    staff: 'rgba(68, 114, 196)',
-    plan: 'rgba(237, 125, 50)',
-    payroll: 'rgba(165, 165, 165)',
-    contractor: 'rgba(255, 191, 0)',
-    outsource: 'rgba(91, 155, 213)',
-  };
     
   const workforcedo = document.getElementById('workforceChartDO');
   new Chart (workforcedo, {
@@ -175,7 +167,7 @@
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: Utils.CHART_COLORS.staff,
+            borderColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1
         },{
