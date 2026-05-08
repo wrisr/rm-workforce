@@ -28,8 +28,9 @@
     }
   }];
     
-  const workforcedo = document.getElementById('workforceChartDO');
-  new Chart (workforcedo, {
+  const ctx = document.getElementById('workforceChartDO');
+  ctx.font = 'MindSans';
+  new Chart (ctx, {
     type: 'bar',
     displayColors: true,
     interaction: {
