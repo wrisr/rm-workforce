@@ -242,6 +242,13 @@
             }]
         },
         plugins: {
+            legend: {
+                labels: {
+                    font: {
+                        family: "'SCG-Font', 'sans-serif;";
+                    }
+                }
+            }
             datasource: {
                 url: 'testresult.xlsx',
                 type: 'sheet',  
@@ -260,7 +267,7 @@
               borderRadius: 4,
               color: 'white',
               font: {
-                fontFamily: 'SCG-Font';
+                //family: "'SCG-Font', 'sans-serif;";
                 //weight: 'bold'
               },
               //formatter: Math.round,
