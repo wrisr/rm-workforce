@@ -154,7 +154,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test interactmode9 :
+  DO Workforce Graph test interactmode10 :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
@@ -230,6 +230,11 @@
         },
         legend: {
              position: 'bottom',
+            labels: {
+                    font: {
+                        family: 'sans-serif';
+                    }
+                }
         },
         responsive: true,
         scales: {
@@ -242,13 +247,6 @@
             }]
         },
         plugins: {
-            legend: {
-                labels: {
-                    font: {
-                        family: "'SCG-Font', 'sans-serif'";
-                    }
-                }
-            },
             datasource: {
                 url: 'testresult.xlsx',
                 type: 'sheet',  
@@ -266,10 +264,6 @@
               },
               borderRadius: 4,
               color: 'white',
-              font: {
-                //family: "'SCG-Font', 'sans-serif;";
-                //weight: 'bold'
-              },
               //formatter: Math.round,
               padding: 0
             }
