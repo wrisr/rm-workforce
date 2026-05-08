@@ -18,7 +18,7 @@
 
 <script>
 
-  Chart.defaults.global.defaultFontColor = '#424242';
+  Chart.defaults.global.defaultFontColor = '#0000008A';
   Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
   Chart.defaults.global.defaultFontSize = 10;
 
