@@ -86,7 +86,7 @@ RM Workforce
 ---------
 
 <div>
-  Test Workforce Graph ALL5 :
+  Test Workforce Graph ALL :
   <canvas id="testChartAll"></canvas>
 </div>
 
