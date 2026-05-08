@@ -141,7 +141,7 @@
             datasource: {
               url: 'testresult.xlsx',
               type: 'sheet',  
-              //rowMapping: 'dataset',
+              rowMapping: 'dataset',
               datasetLabels: 'GraphAll!A2:A7', // Column for series names
                 indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
                 data: 'GraphAll!B2:P7' 
