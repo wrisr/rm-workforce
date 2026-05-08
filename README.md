@@ -229,7 +229,7 @@
             datasource: {
                 url: 'testresult.xlsx',
                 type: 'sheet',  
-                rowMapping: 'dataset',
+                //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A2:A7',
                 indexLabels: 'GraphAll!B1:P1',
                 data: 'GraphAll!B2:P7' 
