@@ -1,5 +1,5 @@
 <head>
-  <div class="title"> SCG Digital Workforce </div>
+  <!-- div class="title"> SCG Digital Workforce </div -->
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
