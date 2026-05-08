@@ -8,8 +8,7 @@
     font-size: 16px;
     height: 48px;
     background-color: #041e42;
-    padding-left: 32px;
-    align-items: center;
+    padding: 16px 0px 0px 32px;
   }
   .subtitle {
     color: #424242;
