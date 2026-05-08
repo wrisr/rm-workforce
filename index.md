@@ -18,8 +18,9 @@
 
 <script>
 
-  Chart.defaults.global.defaultFontColor = 'red';
+  Chart.defaults.global.defaultFontColor = 'blue';
   Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
+  Chart.defaults.global.defaultFontSize = 10;
 
   const actions = [
   {
@@ -87,22 +88,19 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 o',
-            //fontFamily: "MindSans"
+            text: 'SCG Digital Workforce 2026 o'
         },
         legend: {
             position: 'bottom',
             labels: {
-              //fontFamily: "'MindSans', sans-serif",
               usePointStyle: true
             }
         },
         tooltips: {
           mode: 'index',
           intersect: false,
-          //titleFontFamily: "'MindSans', sans-serif",
-          //bodyFontFamily: "'MindSans', sans-serif",
-          bodyFontSize: 10
+          titleFontSize: 12,
+          //bodyFontSize: 10
         },
         responsive: true,
         scales: {
@@ -133,11 +131,10 @@
               borderRadius: 4,
               //formatter: Math.round,
               color: 'white',
-              font: {
-                //family: "'MindSans', sans-serif", // Set font family
+              /* font: {
                 size: 10,
                 weight: 'normal'
-              },
+              }, */
               padding: 0
             }
         }
