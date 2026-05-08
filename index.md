@@ -51,7 +51,6 @@
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
-            fontFamily: "MindSans",
             fill: false,
             order: 2,
             datalabels: {display: false}
@@ -60,7 +59,7 @@
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
-            fontFamily: "MindSans",
+           // fontFamily: "MindSans",
             fill: false,
             order: 3,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
@@ -75,7 +74,7 @@
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(255, 191, 0)',
-            fontFamily: "MindSans",
+           // fontFamily: "MindSans",
             order: 4,
             stack: 'groupplan'
         }, {
