@@ -84,7 +84,7 @@
 });
 </script>
 
---------- -->
+---------
 
 <div>
   Test Workforce Graph ALL 1 :
@@ -150,22 +150,22 @@
 });
 </script>
 
----------
+---------  -->
 
 <div>
-  Test Workforce Graph stack8 :
-  <canvas id="testChartStack"></canvas>
+  DO Workforce Graph :
+  <canvas id="workforceChartDO"></canvas>
 </div>
 
 <script>
-  const testctxstack = document.getElementById('testChartStack');
-  new Chart (testctxstack, {
+  const workforcedo = document.getElementById('workforceChartDO');
+  new Chart (workforcedo, {
     type: 'bar',
     data: {
         datasets: [{
           type: 'line',
             borderWidth: 2,
-            borderColor: 'red',
+            borderColor: 'rgba(68, 114, 196)',
             fill: false,
           order: 1
         },{
@@ -177,19 +177,19 @@
         },{
           type: 'line',
             borderWidth: 2,
-            borderColor: 'blue',
+            borderColor: 'rgba(237, 125, 50)',
             fill: false,
           order: 3
         }, {
-            backgroundColor: 'yellow',
+            backgroundColor: 'rgba(165, 165, 165)',
           order: 4,
           stack: 'groupplan'
         }, {
-            backgroundColor: 'orange',
+            backgroundColor: 'rgba(255, 191, 0)',
           order: 4,
           stack: 'groupplan'
         }, {
-            backgroundColor: 'black',
+            backgroundColor: 'rgba(91, 155, 213)',
           order: 4,
           stack: 'groupplan'
         }
