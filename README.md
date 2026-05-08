@@ -248,7 +248,7 @@
                         family: "'SCG-Font', 'sans-serif;";
                     }
                 }
-            }
+            },
             datasource: {
                 url: 'testresult.xlsx',
                 type: 'sheet',  
