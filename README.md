@@ -153,7 +153,7 @@
 ---------
 
 <div>
-  Test Workforce Graph stack4 :
+  Test Workforce Graph stack5 :
   <canvas id="testChartStack"></canvas>
 </div>
 
@@ -164,16 +164,27 @@
     data: {
         datasets: [{
           type: 'line',
+            borderWidth: 2,
             borderColor: 'red',
           order: 2
-        }, {
-            backgroundColor: 'green',
-          order: 1
-        }, {
-            backgroundColor: 'blue',
-          order: 1
+        },{
+          type: 'line',
+            borderWidth: 1,
+            borderColor: 'green',
+          order: 2
+        },{
+          type: 'line',
+            borderWidth: 2,
+            borderColor: 'blue',
+          order: 2
         }, {
             backgroundColor: 'yellow',
+          order: 1
+        }, {
+            backgroundColor: 'orange',
+          order: 1
+        }, {
+            backgroundColor: 'black',
           order: 1
         }
     ]},
@@ -199,9 +210,9 @@
               url: 'testresult.xlsx',
               type: 'sheet',  
               rowMapping: 'dataset',
-              datasetLabels: 'GraphAll!A4:A7', // Column for series names
+              datasetLabels: 'GraphAll!A2:A7', // Column for series names
                 indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
-                data: 'GraphAll!B4:P7' 
+                data: 'GraphAll!B2:P7' 
             }
         }
     }
