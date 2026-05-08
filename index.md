@@ -87,21 +87,21 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 n',
-            fontFamily: "MindSans"
+            text: 'SCG Digital Workforce 2026 o',
+            //fontFamily: "MindSans"
         },
         legend: {
             position: 'bottom',
             labels: {
-              fontFamily: "'MindSans', sans-serif",
+              //fontFamily: "'MindSans', sans-serif",
               usePointStyle: true
             }
         },
         tooltips: {
           mode: 'index',
           intersect: false,
-          titleFontFamily: "'MindSans', sans-serif",
-          bodyFontFamily: "'MindSans', sans-serif",
+          //titleFontFamily: "'MindSans', sans-serif",
+          //bodyFontFamily: "'MindSans', sans-serif",
           bodyFontSize: 10
         },
         responsive: true,
@@ -113,9 +113,6 @@
                 stacked: true,
                 beginAtZero: true
             }
-        },
-        scaleLabel: {
-            fontFamily: "'MindSans', sans-serif",
         },
         plugins: {
             datasource: {
@@ -137,7 +134,7 @@
               //formatter: Math.round,
               color: 'white',
               font: {
-                family: "'MindSans', sans-serif", // Set font family
+                //family: "'MindSans', sans-serif", // Set font family
                 size: 10,
                 weight: 'normal'
               },
