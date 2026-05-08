@@ -163,35 +163,38 @@
     type: 'bar',
     data: {
         datasets: [{
-          type: 'line',
+            type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             fill: false,
-          order: 1
+            order: 1
         },{
-          type: 'line',
+            type: 'line',
             borderWidth: 1,
             borderColor: 'green',
             fill: false,
-          order: 2
+            order: 2
         },{
-          type: 'line',
+            type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             fill: false,
-          order: 3
+            order: 3
         }, {
             backgroundColor: 'rgba(165, 165, 165)',
-          order: 4,
-          stack: 'groupplan'
+            order: 4,
+            borderRadius: 2,
+            stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(255, 191, 0)',
-          order: 4,
-          stack: 'groupplan'
+            order: 4,
+            borderRadius: 3,
+            stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(91, 155, 213)',
-          order: 4,
-          stack: 'groupplan'
+            order: 4,
+            borderRadius: 4,
+            stack: 'groupplan'
         }
     ]},
     plugins: [ChartDataSource],
@@ -204,20 +207,20 @@
         responsive: true,
         scales: {
             x: [{
-              stacked: true
+                stacked: true
             }],
             y: [{
-              stacked: true,
-              beginAtZero: true
+                stacked: true,
+                beginAtZero: true
             }]
           },
         plugins: {
             datasource: {
-              url: 'testresult.xlsx',
-              type: 'sheet',  
-              rowMapping: 'dataset',
-              datasetLabels: 'GraphAll!A2:A7', // Column for series names
-                indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
+                url: 'testresult.xlsx',
+                type: 'sheet',  
+                rowMapping: 'dataset',
+                datasetLabels: 'GraphAll!A2:A7',
+                indexLabels: 'GraphAll!B1:P1',
                 data: 'GraphAll!B2:P7' 
             }
         }
