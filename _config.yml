@@ -1,3 +1,5 @@
 title: WRISR github page
 description: Test - RM Workforce
-theme_color: "rgba(4, 30, 66)"
+output:
+  html_document:
+    css: "style.css"
