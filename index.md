@@ -1,6 +1,5 @@
 <head>
   <div class="title"> SCG Digital Workforce </div>
-  ---
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -13,7 +12,7 @@
 <body class="body-main">
   
 <div class="subtitle">
-  DO Workforce Graph test interactmode
+  DO Workforce Graph test...
   <div class="chart rounded-div"><canvas id="workforceChartDO"></canvas></div>
 </div>
 
