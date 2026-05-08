@@ -177,6 +177,9 @@
         mode: 'index',
         intersect: false
     },
+    tooltips: {
+      mode: 'label'
+    },
     data: {
         datasets: [{
             type: 'line',
