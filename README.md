@@ -100,7 +100,7 @@
             type: 'line',
             borderWidth: 2,
             borderColor: 'red',
-            tension: 0.4
+            //tension: 0.4
         }, {
             type: 'line',
             borderWidth: 1,
@@ -144,57 +144,6 @@
               datasetLabels: 'GraphAll!A2:A7', // Column for series names
                 indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
                 data: 'GraphAll!B2:P7' 
-            }
-        }
-    }
-});
-</script>
-
----------
-
-<div>
-  Test Workforce Graph ALL stack only2 :
-  <canvas id="testChartStack"></canvas>
-</div>
-
-<script>
-  const testctxst = document.getElementById('testChartStack');
-  new Chart (testctxst, {
-    type: 'bar',
-    data: {
-        datasets: [{
-            backgroundColor: 'yellow',
-          order: 3
-        }, {
-            backgroundColor: 'orange',
-          order: 2,
-        }, {
-            backgroundColor: 'grey',
-          order: 1
-        }
-    ]},
-    plugins: [ChartDataSource],
-    options: {
-        title: {
-            display: true,
-            //fontSize: 20,
-            text: 'SCG Digital Workforce 2026 stack only'
-        },
-        scales: {
-            xAxes: { stacked: true },
-            yAxes: {
-              beginAtZero: true,
-              stacked: true
-            },
-        },
-        plugins: {
-            datasource: {
-              url: 'testresult.xlsx',
-              type: 'sheet',  
-              //rowMapping: 'dataset',
-              datasetLabels: 'GraphAll!A5:A7', // Column for series names
-                indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
-                data: 'GraphAll!B5:P7' 
             }
         }
     }
