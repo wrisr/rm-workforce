@@ -186,7 +186,7 @@
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {color: 'rgba(68, 114, 196)', align: 'end', anchor: 'end'}
+            datalabels: {align: 'end', anchor: 'end'}
         },{
             type: 'line',
             borderWidth: 1,
@@ -208,14 +208,17 @@
             //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
+              borderRadius: 4,
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(255, 191, 0)',
             order: 4,
+              borderRadius: 4,
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
+              borderRadius: 4,
             stack: 'groupplan'
         }
     ]},
@@ -258,7 +261,7 @@
               borderRadius: 4,
               color: 'white',
               font: {
-                weight: 'bold'
+                //weight: 'bold'
               },
               formatter: Math.round,
               padding: 6
