@@ -1,5 +1,2 @@
 title: WRISR github page
 description: Test - RM Workforce
-output:
-  html_document:
-    css: style.css
