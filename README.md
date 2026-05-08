@@ -1,4 +1,4 @@
-# SCG Digital Workforce 2026
+<div style="background-color:#041e42; padding:10px;"> SCG Digital Workforce 2026</div>
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
