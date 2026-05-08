@@ -100,7 +100,7 @@
           mode: 'index',
           intersect: false,
           titleFontSize: 12,
-          //bodyFontSize: 10
+          backgroundColor: '#EEEEEE'
         },
         responsive: true,
         scales: {
