@@ -173,7 +173,8 @@
         },{
             type: 'line',
             borderWidth: 1,
-            borderColor: 'green',
+            borderColor: 'rgba(68, 114, 196)',
+            borderDash: [5, 5],
             fill: false,
             order: 2
         },{
