@@ -154,7 +154,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test interactmode6 :
+  DO Workforce Graph test interactmode7 :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
@@ -186,7 +186,7 @@
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end'}
+            datalabels: {align: 'end', anchor: 'end', padding: 6}
         },{
             type: 'line',
             borderWidth: 1,
@@ -202,7 +202,7 @@
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end'}
+            datalabels: {align: 'end', anchor: 'end', padding: 6}
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -262,8 +262,8 @@
               font: {
                 //weight: 'bold'
               },
-              formatter: Math.round,
-              padding: 6
+              //formatter: Math.round,
+              //padding: 6
             }
         }
     }
