@@ -153,7 +153,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test color :
+  DO Workforce Graph test interact :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
