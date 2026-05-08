@@ -225,9 +225,6 @@
         legend: {
              position: 'bottom',
         },
-        tooltips: {
-          enabled: false
-        },
         responsive: true,
         scales: {
             x: [{
