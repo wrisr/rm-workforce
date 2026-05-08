@@ -2,6 +2,8 @@
 
 <link rel="stylesheet" href="style.css">
 
+<body>
+  
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
@@ -122,4 +124,4 @@
 });
 </script>
 
-- End Graph -
+</body>
