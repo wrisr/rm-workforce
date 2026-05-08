@@ -166,29 +166,32 @@
           type: 'line',
             borderWidth: 2,
             borderColor: 'red',
+            fill: false,
           order: 1
         },{
           type: 'line',
             borderWidth: 1,
             borderColor: 'green',
+            fill: false,
           order: 2
         },{
           type: 'line',
             borderWidth: 2,
             borderColor: 'blue',
+            fill: false,
           order: 3
         }, {
             backgroundColor: 'yellow',
           order: 4,
-          stack: 'group1'
+          stack: 'groupplan'
         }, {
             backgroundColor: 'orange',
           order: 4,
-          stack: 'group1'
+          stack: 'groupplan'
         }, {
             backgroundColor: 'black',
           order: 4,
-          stack: 'group1'
+          stack: 'groupplan'
         }
     ]},
     plugins: [ChartDataSource],
