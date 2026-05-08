@@ -1,4 +1,4 @@
-<div class="title"> SCG Digital Workforce 2026 333</div>
+<div class="title"> SCG Digital Workforce 2026 444</div>
 
 <style>
   .title {
@@ -15,7 +15,7 @@
     font-family: SCG-Font, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 32px 0px;
   }
 </style>
 
@@ -27,9 +27,6 @@
 
 <div class="subtitle">
   DO Workforce Graph test interactmode
-</div>
-
-<div>
   <canvas id="workforceChartDO"></canvas>
 </div>
 
