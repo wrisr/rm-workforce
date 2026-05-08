@@ -186,7 +186,7 @@
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             borderWidth: 2,
-            borderRadius: 5,
+            borderRadius: 10,
             borderSkipped: false,
             stack: 'groupplan'
         }, {
@@ -194,7 +194,7 @@
             backgroundColor: 'rgba(255, 191, 0)',
             order: 4,
             borderWidth: 2,
-            borderRadius: 5,
+            borderRadius: 10,
             borderSkipped: false,
             stack: 'groupplan'
         }, {
@@ -202,7 +202,7 @@
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             borderWidth: 2,
-            borderRadius: 5,
+            borderRadius: 10,
             borderSkipped: false,
             stack: 'groupplan'
         }
@@ -213,6 +213,9 @@
             display: true,
             fontSize: 20,
             text: 'SCG Digital Workforce 2026'
+        },
+        legend: {
+             position: 'bottom',
         },
         responsive: true,
         scales: {
@@ -225,9 +228,6 @@
             }]
           },
         plugins: {
-            legend: {
-              position: 'bottom',
-            },
             datasource: {
                 url: 'testresult.xlsx',
                 type: 'sheet',  
