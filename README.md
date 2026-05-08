@@ -161,6 +161,7 @@
   const workforcedo = document.getElementById('workforceChartDO');
   new Chart (workforcedo, {
     type: 'bar',
+    displayColors: true,
     data: {
         datasets: [{
             type: 'line',
