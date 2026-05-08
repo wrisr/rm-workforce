@@ -153,7 +153,7 @@
 ---------
 
 <div>
-  Test Workforce Graph ALL stack only :
+  Test Workforce Graph ALL stack only1 :
   <canvas id="testChartStack"></canvas>
 </div>
 
@@ -163,11 +163,14 @@
     type: 'bar',
     data: {
         datasets: [{
-            backgroundColor: 'yellow'
+            backgroundColor: 'yellow',
+          order: 3
         }, {
-            backgroundColor: 'orange'
+            backgroundColor: 'orange',
+          order: 2,
         }, {
-            backgroundColor: 'grey'
+            backgroundColor: 'grey',
+          order: 1
         }
     ]},
     plugins: [ChartDataSource],
@@ -180,8 +183,8 @@
         scales: {
             x: { stacked: true },
             y: {
-              stacked: true,
-              beginAtZero: true
+              beginAtZero: true,
+              stacked: true
             },
         },
         plugins: {
