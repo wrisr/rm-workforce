@@ -33,7 +33,7 @@
 
 .rounded-div {
   border-radius: 20px; /* ปรับขนาดมุมมน */
-  border: 1px solid #333; /* ใส่เส้นขอบ */
+  /* border: 1px solid #333; /* ใส่เส้นขอบ */
   padding: 10px;
-  background-color: yellow;
+  background-color: white;
 }
