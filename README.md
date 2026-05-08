@@ -154,7 +154,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test interactmode8 :
+  DO Workforce Graph test interactmode9 :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
