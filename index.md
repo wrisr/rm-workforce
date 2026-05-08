@@ -84,7 +84,7 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 l',
+            text: 'SCG Digital Workforce 2026 m',
             fontFamily: "MindSans"
         },
         legend: {
@@ -103,13 +103,18 @@
         },
         responsive: true,
         scales: {
-            x: [{
+            x: {
                 stacked: true
-            }],
-            y: [{
+            },
+            y: {
                 stacked: true,
-                beginAtZero: true
-            }]
+                beginAtZero: true,
+                ticks: {
+                  fontColor: 'red',
+                  fontSize: 10,
+                  fontFamily: "'MindSans', sans-serif"
+                }
+            }
         },
         scaleLabel: {
             fontFamily: "'MindSans', sans-serif",
