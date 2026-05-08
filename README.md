@@ -154,7 +154,7 @@
 ---------  -->
 
 <div>
-  DO Workforce Graph test interactmode7 :
+  DO Workforce Graph test interactmode8 :
   <canvas id="workforceChartDO"></canvas>
 </div>
 
@@ -263,7 +263,7 @@
                 //weight: 'bold'
               },
               //formatter: Math.round,
-              //padding: 6
+              padding: 0
             }
         }
     }
