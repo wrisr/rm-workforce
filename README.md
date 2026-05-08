@@ -182,20 +182,27 @@
             fill: false,
             order: 3
         }, {
-            backgroundColor: 'rgba(165, 165, 165)',
+            borderColor: Utils.CHART_COLORS.blue,
+            backgroundColor: Utils.transparentize(Utils.CHART_COLORS.blue, 0.5),
+            //backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
+            borderWidth: 2,
             borderRadius: 5,
             borderSkipped: false,
             stack: 'groupplan'
         }, {
+            borderColor: 'rgba(165, 165, 165)',
             backgroundColor: 'rgba(255, 191, 0)',
             order: 4,
+            borderWidth: 2,
             borderRadius: 5,
             borderSkipped: false,
             stack: 'groupplan'
         }, {
+            borderColor: 'rgba(165, 165, 165)',
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
+            borderWidth: 2,
             borderRadius: 5,
             borderSkipped: false,
             stack: 'groupplan'
@@ -219,6 +226,9 @@
             }]
           },
         plugins: {
+            legend: {
+              position: 'bottom',
+            },
             datasource: {
                 url: 'testresult.xlsx',
                 type: 'sheet',  
