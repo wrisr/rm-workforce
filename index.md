@@ -42,6 +42,7 @@
             borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
+            fontFamily: "MindSans",
             fill: false,
             order: 1,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
@@ -50,6 +51,7 @@
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
+            fontFamily: "MindSans",
             fill: false,
             order: 2,
             datalabels: {display: false}
@@ -58,6 +60,7 @@
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
+            fontFamily: "MindSans",
             fill: false,
             order: 3,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
@@ -67,14 +70,17 @@
             borderRadius: 10,
             //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
+            fontFamily: "MindSans",
             order: 4,
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(255, 191, 0)',
+            fontFamily: "MindSans",
             order: 4,
             stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(91, 155, 213)',
+            fontFamily: "MindSans",
             order: 4,
             stack: 'groupplan'
         }
@@ -85,15 +91,10 @@
             display: true,
             fontSize: 20,
             text: 'SCG Digital Workforce 2026 4',
-            //fontFamily: "MindSans"
+            fontFamily: "MindSans"
         },
         legend: {
-            position: 'bottom',
-            labels: {
-                      font: {
-                              family: "'MindSans', sans-serif"
-                            }
-                    }
+            position: 'bottom'
         },
         responsive: true,
         scales: {
@@ -124,7 +125,7 @@
               borderRadius: 4,
               color: 'white',
               //formatter: Math.round,
-              //fontFamily: "MindSans",
+              fontFamily: "MindSans",
               padding: 0
             }
         }
