@@ -88,7 +88,7 @@
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026 o'
+            text: 'SCG Digital Workforce 2026'
         },
         legend: {
             position: 'bottom',
