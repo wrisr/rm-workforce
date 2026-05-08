@@ -182,9 +182,8 @@
             fill: false,
             order: 3
         }, {
-            borderColor: Utils.CHART_COLORS.blue,
-            backgroundColor: Utils.transparentize(Utils.CHART_COLORS.blue, 0.5),
-            //backgroundColor: 'rgba(165, 165, 165)',
+            borderColor: 'rgba(165, 165, 165)',
+            backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             borderWidth: 2,
             borderRadius: 5,
