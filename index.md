@@ -1,5 +1,6 @@
-<div class="title"> SCG Digital Workforce 2026 </div>
-
+<head>
+  <div class="title"> SCG Digital Workforce </div>
+  ---
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -7,7 +8,9 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
 
-<div class="body-main">
+</head>
+
+<body class="body-main">
   
 <div class="subtitle">
   DO Workforce Graph test interactmode
@@ -123,4 +126,4 @@
 });
 </script>
 
-</div>
+</body>
