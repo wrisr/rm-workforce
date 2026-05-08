@@ -95,6 +95,7 @@
             }
         },
         tooltips: {
+          mode: 'index',
           intersect: false
         },
         responsive: true,
