@@ -1,23 +1,19 @@
 <head>
-  <!-- div class="title"> SCG Digital Workforce </div -->
-<link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
-<script>
-  Chart.defaults.font.family = "'MindSans', sans-serif";
-  Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
-</script>
-
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
 </head>
 
 <body class="body-main">
   
 <div class="subtitle">
   DO Workforce
-  <div class="chart rounded-div"><canvas id="workforceChartDO"></canvas></div>
+  <div class="chart rounded-div">
+    <canvas id="workforceChartDO"></canvas>
+  </div>
 </div>
 
 <script>
@@ -92,7 +88,8 @@
             fontFamily: "MindSans"
         },
         legend: {
-            position: 'bottom'
+            position: 'bottom',
+            fontFamily: "MindSans"
         },
         responsive: true,
         scales: {
