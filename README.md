@@ -150,4 +150,55 @@
 });
 </script>
 
+---------
+
+<div>
+  Test Workforce Graph ALL stack only :
+  <canvas id="testChartAll"></canvas>
+</div>
+
+<script>
+  const testctxall = document.getElementById('testChartAll');
+  new Chart (testctxall, {
+    type: 'bar',
+    data: {
+        datasets: [{
+            backgroundColor: 'yellow',
+          order: 3
+        }, {
+            backgroundColor: 'orange',
+          order: 2
+        }, {
+            backgroundColor: 'grey',
+          order: 1
+        }
+    ]},
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            //fontSize: 20,
+            text: 'SCG Digital Workforce 2026 stack only'
+        },
+        scales: {
+            x: { stacked: true },
+            y: {
+              stacked: true,
+              beginAtZero: true
+            },
+        },
+        plugins: {
+            datasource: {
+              url: 'testresult.xlsx',
+              type: 'sheet',  
+              //rowMapping: 'dataset',
+              datasetLabels: 'GraphAll!A5:A7', // Column for series names
+                indexLabels: 'GraphAll!B1:P1',    // Row for X-axis labels
+                data: 'GraphAll!B5:P7' 
+            }
+        }
+    }
+});
+</script>
+
 - End Graph -
