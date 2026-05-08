@@ -8,6 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
 <script>
   Chart.defaults.font.family = "'MindSans', sans-serif";
+  Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
 </script>
 
 </head>
