@@ -132,10 +132,6 @@
               borderRadius: 4,
               //formatter: Math.round,
               color: 'white',
-              /* font: {
-                size: 10,
-                weight: 'normal'
-              }, */
               padding: 0
             }
         }
