@@ -29,7 +29,7 @@
   }];
     
   const ctx = document.getElementById('workforceChartDO');
-  ctx.font = 'MindSans';
+  ctx.font = "'MindSans'";
   new Chart (ctx, {
     type: 'bar',
     displayColors: true,
