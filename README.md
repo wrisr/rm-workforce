@@ -34,7 +34,7 @@
   });
 </script -->
 
-<div>
+<!-- <div>
   Test Workforce Graph CPS1 :
   <canvas id="testChart"></canvas>
 </div>
@@ -84,10 +84,10 @@
 });
 </script>
 
----------
+--------- -->
 
 <div>
-  Test Workforce Graph ALL1 :
+  Test Workforce Graph ALL :
   <canvas id="testChartAll"></canvas>
 </div>
 
@@ -129,6 +129,7 @@
             //fontSize: 20,
             text: 'SCG Digital Workforce 2026'
         },
+        responsive: true,
         scales: {
             x: { stacked: true },
             y: {
