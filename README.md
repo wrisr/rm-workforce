@@ -1,24 +1,6 @@
-<div class="title"> SCG Digital Workforce 2026 888</div>
+<div class="title"> SCG Digital Workforce 2026 999</div>
 
-<style>
-  .title {
-    color: #ffffff;
-    font-family: SCG-Font, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    height: 48px;
-    background-color: #041e42;
-    padding: 12px 0px 0px 32px;
-  }
-  .subtitle {
-    color: #424242;
-    font-family: SCG-Font, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 0px 32px 20px 32px;
-    margin: 20px 0px 20px 0px;
-  }
-</style>
+<link rel="stylesheet" href="style.css">
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
