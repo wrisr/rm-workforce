@@ -177,9 +177,6 @@
         mode: 'index',
         intersect: false
     },
-    tooltips: {
-      mode: 'label'
-    },
     data: {
         datasets: [{
             type: 'line',
@@ -246,6 +243,9 @@
                 datasetLabels: 'GraphAll!A2:A7',
                 indexLabels: 'GraphAll!B1:P1',
                 data: 'GraphAll!B2:P7' 
+            },
+            tooltips: {
+                mode: 'label'
             }
         }
     }
