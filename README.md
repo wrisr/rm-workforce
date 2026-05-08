@@ -1,17 +1,18 @@
 # wrisr.github.io/workforce
 RM Workforce
 
-<div>
-  Original Graph :
-  <canvas id="myChart"></canvas>
-</div>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 
-/* <script>
+
+<!-- div>
+  Original Graph :
+  <canvas id="myChart"></canvas>
+</div -->
+
+<!-- script>
   const ctx = document.getElementById('myChart');
   new Chart(ctx, {
     type: 'bar',
@@ -31,7 +32,7 @@ RM Workforce
       }
     }
   });
-</script> */
+</script -->
 
 <div>
   Test Workforce Graph CPS1 :
