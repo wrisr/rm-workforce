@@ -6,6 +6,9 @@
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
+<script>
+  Chart.defaults.font.family = "'MindSans', sans-serif";
+</script>
 
 </head>
 
@@ -88,37 +91,16 @@
             fontFamily: "MindSans"
         },
         legend: {
-            position: 'bottom',
-            labels: {
-                      color: 'white',
-                      // This more specific font property overrides the global property
-                      font: {
-                        family: "'MindSans', sans-serif", // Set font family
-                        size: 10,
-                weight: 'normal'
-                      }
-                  }
+            position: 'bottom'
         },
         responsive: true,
         scales: {
             x: [{
-                stacked: true,
-              ticks: {
-              font: {
-                        family: "'MindSans', sans-serif", // Set font family
-                        size: 10,
-                weight: 'normal'
-                      } }
+                stacked: true
             }],
             y: [{
                 stacked: true,
-                beginAtZero: true,
-              ticks: {
-              font: {
-                        family: "'MindSans', sans-serif", // Set font family
-                        size: 10,
-                weight: 'normal'
-                      } }
+                beginAtZero: true
             }]
         },
         plugins: {
