@@ -121,7 +121,7 @@
               color: 'white',
               font: {
                 family: "'MindSans', sans-serif", // Set font family
-                //size: 16,
+                size: 16,
                 weight: 'normal'
               },
               padding: 0
