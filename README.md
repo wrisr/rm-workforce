@@ -181,8 +181,8 @@
             text: 'SCG Digital Workforce 2026 stack only'
         },
         scales: {
-            x: { stacked: true },
-            y: {
+            xAxes: { stacked: true },
+            yAxes: {
               beginAtZero: true,
               stacked: true
             },
