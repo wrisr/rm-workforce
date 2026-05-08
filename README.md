@@ -153,7 +153,7 @@
 ---------
 
 <div>
-  Test Workforce Graph stack5 :
+  Test Workforce Graph stack6 :
   <canvas id="testChartStack"></canvas>
 </div>
 
@@ -166,12 +166,12 @@
           type: 'line',
             borderWidth: 2,
             borderColor: 'red',
-          order: 2
+          order: 4
         },{
           type: 'line',
             borderWidth: 1,
             borderColor: 'green',
-          order: 2
+          order: 3
         },{
           type: 'line',
             borderWidth: 2,
