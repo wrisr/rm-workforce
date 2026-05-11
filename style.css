@@ -105,3 +105,23 @@ h1 a {
   padding: 10px;
   background-color: white;
 }
+
+/*
+  multiple detail
+*/
+
+#wrapper {
+  border: 1px solid blue;
+}
+#div1 {
+  display: inline-block;
+  width: 50%;
+  height: 120px;
+  border: 1px solid red;
+}
+#div2 {
+  display: inline-block;
+  width: 50%;
+  height: 160px;
+  border: 1px solid green;
+}
