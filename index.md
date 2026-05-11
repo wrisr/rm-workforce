@@ -57,10 +57,10 @@
   Per Department
   <div class="secwrapper">
       <div class="secrow">
-          <div class="seccol">
+          <div class="secleft">
             <div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div>
           </div>
-          <div class="seccol">
+          <div class="secright">
             TESTTTTTTTT
           </div>
       </div>
