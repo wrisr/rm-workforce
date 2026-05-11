@@ -533,7 +533,8 @@ const ctxos = document.getElementById('workforceChartDOOS');
             y: {
                 stacked: true,
                 beginAtZero: true
-            }
+            },
+            yAxes: [{ ticks: { beginAtZero: true } }]
         },
         plugins: {
             datasource: {
