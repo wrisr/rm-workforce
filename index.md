@@ -55,7 +55,7 @@
 </div>
 
 <div class="section">
-  Per Department a
+  Per Department
   <div class="secwrapper">
       <div class="secrow">
           <div class="secleft">
