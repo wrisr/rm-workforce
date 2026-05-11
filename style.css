@@ -76,6 +76,7 @@ h1 a {
 }
 .sidenav .closebtn {
   position: absolute;
+  background-color: white;
   top: 0;
   right: 25px;
   margin-left: 50px;
