@@ -613,7 +613,7 @@ const ctxos = document.getElementById('workforceChartCPSOS');
 */
 const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
   new Chart (ctxqtrbd, {
-    type: 'bar',
+    type: 'line',
     displayColors: true,
     interaction: {
         mode: 'index',
@@ -621,7 +621,6 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
     },
     data: {
         datasets: [{
-            type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
@@ -629,7 +628,6 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
             order: 1,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         },{
-            type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
@@ -661,11 +659,7 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
         },
         responsive: true,
         scales: {
-            x: {
-                stacked: true
-            },
             y: {
-                stacked: true,
                 beginAtZero: true
             }
         },
@@ -700,7 +694,7 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
 */
 const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
   new Chart (ctxqtrbd, {
-    type: 'bar',
+    type: 'line',
     displayColors: true,
     interaction: {
         mode: 'index',
@@ -708,7 +702,6 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
     },
     data: {
         datasets: [{
-            type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
@@ -716,7 +709,6 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
             order: 1,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         },{
-            type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
@@ -748,11 +740,7 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
         },
         responsive: true,
         scales: {
-            x: {
-                stacked: true
-            },
             y: {
-                stacked: true,
                 beginAtZero: true
             }
         },
