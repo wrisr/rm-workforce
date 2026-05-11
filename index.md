@@ -610,7 +610,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
     data: {
         datasets: [{
             type: 'line',
-            borderWidth: 2,
+            borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
@@ -618,7 +618,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         },{
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 0.5,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
@@ -627,7 +627,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
             datalabels: {display: false}
         },{
             type: 'line',
-            borderWidth: 2,
+            borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
@@ -655,8 +655,8 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
     options: {
         title: {
             display: true,
-            fontSize: 20,
-            text: 'Workforce 2026 per Quarter',
+            fontSize: 18,
+            text: 'CPS',
             padding: 20,
             fontColor: '#616161',
         },
@@ -669,7 +669,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
         tooltips: {
           mode: 'index',
           intersect: false,
-          titleFontSize: 12,
+          titleFontSize: 10,
           position: 'nearest'
         },
         responsive: true,
@@ -701,6 +701,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
               borderRadius: 4,
               //formatter: Math.round,
               color: 'white',
+              fontSize: 8,
               padding: 0
             }
         }
