@@ -488,7 +488,7 @@ const ctxos = document.getElementById('workforceChartDOOS');
             borderDash: [5, 5],
             fill: false,
             order: 2,
-            pointRadius: 0,
+            pointStyle: false,
             datalabels: {display: false}
         },{
             type: 'line',
