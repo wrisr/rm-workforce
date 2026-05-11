@@ -26,7 +26,7 @@
 </div>
 
 <div class="subtitle">
-  <span style="cursor:pointer" onclick="openNav()">>&#9776; DO Workforce</span>
+  <span style="cursor:pointer" onclick="openNav()">&#9776; DO Workforce </span>
   <div class="chart rounded-div">
     <canvas id="workforceChartDO"></canvas>
   </div>
