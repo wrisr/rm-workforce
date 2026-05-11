@@ -27,7 +27,7 @@
 </div>
 
 <div class="section">
-  <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </span>
+  <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce 1111</span>
   <div class="chart rounded-div">
     <canvas id="workforceChartDO"></canvas>
   </div>
