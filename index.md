@@ -47,6 +47,13 @@
   <div class="chart rounded-div">
     <canvas id="workforceChartDOOS"></canvas>
   </div>
+  
+</div>
+
+<div class="section">
+  <div id="wrapper">
+    <div id="div1">The two divs are</div><div id="div2">next to each other.</div>
+  </div>
 </div>
 
 <script>
