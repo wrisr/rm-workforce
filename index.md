@@ -24,6 +24,12 @@
   <div class="chart rounded-div">
     <canvas id="workforceChartDOPR"></canvas>
   </div>
+  <div class="chart rounded-div">
+    <canvas id="workforceChartDOCT"></canvas>
+  </div>
+  <div class="chart rounded-div">
+    <canvas id="workforceChartDOOS"></canvas>
+  </div>
 </div>
 
 <script>
@@ -458,8 +464,8 @@ const ctxct = document.getElementById('workforceChartDOCT');
 /* OUTSOURCE
 */
 
-const ctxct = document.getElementById('workforceChartDOCT');
-  new Chart (ctxct, {
+const ctxos = document.getElementById('workforceChartDOOS');
+  new Chart (ctxos, {
     type: 'bar',
     displayColors: true,
     interaction: {
