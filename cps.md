@@ -63,6 +63,20 @@
   </div>
 </div>
 
+<div class="section">
+  Per Section group
+  <div class="secwrapper">
+      <div class="secrow">
+          <div class="secleft">
+            <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSBDQTR"></canvas></div></a>
+          </div>
+          <div class="secright">
+            <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPOQTR"></canvas></div></a>
+          </div>
+      </div>
+  </div>
+</div>
+
 <script>
 
   Chart.defaults.global.defaultFontColor = '#0000008A';
