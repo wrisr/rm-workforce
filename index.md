@@ -17,16 +17,16 @@
 
 <body class="body-main">
 
-<div id="mySidenav" class="sidenav">
+<!-- div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>
-</div>
+</div -->
 
 <div class="subtitle">
-  <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </span>
+  <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> TEST DO Workforce </span>
   <div class="chart rounded-div">
     <canvas id="workforceChartDO"></canvas>
   </div>
