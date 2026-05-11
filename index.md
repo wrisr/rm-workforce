@@ -689,7 +689,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphCPS!A42:A47',
                 indexLabels: 'GraphCPS!B41:F41',
-                data: 'GraphAll!B42:F47' 
+                data: 'GraphCPS!B42:F47' 
             },
             datalabels: {
                 formatter: (value, ctx) => {
