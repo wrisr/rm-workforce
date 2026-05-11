@@ -971,6 +971,7 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
+            label: 'none',
             datalabels: {display: false}
         },{
             type: 'line',
@@ -1010,7 +1011,8 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+              usePointStyle: true,
+              filter: item => item.text !== 'none'
             }
         },
         tooltips: {
