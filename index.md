@@ -27,7 +27,7 @@
 </div>
 
 <div class="subtitle">
-  <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> TEST DO Workforce </span>
+  <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </span>
   <div class="chart rounded-div">
     <canvas id="workforceChartDO"></canvas>
   </div>
