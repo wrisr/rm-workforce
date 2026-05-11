@@ -109,8 +109,12 @@ h1 a {
 .suburl {
   background-color: #455a64;
   border-radius: 4px;
-  padding: 0px 20px 0px 20px;
-  cursor: pointer;
+}
+.sidenav a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .section {
