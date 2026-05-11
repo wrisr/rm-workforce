@@ -341,7 +341,8 @@ const ctxpr = document.getElementById('workforceChartDOPR');
             y: {
                 stacked: true,
                 beginAtZero: true
-            }
+            },
+            yAxes: [{ ticks: { beginAtZero: true } }]
         },
         plugins: {
             datasource: {
@@ -437,7 +438,8 @@ const ctxct = document.getElementById('workforceChartDOCT');
             y: {
                 stacked: true,
                 beginAtZero: true
-            }
+            },
+            yAxes: [{ ticks: { beginAtZero: true } }]
         },
         plugins: {
             datasource: {
