@@ -63,20 +63,6 @@
   </div>
 </div>
 
-<div class="section">
-  Per Section group
-  <div class="secwrapper">
-      <div class="secrow">
-          <div class="secleft">
-            <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSBDtwo"></canvas></div></a>
-          </div>
-          <div class="secright">
-            <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPOtwo"></canvas></div></a>
-          </div>
-      </div>
-  </div>
-</div>
-
 <script>
 
   Chart.defaults.global.defaultFontColor = '#0000008A';
@@ -640,7 +626,7 @@ const ctxbd = document.getElementById('workforceChartCPSBD');
         title: {
             display: true,
             fontSize: 20,
-            text: 'CPS : Sales & BD',
+            text: 'CPS : Business Development & Partnerships',
             padding: 20,
             fontColor: '#616161',
         },
@@ -710,7 +696,7 @@ const ctxpo = document.getElementById('workforceChartCPSPO');
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
-            order: 1,
+            order: 2,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         },{
             type: 'line',
@@ -718,7 +704,7 @@ const ctxpo = document.getElementById('workforceChartCPSPO');
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
-            order: 2,
+            order: 1,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         }
     ]},
@@ -727,7 +713,7 @@ const ctxpo = document.getElementById('workforceChartCPSPO');
         title: {
             display: true,
             fontSize: 20,
-            text: 'CPS : Sales & BD',
+            text: 'CPS : Product Commercialization',
             padding: 20,
             fontColor: '#616161',
         },
@@ -778,182 +764,6 @@ const ctxpo = document.getElementById('workforceChartCPSPO');
         }
     }
 });
-
-/*
-/* CPS2 : Sales & BD
-*/
-const ctxbdtwo = document.getElementById('workforceChartCPSBDtwo');
-  new Chart (ctxbdtwo, {
-    type: 'bar',
-    displayColors: true,
-    interaction: {
-        mode: 'index',
-        intersect: false
-    },
-    data: {
-        datasets: [{
-            type: 'line',
-            borderWidth: 1,
-            borderColor: 'rgba(68, 114, 196)',
-            backgroundColor: 'rgba(68, 114, 196)',
-            fill: false,
-            order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
-            type: 'line',
-            borderWidth: 1,
-            borderColor: 'rgba(237, 125, 50)',
-            backgroundColor: 'rgba(237, 125, 50)',
-            fill: false,
-            order: 2,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }
-    ]},
-    plugins: [ChartDataSource],
-    options: {
-        title: {
-            display: true,
-            fontSize: 14,
-            text: 'CPS : Sales & BD',
-            padding: 20,
-            fontColor: '#616161',
-        },
-        legend: {
-            position: 'bottom',
-            labels: {
-              usePointStyle: true
-            }
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 10,
-          position: 'nearest'
-        },
-        responsive: true,
-        scales: {
-            x: {
-                stacked: true
-            },
-            y: {
-                stacked: true,
-                beginAtZero: true
-            },
-            yAxes: [{ ticks: { beginAtZero: true } }]
-        },
-        plugins: {
-            datasource: {
-                url: 'workforceresult.xlsx',
-                type: 'sheet',  
-                //rowMapping: 'dataset',
-                datasetLabels: 'GraphCPS!A52:A53',
-                indexLabels: 'GraphCPS!B51:P51',
-                data: 'GraphCPS!B52:P53' 
-            },
-            datalabels: {
-                formatter: (value, ctx) => {
-                  return;
-                },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
-            }
-        }
-    }
-});
-
-/*
-/* CPS2 : PO
-*/
-const ctxpotwo = document.getElementById('workforceChartCPSPOtwo');
-  new Chart (ctxpotwo, {
-    type: 'bar',
-    displayColors: true,
-    interaction: {
-        mode: 'index',
-        intersect: false
-    },
-    data: {
-        datasets: [{
-            type: 'line',
-            borderWidth: 1,
-            borderColor: 'rgba(68, 114, 196)',
-            backgroundColor: 'rgba(68, 114, 196)',
-            fill: false,
-            order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
-            type: 'line',
-            borderWidth: 1,
-            borderColor: 'rgba(237, 125, 50)',
-            backgroundColor: 'rgba(237, 125, 50)',
-            fill: false,
-            order: 2,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }
-    ]},
-    plugins: [ChartDataSource],
-    options: {
-        title: {
-            display: true,
-            fontSize: 14,
-            text: 'CPS : PO2',
-            padding: 20,
-            fontColor: '#616161',
-        },
-        legend: {
-            position: 'bottom',
-            labels: {
-              usePointStyle: true
-            }
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 10,
-          position: 'nearest'
-        },
-        responsive: true,
-        scales: {
-            x: {
-                stacked: true
-            },
-            y: {
-                stacked: true,
-                beginAtZero: true
-            },
-            yAxes: [{ ticks: { beginAtZero: true } }]
-        },
-        plugins: {
-            datasource: {
-                url: 'workforceresult.xlsx',
-                type: 'sheet',  
-                //rowMapping: 'dataset',
-                datasetLabels: 'GraphCPS!A62:A63',
-                indexLabels: 'GraphCPS!B61:P61',
-                data: 'GraphCPS!B62:P63' 
-            },
-            datalabels: {
-                formatter: (value, ctx) => {
-                  return;
-                },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
-            }
-        }
-    }
-});
-
-
   
 </script>
 
