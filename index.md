@@ -669,7 +669,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
     options: {
         title: {
             display: true,
-            fontSize: 16,
+            fontSize: 14,
             text: 'CPS',
             padding: 20,
             fontColor: '#616161',
@@ -780,7 +780,7 @@ const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
     options: {
         title: {
             display: true,
-            fontSize: 16,
+            fontSize: 14,
             text: 'PSE',
             padding: 20,
             fontColor: '#616161',
@@ -891,7 +891,7 @@ const ctxqtrsd = document.getElementById('workforceChartSDQTR');
     options: {
         title: {
             display: true,
-            fontSize: 16,
+            fontSize: 14,
             text: 'SD',
             padding: 20,
             fontColor: '#616161',
@@ -1002,7 +1002,7 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
     options: {
         title: {
             display: true,
-            fontSize: 16,
+            fontSize: 14,
             text: 'AIC',
             padding: 20,
             fontColor: '#616161',
