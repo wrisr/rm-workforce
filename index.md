@@ -56,7 +56,9 @@
 <div class="section">
   Per Department
   <div id="wrapper">
-    <div id="div1"><canvas id="workforceChartCPSQTR"></canvas></div>
+    <div id="div1">
+        <div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div>
+    </div>
     <div id="div2">next to each other.</div>
   </div>
 </div>
@@ -655,7 +657,7 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
     options: {
         title: {
             display: true,
-            fontSize: 18,
+            fontSize: 16,
             text: 'CPS',
             padding: 20,
             fontColor: '#616161',
@@ -701,7 +703,6 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
               borderRadius: 4,
               //formatter: Math.round,
               color: 'white',
-              fontSize: 8,
               padding: 0
             }
         }
