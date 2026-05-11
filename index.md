@@ -55,10 +55,16 @@
 
 <div class="section">
   Per Department
-  <div class="secleft">
-    <div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div>
+  <div class="secwrapper">
+      <div class="secrow">
+          <div class="seccol">
+            <div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div>
+          </div>
+          <div class="seccol">
+            TESTTTTTTTT
+          </div>
+      </div>
   </div>
-  <div class="secright">next to each other.</div>
 </div>
 
 <script>
