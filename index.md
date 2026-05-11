@@ -17,13 +17,14 @@
 
 <body class="body-main">
 
-<!-- div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div -->
+  <a href="cps.md">Commercial Products & Solutions</a>
+  <a href="pse.md">Platform & Software Engineering</a>
+  <a href="sd.md">Solution Delivery</a>
+  <a href="aic.md">AI Innovation Center</a>
+  <a href="tde.md">Talent & Digital Enablement</a>
+</div>
 
 <div class="subtitle">
   <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> TEST DO Workforce </span>
