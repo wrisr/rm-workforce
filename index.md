@@ -28,7 +28,8 @@
 </div>
 
 <div class="subtitle">
-   <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </span>
+  <div class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </div>
+  <div class="suburl">test...</div>
 </div>
 
 <div class="section">
