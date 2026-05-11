@@ -8,6 +8,15 @@
 </head>
 
 <body class="body-main">
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</div>
+
+<button class="openbtn" onclick="toggleNav()">☰ Open Sidebar</button>
   
 <div class="subtitle">
   DO Workforce
