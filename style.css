@@ -132,10 +132,17 @@ h1 a {
   flex-wrap: wrap;
   width: 100%;
 }
-.seccol {
+.secleft {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  margin: 0px 5px;
+  margin-right: 10px;
+}
+.secright {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin-left: 10px;
 }
