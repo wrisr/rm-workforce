@@ -17,7 +17,7 @@
 
 <body class="body-main">
 
-<div id="mySidenav" class="sidenav">
+<div id="mainSidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="cps.md">Commercial Products & Solutions</a>
   <a href="pse.md">Platform & Software Engineering</a>
@@ -26,7 +26,7 @@
   <a href="tde.md">Talent & Digital Enablement</a>
 </div>
 
-<div class="subtitle">
+<div class="section">
   <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </span>
   <div class="chart rounded-div">
     <canvas id="workforceChartDO"></canvas>
@@ -36,7 +36,7 @@
   </div>
 </div>
   
-<div class="subtitle">
+<div class="section">
   DO Workforce per Resource Type
   <div class="chart rounded-div">
     <canvas id="workforceChartDOPR"></canvas>
