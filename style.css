@@ -27,13 +27,14 @@ h1 a {
 }
 
 .sidebar {
+  font-family: 'MindSans', Arial, sans-serif;
   height: 100%;
   width: 0; /* Hidden by default */
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: white;
   overflow-x: hidden;
   transition: 0.5s; /* Slide effect */
   padding-top: 60px;
