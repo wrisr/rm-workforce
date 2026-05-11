@@ -5,6 +5,12 @@
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
+  <script>
+    function toggleNav() {
+      const sidebar = document.getElementById("mySidebar");
+      sidebar.classList.toggle("active");
+    }
+  </script>
 </head>
 
 <body class="body-main">
