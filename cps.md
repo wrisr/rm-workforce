@@ -68,10 +68,10 @@
   <div class="secwrapper">
       <div class="secrow">
           <div class="secleft">
-            <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSBDQTR"></canvas></div></a>
+            <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSBDQTR2"></canvas></div></a>
           </div>
           <div class="secright">
-            <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPOQTR"></canvas></div></a>
+            <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPOQTR2"></canvas></div></a>
           </div>
       </div>
   </div>
@@ -700,6 +700,181 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
 */
 const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
   new Chart (ctxqtrbd, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {align: 'end', anchor: 'end', padding: 4}
+        },{
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 3,
+            datalabels: {align: 'end', anchor: 'end', padding: 4}
+        }
+    ]},
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'CPS : PO',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+              usePointStyle: true
+            }
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          titleFontSize: 10,
+          position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',  
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphCPS!A62:A63',
+                indexLabels: 'GraphCPS!B61:P61',
+                data: 'GraphCPS!B62:P63' 
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                  return;
+                },
+              backgroundColor: function(context) {
+                return context.dataset.backgroundColor;
+              },
+              borderRadius: 4,
+              //formatter: Math.round,
+              color: 'white',
+              padding: 0
+            }
+        }
+    }
+});
+
+  
+
+/*
+/* SECTION : SALES & BD 2
+*/
+const ctxqtrbd2 = document.getElementById('workforceChartCPSBDQTR2');
+  new Chart (ctxqtrbd2, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {align: 'end', anchor: 'end', padding: 4}
+        },{
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 3,
+            datalabels: {align: 'end', anchor: 'end', padding: 4}
+        }
+    ]},
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'CPS : Sales & BD',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+              usePointStyle: true
+            }
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          titleFontSize: 10,
+          position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',  
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphCPS!A52:A53',
+                indexLabels: 'GraphCPS!B51:P51',
+                data: 'GraphCPS!B52:P53' 
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                  return;
+                },
+              backgroundColor: function(context) {
+                return context.dataset.backgroundColor;
+              },
+              borderRadius: 4,
+              //formatter: Math.round,
+              color: 'white',
+              padding: 0
+            }
+        }
+    }
+});
+
+
+/* 
+/* SECTION : PO 2
+*/
+const ctxqtrbd2 = document.getElementById('workforceChartCPSBDQTR2');
+  new Chart (ctxqtrbd2, {
     type: 'bar',
     displayColors: true,
     interaction: {
