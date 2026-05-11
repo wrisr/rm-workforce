@@ -123,18 +123,18 @@ h1 a {
   multiple detail
 */
 
-#wrapper {
+.secwrapper {
   border: 1px solid blue;
 }
-#div1 {
+.secleft {
   display: inline-block;
   width: 50%;
-  height: 120px;
+  /* height: 120px; */
   border: 1px solid red;
 }
-#div2 {
+.secright {
   display: inline-block;
   width: 50%;
-  height: 160px;
+  /* height: 160px; */
   border: 1px solid green;
 }
