@@ -18,6 +18,7 @@ h1 {
   background-color: #041e42;
   padding: 0px 0px 0px 32px;
   margin: 0px;
+  position: fixed;
 }
 
 h1 a {
