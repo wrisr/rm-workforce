@@ -51,20 +51,15 @@
   <div class="chart rounded-div">
     <canvas id="workforceChartCPSOS"></canvas>
   </div>
-  
 </div>
 
 <div class="section">
   Per Section
-  <div class="secwrapper">
-      <div class="secrow">
-          <div class="secleft">
-            <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSBDQTR"></canvas></div></a>
-          </div>
-          <div class="secright">
-            <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPOQTR"></canvas></div></a>
-          </div>
-      </div>
+  <div class="chart rounded-div">
+    <canvas id="workforceChartCPSBDQTR"></canvas>
+  </div>
+  <div class="chart rounded-div">
+    <canvas id="workforceChartCPSPOQTR"></canvas>
   </div>
 </div>
 
@@ -599,13 +594,9 @@ const ctxos = document.getElementById('workforceChartCPSOS');
     }
 });
 
-
-
-
 /*
 /* SECTION : SALES & BD
 */
-
 const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
   new Chart (ctxqtrbd, {
     type: 'bar',
@@ -625,37 +616,12 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         },{
             type: 'line',
-            borderWidth: 0.5,
-            borderColor: 'rgba(68, 114, 196)',
-            borderDash: [5, 5],
-            fill: false,
-            order: 2,
-            pointRadius: 0,
-            datalabels: {display: false}
-        },{
-            type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
-            backgroundColor: 'rgba(165, 165, 165)',
-            order: 4,
-            stack: 'groupplan'
-        }, {
-            backgroundColor: 'rgba(255, 191, 0)',
-            order: 4,
-            stack: 'groupplan'
-        }, {
-            backgroundColor: 'rgba(91, 155, 213)',
-            order: 4,
-            stack: 'groupplan'
         }
     ]},
     plugins: [ChartDataSource],
@@ -694,9 +660,9 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
                 url: 'workforceresult.xlsx',
                 type: 'sheet',  
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphCPS!A42:A47',
-                indexLabels: 'GraphCPS!B41:F41',
-                data: 'GraphCPS!B42:F47' 
+                datasetLabels: 'GraphCPS!A52:A53',
+                indexLabels: 'GraphCPS!B51:P51',
+                data: 'GraphCPS!B52:P53' 
             },
             datalabels: {
                 formatter: (value, ctx) => {
@@ -714,11 +680,12 @@ const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
     }
 });
 
+
 /*
 /* SECTION : PO
 */
-const ctxqtrpo = document.getElementById('workforceChartCPSPOQTR');
-  new Chart (ctxqtrpo, {
+const ctxqtrbd = document.getElementById('workforceChartCPSBDQTR');
+  new Chart (ctxqtrbd, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -736,37 +703,12 @@ const ctxqtrpo = document.getElementById('workforceChartCPSPOQTR');
             datalabels: {align: 'end', anchor: 'end', padding: 4}
         },{
             type: 'line',
-            borderWidth: 0.5,
-            borderColor: 'rgba(68, 114, 196)',
-            borderDash: [5, 5],
-            fill: false,
-            order: 2,
-            pointRadius: 0,
-            datalabels: {display: false}
-        },{
-            type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
             datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
-            backgroundColor: 'rgba(165, 165, 165)',
-            order: 4,
-            stack: 'groupplan'
-        }, {
-            backgroundColor: 'rgba(255, 191, 0)',
-            order: 4,
-            stack: 'groupplan'
-        }, {
-            backgroundColor: 'rgba(91, 155, 213)',
-            order: 4,
-            stack: 'groupplan'
         }
     ]},
     plugins: [ChartDataSource],
@@ -805,9 +747,9 @@ const ctxqtrpo = document.getElementById('workforceChartCPSPOQTR');
                 url: 'workforceresult.xlsx',
                 type: 'sheet',  
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphPSE!A42:A47',
-                indexLabels: 'GraphPSE!B41:F41',
-                data: 'GraphPSE!B42:F47' 
+                datasetLabels: 'GraphCPS!A62:A63',
+                indexLabels: 'GraphCPS!B61:P61',
+                data: 'GraphCPS!B62:P63' 
             },
             datalabels: {
                 formatter: (value, ctx) => {
