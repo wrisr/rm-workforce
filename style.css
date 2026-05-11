@@ -124,17 +124,17 @@ h1 a {
 */
 
 .secwrapper {
-  border: 1px solid blue;
+  background-color: red;
 }
-.secleft {
-  display: inline-block;
-  width: 50%;
-  /* height: 120px; */
-  border: 1px solid red;
+.secrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.secright {
-  display: inline-block;
-  width: 50%;
-  /* height: 160px; */
-  border: 1px solid green;
+.seccol {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
