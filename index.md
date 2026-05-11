@@ -77,6 +77,7 @@
             fill: false,
             order: 2,
             pointRadius: 0,
+            pointBackgroundColor: 'white',
             datalabels: {display: false}
         },{
             type: 'line',
@@ -189,6 +190,7 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
+            pointBackgroundColor: 'white',
             datalabels: {display: false}
         },{
             type: 'line',
@@ -301,6 +303,7 @@ const ctxpr = document.getElementById('workforceChartDOPR');
             fill: false,
             order: 2,
             pointRadius: 0,
+            pointBackgroundColor: 'white',
             datalabels: {display: false}
         },{
             type: 'line',
@@ -397,6 +400,7 @@ const ctxct = document.getElementById('workforceChartDOCT');
             fill: false,
             order: 2,
             pointRadius: 0,
+            pointBackgroundColor: 'white',
             datalabels: {display: false}
         },{
             type: 'line',
@@ -493,6 +497,7 @@ const ctxos = document.getElementById('workforceChartDOOS');
             fill: false,
             order: 2,
             pointRadius: 0,
+            pointBackgroundColor: 'white',
             datalabels: {display: false}
         },{
             type: 'line',
