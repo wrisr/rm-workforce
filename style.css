@@ -124,7 +124,7 @@ h1 a {
 */
 
 .secwrapper {
-  background-color: red;
+  /* background-color: red; */
 }
 .secrow {
   display: flex;
