@@ -15,12 +15,11 @@ h1 {
   font-weight: bold;
   font-size: 16px;
   height: 48px;
-  /*background-color: #041e42;*/
+  background-color: #041e42;
   padding: 0px 0px 0px 32px;
   margin: 0px;
   position: sticky;
   top: 0;
-  border: 1px;
 }
 
 h1 a {
@@ -92,7 +91,6 @@ h1 a {
   padding: 0px 32px 0px 32px;
   position: sticky;
   top: 50px;
-  background-color: yellow;
   width: 100%;
 }
 
