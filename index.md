@@ -19,12 +19,12 @@
 
 <div id="mainSidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.md" id="selected">SCG Digital</a>
-  <a href="cps.md">Commercial Products & Solutions</a>
-  <a href="pse.md">Platform & Software Engineering</a>
-  <a href="sd.md">Solution Delivery</a>
-  <a href="aic.md">AI Innovation Center</a>
-  <a href="tde.md">Talent & Digital Enablement</a>
+  <a href="index" id="selected">SCG Digital</a>
+  <a href="cps">Commercial Products & Solutions</a>
+  <a href="pse">Platform & Software Engineering</a>
+  <a href="sd">Solution Delivery</a>
+  <a href="aic">AI Innovation Center</a>
+  <a href="tde">Talent & Digital Enablement</a>
 </div>
 
 <div class="subtitle">
