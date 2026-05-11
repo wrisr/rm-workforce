@@ -7,10 +7,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
   <script>
     function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("mainSidenav").style.width = "250px";
     }
     function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("mainSidenav").style.width = "0";
     }
   </script>
 </head>
