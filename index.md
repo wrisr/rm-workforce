@@ -54,11 +54,11 @@
 </div>
 
 <div class="section">
-  Per Department
+  Per Department a
   <div class="secwrapper">
       <div class="secrow">
           <div class="secleft">
-            <div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div>
+            <div class="chart rounded-div"><a href="cps.md"><canvas id="workforceChartCPSQTR"></canvas></a></div>
           </div>
           <div class="secright">
             <div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div>
