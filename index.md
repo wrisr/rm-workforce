@@ -62,15 +62,15 @@
             <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div></a>
           </div>
           <div class="secright">
-            <div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div>
+            <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div></a>
           </div>
       </div>
       <div class="secrow">
           <div class="secleft">
-            <div class="chart rounded-div"><canvas id="workforceChartSDQTR"></canvas></div>
+            <a href="sd"><div class="chart rounded-div"><canvas id="workforceChartSDQTR"></canvas></div></a>
           </div>
           <div class="secright">
-            <div class="chart rounded-div"><canvas id="workforceChartAICQTR"></canvas></div>
+            <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICQTR"></canvas></div></a>
           </div>
       </div>
   </div>
