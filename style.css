@@ -90,7 +90,9 @@ h1 a {
   font-size: 20px;
   padding: 0px 32px 0px 32px;
   position: sticky;
-  top: 0;
+  top: 48;
+  background-color: yellow;
+  width: 100%;
 }
 
 .section {
