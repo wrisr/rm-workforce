@@ -59,7 +59,7 @@
   <div class="secwrapper">
       <div class="secrow">
           <div class="secleft">
-            <div class="chart rounded-div"><a href="cps.md"><canvas id="workforceChartCPSQTR"></canvas></a></div>
+            <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div></a>
           </div>
           <div class="secright">
             <div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div>
