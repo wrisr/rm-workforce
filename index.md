@@ -76,6 +76,7 @@
             borderDash: [5, 5],
             fill: false,
             order: 2,
+            pointRadius: 0,
             datalabels: {display: false}
         },{
             type: 'line',
@@ -187,6 +188,7 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
             borderDash: [5, 5],
             fill: false,
             order: 2,
+            pointRadius: 0,
             datalabels: {display: false}
         },{
             type: 'line',
@@ -298,6 +300,7 @@ const ctxpr = document.getElementById('workforceChartDOPR');
             borderDash: [5, 5],
             fill: false,
             order: 2,
+            pointRadius: 0,
             datalabels: {display: false}
         },{
             type: 'line',
@@ -393,6 +396,7 @@ const ctxct = document.getElementById('workforceChartDOCT');
             borderDash: [5, 5],
             fill: false,
             order: 2,
+            pointRadius: 0,
             datalabels: {display: false}
         },{
             type: 'line',
@@ -488,7 +492,7 @@ const ctxos = document.getElementById('workforceChartDOOS');
             borderDash: [5, 5],
             fill: false,
             order: 2,
-            pointStyle: false,
+            pointRadius: 0,
             datalabels: {display: false}
         },{
             type: 'line',
