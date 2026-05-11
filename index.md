@@ -37,7 +37,7 @@
 </div>
   
 <div class="section">
-  DO Workforce per Resource Type
+  Per Resource Type
   <div class="chart rounded-div">
     <canvas id="workforceChartDOPR"></canvas>
   </div>
@@ -51,6 +51,7 @@
 </div>
 
 <div class="section">
+  Per Department
   <div id="wrapper">
     <div id="div1">The two divs are</div><div id="div2">next to each other.</div>
   </div>
