@@ -19,6 +19,7 @@ h1 {
   padding: 0px 0px 0px 32px;
   margin: 0px;
   position: fixed;
+  width: 100%;
 }
 
 h1 a {
