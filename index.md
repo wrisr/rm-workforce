@@ -25,14 +25,8 @@
   <a href="#">Contact</a>
 </div>
 
-<div id="main">
-  
-</div>
-
 <div class="subtitle">
-  <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; Open</span>
-  
-  DO Workforce
+  <span style="cursor:pointer" onclick="openNav()">>&#9776; DO Workforce</span>
   <div class="chart rounded-div">
     <canvas id="workforceChartDO"></canvas>
   </div>
