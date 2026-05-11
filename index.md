@@ -18,6 +18,13 @@
     <canvas id="workforceChartDOQTR"></canvas>
   </div>
 </div>
+  
+<div class="subtitle">
+  DO Workforce per Resource Type
+  <div class="chart rounded-div">
+    <canvas id="workforceChartDOPR"></canvas>
+  </div>
+</div>
 
 <script>
 
@@ -34,6 +41,10 @@
       chart.update();
     }
   }];
+
+/*
+/* MONTH
+*/
     
   const ctx = document.getElementById('workforceChartDO');
   new Chart (ctx, {
@@ -142,6 +153,10 @@
     }
 });
 
+/*
+/* QUARTER
+*/
+
 const ctxqtr = document.getElementById('workforceChartDOQTR');
   new Chart (ctxqtr, {
     type: 'bar',
@@ -231,7 +246,102 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A42:A47',
                 indexLabels: 'GraphAll!B41:F41',
-                data: 'GraphAll!B42:P47' 
+                data: 'GraphAll!B42:F47' 
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                  return;
+                },
+              backgroundColor: function(context) {
+                return context.dataset.backgroundColor;
+              },
+              borderRadius: 4,
+              //formatter: Math.round,
+              color: 'white',
+              padding: 0
+            }
+        }
+    }
+});
+
+/*
+/* PAYROLL
+*/
+
+const ctxpr = document.getElementById('workforceChartDOPR');
+  new Chart (ctxpr, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {align: 'end', anchor: 'end', padding: 4}
+        },{
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(68, 114, 196)',
+            borderDash: [5, 5],
+            fill: false,
+            order: 2,
+            datalabels: {display: false}
+        },{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 3,
+            datalabels: {align: 'end', anchor: 'end', padding: 4}
+        }
+    ]},
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Workforce 2026 per Quarter',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+              usePointStyle: true
+            }
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          titleFontSize: 12,
+          position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',  
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphAll!A12:A14',
+                indexLabels: 'GraphAll!B11:P11',
+                data: 'GraphAll!B12:P14' 
             },
             datalabels: {
                 formatter: (value, ctx) => {
