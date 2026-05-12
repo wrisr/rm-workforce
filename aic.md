@@ -29,7 +29,11 @@
 
 <div class="subtitle">
   <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> AIC Workforce </span>
-  <a class="suburl" href="https://scgo365.sharepoint.com/:x:/r/sites/DO-ResourceManagement781-2026/_layouts/15/Doc.aspx?sourcedoc=%7BD68329D4-3D1A-4AEA-BD0D-DD0EF3E5B83E%7D&file=DO%20Workforce%20-%205%20AIC.xlsx&action=default&mobileredirect=true" target="_blank"><span class="subbtn">Working Sheet</span></a>
+  <span class="subbtn">
+    <a class="suburl" href="https://scgo365.sharepoint.com/:x:/r/sites/DO-ResourceManagement781-2026/_layouts/15/Doc.aspx?sourcedoc=%7BD68329D4-3D1A-4AEA-BD0D-DD0EF3E5B83E%7D&file=DO%20Workforce%20-%205%20AIC.xlsx&action=default&mobileredirect=true" target="_blank">
+      <img src="menu-excel.svg" alt="background">
+    </a>
+  </span>
 </div>
 
 <div class="section">
