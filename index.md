@@ -5,7 +5,7 @@
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
-  <script src="chart-index.js"></script>
+  <script type="module" src="chart-index.js"></script>
   <script>
     function openNav() {
       document.getElementById("mainSidenav").style.width = "250px";
