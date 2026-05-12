@@ -61,10 +61,7 @@
       <canvas id="workforceChartTDERM"></canvas>
     </div>
     <div class="chart rounded-div">
-      <canvas id="workforceChartTDEIoT"></canvas>
-    </div>
-    <div class="chart rounded-div">
-      <canvas id="workforceChartTDETDE"></canvas>
+      <canvas id="workforceChartTDETED"></canvas>
     </div>
     <div class="chart rounded-div">
       <canvas id="workforceChartTDECoE"></canvas>
