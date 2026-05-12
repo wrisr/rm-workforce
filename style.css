@@ -118,7 +118,8 @@ h1 a {
   color: #ff5733;
 }
 .subicon {
-  color: transparent;
+  /* color: transparent; */
+  fill: blue;
 }
 /* .subbtn img {
   justify-content: center;
