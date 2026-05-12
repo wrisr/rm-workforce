@@ -110,6 +110,14 @@ h1 a {
   cursor: pointer;
 }
 .subbtn {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  color: transparent;
+  background: #616161;
+}
+/* .subbtn {
   background-color: #455a64;
   border-radius: 4px;
   text-align: center;
@@ -127,7 +135,7 @@ h1 a {
 }
 .suburl:hover {
   text-decoration: none;
-}
+} */
 
 .section {
   color: #424242;
