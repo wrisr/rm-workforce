@@ -118,12 +118,10 @@ h1 a {
 }
 .subicon {
   /* color: transparent; */
-  fill: blue;
-  color: blue;
-  background: #616161;
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }
-.subicon svg {
-  /* color: transparent; */
+/*.subicon svg {
+   color: transparent;
   color: yellow;
 }
 /* .subbtn img {
