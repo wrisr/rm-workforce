@@ -112,12 +112,11 @@ h1 a {
 .subbtn {
   text-align: center;
   text-decoration: none;
-  background-color: green;
   padding-top: 10px;
   filter: grayscale(1);
 }
 .subicon {
-  /* color: transparent; */
+  color: transparent;
 }
 /*.subicon svg {
    color: transparent;
