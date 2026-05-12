@@ -115,6 +115,8 @@ h1 a {
   text-decoration: none;
   color: transparent;
   background-color: #616161;
+}
+.subbtn img {
   justify-content: center;
 }
 /* .subbtn {
