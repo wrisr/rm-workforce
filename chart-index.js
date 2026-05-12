@@ -1,31 +1,22 @@
-function openNav() {
-  document.getElementById("mainSidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mainSidenav").style.width = "0";
-}
-
 Chart.defaults.global.defaultFontColor = '#0000008A';
 Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
 Chart.defaults.global.defaultFontSize = 10;
 
-const actions = [
-{
-  name: 'Mode: index',
+const actions = [{
+    name: 'Mode: index',
     handler(chart) {
-      chart.options.interaction.axis = 'xy';
-      chart.options.interaction.mode = 'index';
-      chart.update();
+        chart.options.interaction.axis = 'xy';
+        chart.options.interaction.mode = 'index';
+        chart.update();
     }
-  }];
+}];
 
 /*
 /* MONTH
 */
-    
-  const ctx = document.getElementById('workforceChartDO');
-  new Chart (ctx, {
+
+const ctx = document.getElementById('workforceChartDO');
+new Chart(ctx, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -40,8 +31,12 @@ const actions = [
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
@@ -49,15 +44,21 @@ const actions = [
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -74,8 +75,8 @@ const actions = [
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             stack: 'groupplan'
-        }
-    ]},
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -88,14 +89,14 @@ const actions = [
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 12,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -110,23 +111,23 @@ const actions = [
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A2:A7',
                 indexLabels: 'GraphAll!B1:P1',
-                data: 'GraphAll!B2:P7' 
+                data: 'GraphAll!B2:P7'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
@@ -137,7 +138,7 @@ const actions = [
 */
 
 const ctxqtr = document.getElementById('workforceChartDOQTR');
-  new Chart (ctxqtr, {
+new Chart(ctxqtr, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -152,8 +153,12 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
@@ -161,15 +166,21 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -186,8 +197,8 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             stack: 'groupplan'
-        }
-    ]},
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -200,14 +211,14 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 12,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -222,23 +233,23 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A42:A47',
                 indexLabels: 'GraphAll!B41:F41',
-                data: 'GraphAll!B42:F47' 
+                data: 'GraphAll!B42:F47'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
@@ -249,7 +260,7 @@ const ctxqtr = document.getElementById('workforceChartDOQTR');
 */
 
 const ctxpr = document.getElementById('workforceChartDOPR');
-  new Chart (ctxpr, {
+new Chart(ctxpr, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -264,8 +275,12 @@ const ctxpr = document.getElementById('workforceChartDOPR');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
@@ -273,17 +288,23 @@ const ctxpr = document.getElementById('workforceChartDOPR');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }
-    ]},
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -296,14 +317,14 @@ const ctxpr = document.getElementById('workforceChartDOPR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 12,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -314,28 +335,32 @@ const ctxpr = document.getElementById('workforceChartDOPR');
                 stacked: true,
                 beginAtZero: true
             },
-            yAxes: [{ ticks: { beginAtZero: true } }]
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
         },
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A12:A14',
                 indexLabels: 'GraphAll!B11:P11',
-                data: 'GraphAll!B12:P14' 
+                data: 'GraphAll!B12:P14'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
@@ -346,7 +371,7 @@ const ctxpr = document.getElementById('workforceChartDOPR');
 */
 
 const ctxct = document.getElementById('workforceChartDOCT');
-  new Chart (ctxct, {
+new Chart(ctxct, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -361,8 +386,12 @@ const ctxct = document.getElementById('workforceChartDOCT');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
@@ -370,17 +399,23 @@ const ctxct = document.getElementById('workforceChartDOCT');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }
-    ]},
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -393,14 +428,14 @@ const ctxct = document.getElementById('workforceChartDOCT');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 12,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -411,28 +446,32 @@ const ctxct = document.getElementById('workforceChartDOCT');
                 stacked: true,
                 beginAtZero: true
             },
-            yAxes: [{ ticks: { beginAtZero: true } }]
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
         },
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A22:A24',
                 indexLabels: 'GraphAll!B21:P21',
-                data: 'GraphAll!B22:P24' 
+                data: 'GraphAll!B22:P24'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
@@ -443,7 +482,7 @@ const ctxct = document.getElementById('workforceChartDOCT');
 */
 
 const ctxos = document.getElementById('workforceChartDOOS');
-  new Chart (ctxos, {
+new Chart(ctxos, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -458,8 +497,12 @@ const ctxos = document.getElementById('workforceChartDOOS');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
@@ -467,17 +510,23 @@ const ctxos = document.getElementById('workforceChartDOOS');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        }
-    ]},
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -490,14 +539,14 @@ const ctxos = document.getElementById('workforceChartDOOS');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 12,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -508,42 +557,42 @@ const ctxos = document.getElementById('workforceChartDOOS');
                 stacked: true,
                 beginAtZero: true
             },
-            yAxes: [{ ticks: { beginAtZero: true } }]
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
         },
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A32:A34',
                 indexLabels: 'GraphAll!B31:P31',
-                data: 'GraphAll!B32:P34' 
+                data: 'GraphAll!B32:P34'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
 });
 
-
-
-
 /*
 /* QUARTER : CPS
 */
-
 const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
-  new Chart (ctxqtrcps, {
+new Chart(ctxqtrcps, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -558,8 +607,12 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 0.5,
             borderColor: 'rgba(68, 114, 196)',
@@ -567,15 +620,21 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -592,8 +651,8 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             stack: 'groupplan'
-        }
-    ]},
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -606,14 +665,14 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 10,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -628,33 +687,33 @@ const ctxqtrcps = document.getElementById('workforceChartCPSQTR');
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphCPS!A42:A47',
                 indexLabels: 'GraphCPS!B41:F41',
-                data: 'GraphCPS!B42:F47' 
+                data: 'GraphCPS!B42:F47'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
 });
-  
+
 /*
 /* QUARTER : PSE
 */
 const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
-  new Chart (ctxqtrpse, {
+new Chart(ctxqtrpse, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -669,8 +728,12 @@ const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 0.5,
             borderColor: 'rgba(68, 114, 196)',
@@ -678,15 +741,21 @@ const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -703,8 +772,8 @@ const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             stack: 'groupplan'
-        }
-    ]},
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -717,14 +786,14 @@ const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 10,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -739,33 +808,33 @@ const ctxqtrpse = document.getElementById('workforceChartPSEQTR');
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphPSE!A42:A47',
                 indexLabels: 'GraphPSE!B41:F41',
-                data: 'GraphPSE!B42:F47' 
+                data: 'GraphPSE!B42:F47'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
 });
-  
+
 /*
 /* QUARTER : SD
 */
 const ctxqtrsd = document.getElementById('workforceChartSDQTR');
-  new Chart (ctxqtrsd, {
+new Chart(ctxqtrsd, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -780,8 +849,12 @@ const ctxqtrsd = document.getElementById('workforceChartSDQTR');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 0.5,
             borderColor: 'rgba(68, 114, 196)',
@@ -789,15 +862,21 @@ const ctxqtrsd = document.getElementById('workforceChartSDQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -814,8 +893,8 @@ const ctxqtrsd = document.getElementById('workforceChartSDQTR');
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             stack: 'groupplan'
-        }
-    ]},
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -828,14 +907,14 @@ const ctxqtrsd = document.getElementById('workforceChartSDQTR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 10,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -850,33 +929,33 @@ const ctxqtrsd = document.getElementById('workforceChartSDQTR');
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphSD!A42:A47',
                 indexLabels: 'GraphSD!B41:F41',
-                data: 'GraphSD!B42:F47' 
+                data: 'GraphSD!B42:F47'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
 });
-  
+
 /*
 /* QUARTER : AIC
 */
 const ctxqtraic = document.getElementById('workforceChartAICQTR');
-  new Chart (ctxqtraic, {
+new Chart(ctxqtraic, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -891,8 +970,12 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
             order: 1,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
-        },{
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
             type: 'line',
             borderWidth: 0.5,
             borderColor: 'rgba(68, 114, 196)',
@@ -900,15 +983,21 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
             fill: false,
             order: 2,
             pointRadius: 0,
-            datalabels: {display: false}
-        },{
+            datalabels: {
+                display: false
+            }
+        }, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 3,
-            datalabels: {align: 'end', anchor: 'end', padding: 4}
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }, {
             borderColor: 'rgba(165, 165, 165)',
             borderWidth: 2,
@@ -925,8 +1014,8 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
             backgroundColor: 'rgba(91, 155, 213)',
             order: 4,
             stack: 'groupplan'
-        }
-    ]},
+        }]
+    },
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -939,14 +1028,14 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
         legend: {
             position: 'bottom',
             labels: {
-              usePointStyle: true
+                usePointStyle: true
             }
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
-          titleFontSize: 10,
-          position: 'nearest'
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
         },
         responsive: true,
         scales: {
@@ -961,23 +1050,23 @@ const ctxqtraic = document.getElementById('workforceChartAICQTR');
         plugins: {
             datasource: {
                 url: 'workforceresult.xlsx',
-                type: 'sheet',  
+                type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAIC!A42:A47',
                 indexLabels: 'GraphAIC!B41:F41',
-                data: 'GraphAIC!B42:F47' 
+                data: 'GraphAIC!B42:F47'
             },
             datalabels: {
                 formatter: (value, ctx) => {
-                  return;
+                    return;
                 },
-              backgroundColor: function(context) {
-                return context.dataset.backgroundColor;
-              },
-              borderRadius: 4,
-              //formatter: Math.round,
-              color: 'white',
-              padding: 0
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
             }
         }
     }
