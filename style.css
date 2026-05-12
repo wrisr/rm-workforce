@@ -119,8 +119,9 @@ h1 a {
   text-decoration: none;
   padding-top: 5px;
 }
-.suburl a:hover {
+.suburl:hover {
   text-decoration: none;
+  background-color: yellow;
 }
 
 .section {
