@@ -1,10 +1,18 @@
-Chart.defaults.global.defaultFontColor = '#0000008A';
-  Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
-  Chart.defaults.global.defaultFontSize = 10;
+function openNav() {
+  document.getElementById("mainSidenav").style.width = "250px";
+}
 
-  const actions = [
-  {
-    name: 'Mode: index',
+function closeNav() {
+  document.getElementById("mainSidenav").style.width = "0";
+}
+
+Chart.defaults.global.defaultFontColor = '#0000008A';
+Chart.defaults.global.defaultFontFamily = "'MindSans', sans-serif";
+Chart.defaults.global.defaultFontSize = 10;
+
+const actions = [
+{
+  name: 'Mode: index',
     handler(chart) {
       chart.options.interaction.axis = 'xy';
       chart.options.interaction.mode = 'index';
