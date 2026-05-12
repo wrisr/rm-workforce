@@ -82,7 +82,7 @@ new Chart(ctx, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'AI Innovation Center Workforce 2026',
+            text: 'Solution Delivery Workforce 2026',
             padding: 20,
             fontColor: '#616161',
         },
