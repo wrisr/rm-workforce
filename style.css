@@ -114,12 +114,13 @@ h1 a {
   color: white;
   text-decoration: none;
   background-color: #616161;
+  padding-top: 10px;
 }
-.subbtn img {
+/* .subbtn img {
   justify-content: center;
   color: transparent;
 }
-/* .subbtn {
+.subbtn {
   background-color: #455a64;
   border-radius: 4px;
   text-align: center;
