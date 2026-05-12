@@ -786,7 +786,7 @@ new Chart(ctxdata, {
 /*
 /* 3 - SD : Solution Architecture
 */
-const ctxsa = document.getElementById('workforceChartSDSA);
+const ctxsa = document.getElementById('workforceChartSDSA');
 new Chart(ctxsa, {
     type: 'bar',
     displayColors: true,
@@ -1281,7 +1281,7 @@ new Chart(ctxba, {
 /*
 /* 8 - SD : Technology QA
 */
-const ctxqa = document.getElementById('workforceChartSDQA);
+const ctxqa = document.getElementById('workforceChartSDQA');
 new Chart(ctxqa, {
     type: 'bar',
     displayColors: true,
