@@ -72,6 +72,13 @@
               <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICQTR"></canvas></div></a>
             </div>
         </div>
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartTDEQTR"></canvas></div></a>
+            </div>
+            <div class="secright">
+            </div>
+        </div>
     </div>
   </div>
 
