@@ -14,7 +14,6 @@ const actions = [{
 /*
 /* MONTH
 */
-
 const ctx = document.getElementById('workforceChartCPS');
 new Chart(ctx, {
     type: 'bar',
