@@ -111,14 +111,14 @@ h1 a {
 }
 .subbtn {
   text-align: center;
-  color: green;
+  /*color: green;*/
   text-decoration: none;
   background-color: yellow;
   padding-top: 10px;
 }
 .subicon {
   /* color: transparent; */
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  filter: grayscale(1);
 }
 /*.subicon svg {
    color: transparent;
