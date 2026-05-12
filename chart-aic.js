@@ -14,7 +14,6 @@ const actions = [{
 /*
 /* MONTH
 */
-
 const ctx = document.getElementById('workforceChartAIC');
 new Chart(ctx, {
     type: 'bar',
