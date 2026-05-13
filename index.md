@@ -40,6 +40,13 @@
   </div>
     
   <div class="section">
+    % Plan
+    <div class="chart rounded-div">
+      <canvas id="workforceChartDOPlan"></canvas>
+    </div>
+  </div>
+    
+  <div class="section">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartDOPR"></canvas>
@@ -50,7 +57,6 @@
     <div class="chart rounded-div">
       <canvas id="workforceChartDOOS"></canvas>
     </div>
-    
   </div>
   
   <div class="section">
