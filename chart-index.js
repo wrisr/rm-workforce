@@ -1951,7 +1951,7 @@ new Chart(ctxpjt, {
             order: 2,
             stack: 'grouppj'
         }, {
-            backgroundColor: 'rgba(237, 126, 49)',
+            backgroundColor: 'rgba(165, 165, 165)',
             order: 2,
             stack: 'grouppj'
         }, {
@@ -1963,7 +1963,7 @@ new Chart(ctxpjt, {
             order: 2,
             stack: 'grouppj'
         }, {
-            backgroundColor: 'rgba(91, 155, 213)',
+            backgroundColor: 'rgba(112, 174, 71)',
             order: 2,
             stack: 'grouppj'
         },{
