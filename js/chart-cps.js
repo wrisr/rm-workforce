@@ -1126,3 +1126,177 @@ new Chart(ctxplanqtrbd, {
         }
     }
 });
+
+
+
+/*
+/* Available PO - Month
+*/
+const ctxavaipo = document.getElementById('workforceChartCPSAvaiPO');
+new Chart(ctxavaipo, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(112, 173, 71)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'Available PO per Month',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphCPS!A64:A64',
+                indexLabels: 'GraphCPS!B61:P61',
+                data: 'GraphCPS!B64:P64'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(112, 173, 71)',
+                padding: 0
+            }
+        }
+    }
+});
+
+/*
+/* % PLAN PO - QTR
+*/
+const ctxplanqtrpo = document.getElementById('workforceChartCPSPlanQtrPO');
+new Chart(ctxplanqtrpo, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(197, 90, 17)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: '% PO Plan per Quarter',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphCPS!A66:A66',
+                indexLabels: 'GraphCPS!B65:F65',
+                data: 'GraphCPS!B66:F66'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(197, 90, 17)',
+                padding: 0
+            }
+        }
+    }
+});
