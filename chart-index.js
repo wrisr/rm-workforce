@@ -1208,8 +1208,7 @@ new Chart(ctxplan, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(237, 125, 50)',
-            //backgroundColor: 'rgba(237, 125, 50)',
+            borderColor: 'rgba(112, 173, 71)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1273,7 +1272,7 @@ new Chart(ctxplan, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(237, 125, 50)',
+                color: 'rgba(112, 173, 71)',
                 padding: 0
             }
         }
@@ -1295,8 +1294,7 @@ new Chart(ctxplanqtr, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(237, 125, 50)',
-            //backgroundColor: 'rgba(237, 125, 50)',
+            borderColor: 'rgba(112, 173, 71)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1360,7 +1358,7 @@ new Chart(ctxplanqtr, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(237, 125, 50)',
+                color: 'rgba(112, 173, 71)',
                 padding: 0
             }
         }
