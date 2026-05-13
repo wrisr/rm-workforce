@@ -956,7 +956,7 @@ new Chart(ctxplanqtr, {
 
 
 /*
-/* % PLAN BD - Month
+/* Available BD - Month
 */
 const ctxplanbd = document.getElementById('workforceChartCPSPlanBD');
 new Chart(ctxplanbd, {
@@ -985,7 +985,7 @@ new Chart(ctxplanbd, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% BD Plan per Month',
+            text: 'Available BD per Month',
             padding: 20,
             fontColor: '#616161',
         },
