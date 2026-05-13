@@ -1800,7 +1800,7 @@ new Chart(ctxplanqtrtde, {
 */
 const ctxproduct = document.getElementById('workforceChartProduct');
 new Chart(ctxproduct, {
-    type: 'bar',
+    type: 'line',
     displayColors: true,
     interaction: {
         mode: 'index',
@@ -1808,9 +1808,8 @@ new Chart(ctxproduct, {
     },
     data: {
         datasets: [{
-            type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            //borderColor: 'rgba(112, 173, 71)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1874,7 +1873,7 @@ new Chart(ctxproduct, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                //color: 'rgba(112, 173, 71)',
                 padding: 0
             }
         }
