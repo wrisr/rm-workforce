@@ -1947,15 +1947,11 @@ new Chart(ctxpjt, {
             order: 2,
             stack: 'grouppj'
         }, {
-            backgroundColor: 'rgba(68, 115, 196)',
+            backgroundColor: 'rgba(237, 126, 49)',
             order: 2,
             stack: 'grouppj'
         }, {
-            backgroundColor: 'rgba(165, 165, 165)',
-            order: 2,
-            stack: 'grouppj'
-        }, {
-            backgroundColor: 'rgba(254, 192, 2)',
+            backgroundColor: 'rgba(237, 126, 49)',
             order: 2,
             stack: 'grouppj'
         }, {
@@ -1963,12 +1959,16 @@ new Chart(ctxpjt, {
             order: 2,
             stack: 'grouppj'
         }, {
-            backgroundColor: 'rgba(254, 192, 2)',
+            backgroundColor: 'rgba(91, 155, 213)',
+            order: 2,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(91, 155, 213)',
             order: 2,
             stack: 'grouppj'
         },{
             type: 'line',
-            borderWidth: 2,
+            borderWidth: 0,
             borderColor: 'rgba(91, 91, 91)',
             backgroundColor: 'rgba(91, 91, 91)',
             fill: false,
