@@ -1193,9 +1193,8 @@ new Chart(ctxqtrtde, {
     }
 });
 
-
 /*
-/* % PLAN
+/* % PLAN - Month
 */
 const ctxplan = document.getElementById('workforceChartDOPlan');
 new Chart(ctxplan, {
@@ -1225,7 +1224,7 @@ new Chart(ctxplan, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Payroll',
+            text: '% Plan per Month',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1264,6 +1263,93 @@ new Chart(ctxplan, {
                 datasetLabels: 'GraphAll!A152:A152',
                 indexLabels: 'GraphAll!B151:P151',
                 data: 'GraphAll!B152:P152'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'white',
+                padding: 0
+            }
+        }
+    }
+});
+
+/*
+/* % PLAN - QTR
+*/
+const ctxplanqtr = document.getElementById('workforceChartDOPlanQtr');
+new Chart(ctxplanqtr, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: '% Plan per Quarter',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphAll!A162:A162',
+                indexLabels: 'GraphAll!B161:P161',
+                data: 'GraphAll!B162:P162'
             },
             datalabels: {
                 formatter: (value, ctx) => {
