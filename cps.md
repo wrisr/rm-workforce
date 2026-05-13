@@ -22,7 +22,7 @@
   </div>
   
   <div class="subtitle">
-    <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> CPS Workforce TEST </span>
+    <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> CPS Workforce </span>
     <span class="subbtn">
       <a class="suburl" href="https://scgo365.sharepoint.com/:x:/r/sites/DO-ResourceManagement781-2026/_layouts/15/Doc.aspx?sourcedoc=%7B9BBF68FA-8ED4-4047-B96B-FBAB880F6546%7D&file=DO%20Workforce%20-%202%20CPS.xlsx&action=default&mobileredirect=true" target="_blank">
         <img src="svg/menu-excel.svg" alt="background">
@@ -63,7 +63,7 @@
   </div>
 
   <div class="section">
-    Business Development & Partnerships
+    CPS Business Development & Partnerships
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSBD"></canvas>
     </div>
@@ -80,7 +80,7 @@
   </div>
 
   <div class="section">
-    Product Commercialization
+    CPS Product Commercialization
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSPO"></canvas>
     </div>
