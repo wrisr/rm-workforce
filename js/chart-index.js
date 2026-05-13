@@ -1977,7 +1977,8 @@ new Chart(ctxpjt, {
                 align: 'end',
                 anchor: 'end',
                 padding: 4
-            }
+            },
+            pointRadius: 0
         }]
     },
     plugins: [ChartDataSource],
