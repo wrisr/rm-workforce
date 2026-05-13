@@ -1985,7 +1985,7 @@ new Chart(ctxpjt, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026',
+            text: 'Top 5 Project by Type',
             padding: 20,
             fontColor: '#616161',
         },
