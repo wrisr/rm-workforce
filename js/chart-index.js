@@ -1395,7 +1395,7 @@ new Chart(ctxplanqtrcps, {
         title: {
             display: true,
             fontSize: 14,
-            text: 'CPS : % Plan',
+            text: '% CPS Plan',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1481,7 +1481,7 @@ new Chart(ctxplanqtrpse, {
         title: {
             display: true,
             fontSize: 14,
-            text: 'PSE : % Plan',
+            text: '% PSE Plan',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1567,7 +1567,7 @@ new Chart(ctxplanqtrsd, {
         title: {
             display: true,
             fontSize: 14,
-            text: 'SD : % Plan',
+            text: '% SD Plan',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1653,7 +1653,7 @@ new Chart(ctxplanqtraic, {
         title: {
             display: true,
             fontSize: 14,
-            text: 'AIC : % Plan',
+            text: '% AIC Plan',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1739,7 +1739,7 @@ new Chart(ctxplanqtrtde, {
         title: {
             display: true,
             fontSize: 14,
-            text: 'TDE : % Plan',
+            text: '% TDE Plan',
             padding: 20,
             fontColor: '#616161',
         },
