@@ -1348,8 +1348,8 @@ new Chart(ctxplanqtr, {
                 type: 'sheet',
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphAll!A162:A162',
-                indexLabels: 'GraphAll!B161:P161',
-                data: 'GraphAll!B162:P162'
+                indexLabels: 'GraphAll!B161:F161',
+                data: 'GraphAll!B162:F162'
             },
             datalabels: {
                 formatter: (value, ctx) => {
