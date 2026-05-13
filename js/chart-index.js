@@ -602,7 +602,7 @@ new Chart(ctxqtrcps, {
     data: {
         datasets: [{
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
@@ -614,7 +614,7 @@ new Chart(ctxqtrcps, {
             }
         }, {
             type: 'line',
-            borderWidth: 0.5,
+            borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
@@ -625,7 +625,7 @@ new Chart(ctxqtrcps, {
             }
         }, {
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
@@ -723,7 +723,7 @@ new Chart(ctxqtrpse, {
     data: {
         datasets: [{
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
@@ -735,7 +735,7 @@ new Chart(ctxqtrpse, {
             }
         }, {
             type: 'line',
-            borderWidth: 0.5,
+            borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
@@ -746,7 +746,7 @@ new Chart(ctxqtrpse, {
             }
         }, {
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
@@ -844,7 +844,7 @@ new Chart(ctxqtrsd, {
     data: {
         datasets: [{
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
@@ -856,7 +856,7 @@ new Chart(ctxqtrsd, {
             }
         }, {
             type: 'line',
-            borderWidth: 0.5,
+            borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
@@ -867,7 +867,7 @@ new Chart(ctxqtrsd, {
             }
         }, {
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
@@ -965,7 +965,7 @@ new Chart(ctxqtraic, {
     data: {
         datasets: [{
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
@@ -977,7 +977,7 @@ new Chart(ctxqtraic, {
             }
         }, {
             type: 'line',
-            borderWidth: 0.5,
+            borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
@@ -988,7 +988,7 @@ new Chart(ctxqtraic, {
             }
         }, {
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
@@ -1086,7 +1086,7 @@ new Chart(ctxqtrtde, {
     data: {
         datasets: [{
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(68, 114, 196)',
             backgroundColor: 'rgba(68, 114, 196)',
             fill: false,
@@ -1098,7 +1098,7 @@ new Chart(ctxqtrtde, {
             }
         }, {
             type: 'line',
-            borderWidth: 0.5,
+            borderWidth: 1,
             borderColor: 'rgba(68, 114, 196)',
             borderDash: [5, 5],
             fill: false,
@@ -1109,7 +1109,7 @@ new Chart(ctxqtrtde, {
             }
         }, {
             type: 'line',
-            borderWidth: 1,
+            borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
@@ -1985,7 +1985,7 @@ new Chart(ctxpjt, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Top 5 Project by Type',
+            text: "Top 5 FTE Planning [Q2'26:Q1'27]",
             padding: 20,
             fontColor: '#616161',
         },
