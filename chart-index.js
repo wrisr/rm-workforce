@@ -1809,9 +1809,54 @@ new Chart(ctxproduct, {
     data: {
         datasets: [{
             borderWidth: 2,
-            //borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(68, 115, 196)',
+            backgroundColor: 'rgba(68, 115, 196)',
             fill: false,
             order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(237, 126, 49)',
+            backgroundColor: 'rgba(237, 126, 49)',
+            fill: false,
+            order: 2,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(165, 165, 165)',
+            backgroundColor: 'rgba(165, 165, 165)',
+            fill: false,
+            order: 3,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(254, 192, 2)',
+            backgroundColor: 'rgba(254, 192, 2)',
+            fill: false,
+            order: 4,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(91, 155, 213)',
+            backgroundColor: 'rgba(91, 155, 213)',
+            fill: false,
+            order: 4,
             datalabels: {
                 align: 'end',
                 anchor: 'end',
@@ -1823,7 +1868,7 @@ new Chart(ctxproduct, {
     options: {
         title: {
             display: true,
-            fontSize: 14,
+            fontSize: 20,
             text: 'DO Product',
             padding: 20,
             fontColor: '#616161',
@@ -1837,7 +1882,7 @@ new Chart(ctxproduct, {
         tooltips: {
             mode: 'index',
             intersect: false,
-            titleFontSize: 10,
+            titleFontSize: 12,
             position: 'nearest'
         },
         responsive: true,
@@ -1873,7 +1918,7 @@ new Chart(ctxproduct, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                //color: 'rgba(112, 173, 71)',
+                color: 'white',
                 padding: 0
             }
         }
