@@ -49,7 +49,7 @@
     </div>
   </div>
     
-  <div class="section">
+  <!-- div class="section">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartDOPR"></canvas>
@@ -59,6 +59,20 @@
     </div>
     <div class="chart rounded-div">
       <canvas id="workforceChartDOOS"></canvas>
+    </div>
+  </div -->
+  
+  <div class="section">
+    Per Department
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartDOPlan"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartDOPlanQtr"></canvas></div></a>
+            </div>
+        </div>
     </div>
   </div>
   
