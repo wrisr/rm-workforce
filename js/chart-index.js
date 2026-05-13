@@ -1194,10 +1194,10 @@ new Chart(ctxqtrtde, {
 });
 
 /*
-/* % PLAN - Month
+/* Available - Month
 */
-const ctxplan = document.getElementById('workforceChartDOPlan');
-new Chart(ctxplan, {
+const ctxavai = document.getElementById('workforceChartDOAvai');
+new Chart(ctxavai, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -1223,7 +1223,7 @@ new Chart(ctxplan, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% Plan per Month',
+            text: 'Available per Month',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1259,9 +1259,9 @@ new Chart(ctxplan, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphAll!A152:A152',
+                datasetLabels: 'GraphAll!A153:A153',
                 indexLabels: 'GraphAll!B151:P151',
-                data: 'GraphAll!B152:P152'
+                data: 'GraphAll!B153:P153'
             },
             datalabels: {
                 formatter: (value, ctx) => {
@@ -1294,7 +1294,7 @@ new Chart(ctxplanqtr, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1358,7 +1358,7 @@ new Chart(ctxplanqtr, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
@@ -1380,7 +1380,7 @@ new Chart(ctxplanqtrcps, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1444,7 +1444,7 @@ new Chart(ctxplanqtrcps, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
@@ -1466,7 +1466,7 @@ new Chart(ctxplanqtrpse, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1530,7 +1530,7 @@ new Chart(ctxplanqtrpse, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
@@ -1552,7 +1552,7 @@ new Chart(ctxplanqtrsd, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1616,7 +1616,7 @@ new Chart(ctxplanqtrsd, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
@@ -1638,7 +1638,7 @@ new Chart(ctxplanqtraic, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1702,7 +1702,7 @@ new Chart(ctxplanqtraic, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
@@ -1724,7 +1724,7 @@ new Chart(ctxplanqtrtde, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1788,7 +1788,7 @@ new Chart(ctxplanqtrtde, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
