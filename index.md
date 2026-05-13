@@ -37,7 +37,31 @@
     <div class="chart rounded-div">
       <canvas id="workforceChartDOQTR"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartDOPlan"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartDOPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+    </div>
   </div>
+  
+  <!-- div class="section">
+    % Plan
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartDOPlan"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartDOPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+    </div>
+  </div -->
     
   <div class="section">
     Per Resource Type
@@ -49,20 +73,6 @@
     </div>
     <div class="chart rounded-div">
       <canvas id="workforceChartDOOS"></canvas>
-    </div>
-  </div>
-  
-  <div class="section">
-    % Plan
-    <div class="secwrapper">
-        <div class="secrow">
-            <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartDOPlan"></canvas></div></a>
-            </div>
-            <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartDOPlanQtr"></canvas></div></a>
-            </div>
-        </div>
     </div>
   </div>
   
