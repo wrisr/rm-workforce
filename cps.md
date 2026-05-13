@@ -70,10 +70,10 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSAvaiBD"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartCPSAvaiBD"></canvas></div>
             </div>
             <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtrBD"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtrBD"></canvas></div>
             </div>
         </div>
     </div>
@@ -87,10 +87,10 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanPO"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartCPSAvaiPO"></canvas></div>
             </div>
             <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtrPO"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtrPO"></canvas></div>
             </div>
         </div>
     </div>
