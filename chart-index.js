@@ -1209,7 +1209,7 @@ new Chart(ctxplan, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
-            backgroundColor: 'rgba(237, 125, 50)',
+            //backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1273,7 +1273,7 @@ new Chart(ctxplan, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'white',
+                color: 'rgba(237, 125, 50)',
                 padding: 0
             }
         }
