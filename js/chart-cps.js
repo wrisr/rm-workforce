@@ -812,7 +812,7 @@ new Chart(ctxplan, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% Plan per Month',
+            text: '% CPS Plan per Month',
             padding: 20,
             fontColor: '#616161',
         },
@@ -898,7 +898,7 @@ new Chart(ctxplanqtr, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% Plan per Quarter',
+            text: '% CPS Plan per Quarter',
             padding: 20,
             fontColor: '#616161',
         },
