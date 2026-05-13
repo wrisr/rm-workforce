@@ -1223,7 +1223,7 @@ new Chart(ctxplan, {
     options: {
         title: {
             display: true,
-            fontSize: 20,
+            fontSize: 14,
             text: '% Plan per Month',
             padding: 20,
             fontColor: '#616161',
@@ -1237,7 +1237,7 @@ new Chart(ctxplan, {
         tooltips: {
             mode: 'index',
             intersect: false,
-            titleFontSize: 12,
+            titleFontSize: 10,
             position: 'nearest'
         },
         responsive: true,
@@ -1310,7 +1310,7 @@ new Chart(ctxplanqtr, {
     options: {
         title: {
             display: true,
-            fontSize: 20,
+            fontSize: 14,
             text: '% Plan per Quarter',
             padding: 20,
             fontColor: '#616161',
@@ -1324,7 +1324,7 @@ new Chart(ctxplanqtr, {
         tooltips: {
             mode: 'index',
             intersect: false,
-            titleFontSize: 12,
+            titleFontSize: 10,
             position: 'nearest'
         },
         responsive: true,
