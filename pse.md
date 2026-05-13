@@ -61,14 +61,38 @@
       <canvas id="workforceChartPSEOS"></canvas>
     </div>
   </div>
-  
+
   <div class="section">
-    Per Section
+    PSE Platform Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartPSEPE"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartPSEAvaiPE"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartPSEPlanQtrPE"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    PSE Software Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartPSESE"></canvas>
+    </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartPSEAvaiSE"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartPSEPlanQtrSE"></canvas></div>
+            </div>
+        </div>
     </div>
   </div>
 
