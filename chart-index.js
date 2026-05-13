@@ -1938,11 +1938,39 @@ new Chart(ctxpjt, {
         intersect: false
     },
     data: {
-        datasets: [{
+        datasets: [
+        {
+            borderColor: 'rgba(68, 115, 196)',
+            borderWidth: 2,
+            borderRadius: 10,
+            backgroundColor: 'rgba(68, 115, 196)',
+            order: 2,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(68, 115, 196)',
+            order: 2,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(165, 165, 165)',
+            order: 2,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(254, 192, 2)',
+            order: 2,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(254, 192, 2)',
+            order: 2,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(254, 192, 2)',
+            order: 2,
+            stack: 'grouppj'
+        },{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(68, 114, 196)',
-            backgroundColor: 'rgba(68, 114, 196)',
+            borderColor: 'rgba(91, 91, 91)',
+            backgroundColor: 'rgba(91, 91, 91)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1950,56 +1978,7 @@ new Chart(ctxpjt, {
                 anchor: 'end',
                 padding: 4
             }
-        }
-                 /*  , {
-            type: 'line',
-            borderWidth: 1,
-            borderColor: 'rgba(68, 114, 196)',
-            borderDash: [5, 5],
-            fill: false,
-            order: 2,
-            pointRadius: 0,
-            datalabels: {
-                display: false
-            }
-        }, {
-            type: 'line',
-            borderWidth: 2,
-            borderColor: 'rgba(237, 125, 50)',
-            backgroundColor: 'rgba(237, 125, 50)',
-            fill: false,
-            order: 3,
-            datalabels: {
-                align: 'end',
-                anchor: 'end',
-                padding: 4
-            }
-        }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
-            backgroundColor: 'rgba(165, 165, 165)',
-            order: 4,
-            stack: 'grouppj'
-        }, {
-            backgroundColor: 'rgba(255, 191, 0)',
-            order: 4,
-            stack: 'grouppj'
-        }, {
-            backgroundColor: 'rgba(91, 155, 213)',
-            order: 4,
-            stack: 'grouppj'
-        }, {
-            backgroundColor: 'rgba(91, 155, 213)',
-            order: 4,
-            stack: 'grouppj'
-        }, {
-            backgroundColor: 'rgba(91, 155, 213)',
-            order: 4,
-            stack: 'grouppj'
-        }*/
-        ]
+        }]
     },
     plugins: [ChartDataSource],
     options: {
@@ -2037,9 +2016,9 @@ new Chart(ctxpjt, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphPJ!B21:H21',
-                indexLabels: 'GraphPJ!A22:A26',
-                data: 'GraphPJ!B22:H26'
+                datasetLabels: 'GraphPJ!A22:A28',
+                indexLabels: 'GraphPJ!B21:F21',
+                data: 'GraphPJ!B22:F28'
             },
             datalabels: {
                 formatter: (value, ctx) => {
