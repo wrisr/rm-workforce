@@ -128,5 +128,12 @@
       <canvas id="workforceChartProduct"></canvas>
     </div>
   </div>
+    
+  <div class="section">
+    Top 5 Project
+    <div class="chart rounded-div">
+      <canvas id="workforceChartProjectPerTeam"></canvas>
+    </div>
+  </div>
 
 </body>
