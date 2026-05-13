@@ -1969,7 +1969,7 @@ new Chart(ctxpjt, {
         },{
             type: 'line',
             borderWidth: 0,
-            borderColor: 'rgba(91, 91, 91)',
+            //borderColor: 'rgba(91, 91, 91)',
             backgroundColor: 'rgba(91, 91, 91)',
             fill: false,
             order: 1,
