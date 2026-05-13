@@ -121,34 +121,12 @@
         </div>
     </div>
   </div>
-  
-  <!-- div class="section">
-    Per Department
-    <div class="secwrapper">
-        <div class="secrow">
-            <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div></a>
-            </div>
-            <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div></a>
-            </div>
-        </div>
-        <div class="secrow">
-            <div class="secleft">
-              <a href="sd"><div class="chart rounded-div"><canvas id="workforceChartSDQTR"></canvas></div></a>
-            </div>
-            <div class="secright">
-              <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICQTR"></canvas></div></a>
-            </div>
-        </div>
-        <div class="secrow">
-            <div class="secleft">
-              <a href="tde"><div class="chart rounded-div"><canvas id="workforceChartTDEQTR"></canvas></div></a>
-            </div>
-            <div class="secright">
-            </div>
-        </div>
+    
+  <div class="section">
+    DO Product
+    <div class="chart rounded-div">
+      <canvas id="workforceChartProduct"></canvas>
     </div>
-  </div -->
+  </div>
 
 </body>
