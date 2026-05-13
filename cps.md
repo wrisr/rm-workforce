@@ -37,6 +37,16 @@
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSQTR"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSPlan"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+    </div>
   </div>
     
   <div class="section">
