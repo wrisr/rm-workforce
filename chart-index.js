@@ -1982,6 +1982,7 @@ new Chart(ctxpjt, {
     },
     plugins: [ChartDataSource],
     options: {
+        indexAxis: 'y',
         title: {
             display: true,
             fontSize: 20,
