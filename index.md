@@ -44,6 +44,9 @@
     <div class="chart rounded-div">
       <canvas id="workforceChartDOPlan"></canvas>
     </div>
+    <div class="chart rounded-div">
+      <canvas id="workforceChartDOPlanQtr"></canvas>
+    </div>
   </div>
     
   <div class="section">
