@@ -40,10 +40,10 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartTDEPlan"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartTDEPlan"></canvas></div>
             </div>
             <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtr"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtr"></canvas></div>
             </div>
         </div>
     </div>
@@ -61,20 +61,72 @@
       <canvas id="workforceChartTDEOS"></canvas>
     </div>
   </div>
-  
+
   <div class="section">
-    Per Section
+    TDE Financial Management
     <div class="chart rounded-div">
       <canvas id="workforceChartTDEFI"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEAvaiFI"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtrFI"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    TDE Resource Management
     <div class="chart rounded-div">
       <canvas id="workforceChartTDERM"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEAvaiRM"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtrRM"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    TDE Talent Experience & Development
     <div class="chart rounded-div">
       <canvas id="workforceChartTDETED"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEAvaiTED"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtrTED"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    TDE Center of Excellences
     <div class="chart rounded-div">
       <canvas id="workforceChartTDECoE"></canvas>
+    </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEAvaiCoE"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtrCoE"></canvas></div>
+            </div>
+        </div>
     </div>
   </div>
   
