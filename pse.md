@@ -25,7 +25,7 @@
     <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> PSE Workforce </span>
     <span class="subbtn">
       <a class="suburl" href="https://scgo365.sharepoint.com/:x:/r/sites/DO-ResourceManagement781-2026/_layouts/15/Doc.aspx?sourcedoc=%7B4B6DF829-33EE-4F99-B98C-71595D5368C1%7D&file=DO%20Workforce%20-%203%20PSE.xlsx&action=default&mobileredirect=true" target="_blank">
-        <img src="css/menu-excel.svg" alt="background">
+        <img src="svg/menu-excel.svg" alt="background">
       </a>
     </span>
   </div>
