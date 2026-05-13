@@ -40,10 +40,10 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSAvai"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartCPSAvai"></canvas></div>
             </div>
             <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtr"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtr"></canvas></div>
             </div>
         </div>
     </div>
