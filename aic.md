@@ -40,10 +40,10 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartAICPlan"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartAICAvai"></canvas></div>
             </div>
             <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartAICPlanQtr"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartAICPlanQtr"></canvas></div>
             </div>
         </div>
     </div>
@@ -61,23 +61,89 @@
       <canvas id="workforceChartAICOS"></canvas>
     </div>
   </div>
-  
+
   <div class="section">
-    Per Section
+    AIC AI Research & Alliance
     <div class="chart rounded-div">
       <canvas id="workforceChartAICRA"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartAICAvaiRA"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartAICPlanQtrRA"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    AIC AIET AI Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartAICAIE"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartAICAvaiAIE"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartAICPlanQtrAIE"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    AIC AIET IoT Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartAICIoT"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartAICAvaiIoT"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartAICPlanQtrIoT"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    AIC AIET Spatial AI Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartAICSAI"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartAICAvaiSAI"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartAICPlanQtrSAI"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    AIC Product Innovation
     <div class="chart rounded-div">
       <canvas id="workforceChartAICPI"></canvas>
+    </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartAICAvaiPI"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartAICPlanQtrPI"></canvas></div>
+            </div>
+        </div>
     </div>
   </div>
   
