@@ -783,10 +783,10 @@ new Chart(ctxpo, {
 });
 
 /*
-/* % PLAN - Month
+/* Available CPS - Month
 */
-const ctxplan = document.getElementById('workforceChartCPSPlan');
-new Chart(ctxplan, {
+const ctxavai = document.getElementById('workforceChartCPSAvai');
+new Chart(ctxavai, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -812,7 +812,7 @@ new Chart(ctxplan, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% CPS Plan per Month',
+            text: 'Available CPS per Month',
             padding: 20,
             fontColor: '#616161',
         },
@@ -860,7 +860,7 @@ new Chart(ctxplan, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                formatter: Math.round,
+                //formatter: Math.round,
                 color: 'rgba(112, 173, 71)',
                 padding: 0
             }
@@ -947,7 +947,7 @@ new Chart(ctxplanqtr, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
@@ -1033,7 +1033,7 @@ new Chart(ctxplanbd, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                formatter: Math.round,
+                //formatter: Math.round,
                 color: 'rgba(112, 173, 71)',
                 padding: 0
             }
@@ -1120,7 +1120,7 @@ new Chart(ctxplanqtrbd, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
