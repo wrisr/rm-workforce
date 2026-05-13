@@ -61,14 +61,38 @@
       <canvas id="workforceChartCPSOS"></canvas>
     </div>
   </div>
-  
+
   <div class="section">
-    Per Section
+    Business Development & Partnerships
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSBD"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanBD"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtrBD"></canvas></div></a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    Product Commercialization
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSPO"></canvas>
+    </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanPO"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtrPO"></canvas></div></a>
+            </div>
+        </div>
     </div>
   </div>
 
