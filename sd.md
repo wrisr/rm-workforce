@@ -40,10 +40,10 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartSDPlan"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlan"></canvas></div>
             </div>
             <div class="secright">
-              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartSDPlanQtr"></canvas></div></a>
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtr"></canvas></div>
             </div>
         </div>
     </div>
@@ -61,35 +61,157 @@
       <canvas id="workforceChartSDOS"></canvas>
     </div>
   </div>
-  
+
   <div class="section">
-    Per Section
+    SD Design
     <div class="chart rounded-div">
       <canvas id="workforceChartSDDesign"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiDesign"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrDesign"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Data Technology
     <div class="chart rounded-div">
       <canvas id="workforceChartSDData"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiData"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrData"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Solution Architecture
     <div class="chart rounded-div">
       <canvas id="workforceChartSDSA"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiSA"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrSA"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Site Reliability Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartSDSRE"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiSRE"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrSRE"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Cyber Security
     <div class="chart rounded-div">
       <canvas id="workforceChartSDSEC"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiSEC"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrSEC"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Project Management
     <div class="chart rounded-div">
       <canvas id="workforceChartSDPM"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiPM"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrPM"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Technology Analyst
     <div class="chart rounded-div">
       <canvas id="workforceChartSDBA"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiBA"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrBA"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Technology QA
     <div class="chart rounded-div">
       <canvas id="workforceChartSDQA"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiQA"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrQA"></canvas></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section">
+    SD Technology Management
     <div class="chart rounded-div">
       <canvas id="workforceChartSDTM"></canvas>
+    </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvaiTM"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtrTM"></canvas></div>
+            </div>
+        </div>
     </div>
   </div>
   
