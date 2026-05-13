@@ -39,16 +39,6 @@
     </div>
   </div>
     
-  <!-- div class="section">
-    % Plan
-    <div class="chart rounded-div">
-      <canvas id="workforceChartDOPlan"></canvas>
-    </div>
-    <div class="chart rounded-div">
-      <canvas id="workforceChartDOPlanQtr"></canvas>
-    </div>
-  </div -->
-    
   <div class="section">
     Per Resource Type
     <div class="chart rounded-div">
@@ -84,6 +74,52 @@
               <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div></a>
             </div>
             <div class="secright">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+        <div class="secrow">
+            <div class="secleft">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+        <div class="secrow">
+            <div class="secleft">
+              <a href="sd"><div class="chart rounded-div"><canvas id="workforceChartSDQTR"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="sd"><div class="chart rounded-div"><canvas id="workforceChartSDPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+        <div class="secrow">
+            <div class="secleft">
+              <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICQTR"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+        <div class="secrow">
+            <div class="secleft">
+              <a href="tde"><div class="chart rounded-div"><canvas id="workforceChartTDEQTR"></canvas></div></a>
+            </div>
+            <div class="secright">
+              <a href="tde"><div class="chart rounded-div"><canvas id="workforceChartTDEPlanQtr"></canvas></div></a>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <!-- div class="section">
+    Per Department
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div></a>
+            </div>
+            <div class="secright">
               <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div></a>
             </div>
         </div>
@@ -103,6 +139,6 @@
             </div>
         </div>
     </div>
-  </div>
+  </div -->
 
 </body>
