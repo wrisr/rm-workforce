@@ -1,12 +1,12 @@
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
-  <script src="chart-index.js" type="module"></script>
-  <script src="sidenav.js" type="text/javascript"></script>
+  <script src="/js/chart-index.js" type="module"></script>
+  <script src="/js/sidenav.js" type="text/javascript"></script>
 </head>
 
 <body class="body-main">
@@ -22,7 +22,7 @@
   </div>
   
   <div class="subtitle">
-    <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce </span>
+    <span class="submenu" onclick="openNav()"><span style="font-size:30px;">&#9776;</span> DO Workforce TEST </span>
     <span class="subbtn">
       <a class="suburl" href="https://scgo365.sharepoint.com/:x:/r/sites/DO-ResourceManagement781-2026/_layouts/15/Doc.aspx?sourcedoc=%7BE5121AEA-3700-4875-85EF-5058B984DD9E%7D&file=DO%20Workforce%20-%20Master.xlsx&action=default&mobileredirect=true" target="_blank">
         <img src="menu-excel.svg" alt="background">
