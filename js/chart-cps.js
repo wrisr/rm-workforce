@@ -848,9 +848,9 @@ new Chart(ctxavai, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphCPS!A152:A152',
+                datasetLabels: 'GraphCPS!A153:A153',
                 indexLabels: 'GraphCPS!B151:P151',
-                data: 'GraphCPS!B152:P152'
+                data: 'GraphCPS!B153:P153'
             },
             datalabels: {
                 formatter: (value, ctx) => {
@@ -860,7 +860,7 @@ new Chart(ctxavai, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                //formatter: Math.round,
+                formatter: Math.round,
                 color: 'rgba(112, 173, 71)',
                 padding: 0
             }
@@ -883,7 +883,7 @@ new Chart(ctxplanqtr, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1033,7 +1033,7 @@ new Chart(ctxavaibd, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                //formatter: Math.round,
+                formatter: Math.round,
                 color: 'rgba(112, 173, 71)',
                 padding: 0
             }
@@ -1056,7 +1056,7 @@ new Chart(ctxplanqtrbd, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
