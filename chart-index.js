@@ -1796,7 +1796,7 @@ new Chart(ctxplanqtrtde, {
 });
 
 /*
-/* % PLAN - Product
+/* Product
 */
 const ctxproduct = document.getElementById('workforceChartProduct');
 new Chart(ctxproduct, {
@@ -1908,6 +1908,138 @@ new Chart(ctxproduct, {
                 datasetLabels: 'GraphPJ!A2:A6',
                 indexLabels: 'GraphPJ!B1:P1',
                 data: 'GraphPJ!B2:P6'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
+            }
+        }
+    }
+});
+
+
+/*
+/* Project Per Type
+*/
+const ctxpjt = document.getElementById('workforceChartProjectPerTeam');
+new Chart(ctxpjt, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }
+                 /*  , {
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(68, 114, 196)',
+            borderDash: [5, 5],
+            fill: false,
+            order: 2,
+            pointRadius: 0,
+            datalabels: {
+                display: false
+            }
+        }, {
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 3,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
+            borderColor: 'rgba(165, 165, 165)',
+            borderWidth: 2,
+            borderRadius: 10,
+            //borderSkipped: false,
+            backgroundColor: 'rgba(165, 165, 165)',
+            order: 4,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(255, 191, 0)',
+            order: 4,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(91, 155, 213)',
+            order: 4,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(91, 155, 213)',
+            order: 4,
+            stack: 'grouppj'
+        }, {
+            backgroundColor: 'rgba(91, 155, 213)',
+            order: 4,
+            stack: 'grouppj'
+        }*/
+        ]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'SCG Digital Workforce 2026',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphPJ!B21:H21',
+                indexLabels: 'GraphPJ!A22:A26',
+                data: 'GraphPJ!B22:H26'
             },
             datalabels: {
                 formatter: (value, ctx) => {
