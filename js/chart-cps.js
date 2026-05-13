@@ -958,8 +958,8 @@ new Chart(ctxplanqtr, {
 /*
 /* Available BD - Month
 */
-const ctxplanbd = document.getElementById('workforceChartCPSPlanBD');
-new Chart(ctxplanbd, {
+const ctxavaibd = document.getElementById('workforceChartCPSAvaiBD');
+new Chart(ctxavaibd, {
     type: 'bar',
     displayColors: true,
     interaction: {
