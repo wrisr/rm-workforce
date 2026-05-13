@@ -1794,3 +1794,89 @@ new Chart(ctxplanqtrtde, {
         }
     }
 });
+
+/*
+/* % PLAN - Product
+*/
+const ctxproduct = document.getElementById('workforceChartProduct');
+new Chart(ctxproduct, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(112, 173, 71)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'DO Product',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphPJ!A2:A6',
+                indexLabels: 'GraphPJ!B1:P1',
+                data: 'GraphPJ!B2:P6'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(112, 173, 71)',
+                padding: 0
+            }
+        }
+    }
+});
