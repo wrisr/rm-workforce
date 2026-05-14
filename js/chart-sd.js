@@ -1477,7 +1477,7 @@ new Chart(ctxtm, {
 });
 
 /*
-/* % PLAN - Month
+/* Available SD - Month
 */
 const ctxplan = document.getElementById('workforceChartSDPlan');
 new Chart(ctxplan, {
@@ -1506,7 +1506,7 @@ new Chart(ctxplan, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% SD Plan per Month',
+            text: 'Available SD per Month',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1542,9 +1542,9 @@ new Chart(ctxplan, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphSD!A152:A152',
+                datasetLabels: 'GraphSD!A153:A153',
                 indexLabels: 'GraphSD!B151:P151',
-                data: 'GraphSD!B152:P152'
+                data: 'GraphSD!B153:P153'
             },
             datalabels: {
                 formatter: (value, ctx) => {
@@ -1577,7 +1577,7 @@ new Chart(ctxplanqtr, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1641,7 +1641,7 @@ new Chart(ctxplanqtr, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
