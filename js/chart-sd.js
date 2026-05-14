@@ -1479,8 +1479,8 @@ new Chart(ctxtm, {
 /*
 /* Available SD - Month
 */
-const ctxplan = document.getElementById('workforceChartSDPlan');
-new Chart(ctxplan, {
+const ctxavai = document.getElementById('workforceChartSDAvai');
+new Chart(ctxavai, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -1631,6 +1631,178 @@ new Chart(ctxplanqtr, {
                 datasetLabels: 'GraphSD!A156:A156',
                 indexLabels: 'GraphSD!B155:F155',
                 data: 'GraphSD!B156:F156'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(197, 90, 17)',
+                padding: 0
+            }
+        }
+    }
+});
+
+/*
+/* Available Design - Month
+*/
+const ctxavaidesign = document.getElementById('workforceChartSDAvaiDesign');
+new Chart(ctxavaidesign, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(112, 173, 71)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'Available Design per Month',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphSD!A54:A54',
+                indexLabels: 'GraphSD!B51:P51',
+                data: 'GraphSD!B54:P54'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(112, 173, 71)',
+                padding: 0
+            }
+        }
+    }
+});
+
+/*
+/* % Design PLAN - QTR
+*/
+const ctxplanqtrdesign = document.getElementById('workforceChartSDPlanQtrDesign');
+new Chart(ctxplanqtrdesign, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(197, 90, 17)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: '% Design Plan per Quarter',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphSD!A56:A56',
+                indexLabels: 'GraphSD!B55:F55',
+                data: 'GraphSD!B56:F56'
             },
             datalabels: {
                 formatter: (value, ctx) => {
