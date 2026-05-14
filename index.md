@@ -36,7 +36,13 @@
         Executive Summary
       </div>
       <div class="chartbody">
-        <p>- 1</p>
+        <p>1</p>
+      </div>
+      <div class="chartsubbody">
+        1.1<br>
+        1.2<br>
+      </div>
+      <div class="chartbody">
         <p>- 2</p>
         <p>- 3</p>
         <p>...</p>
