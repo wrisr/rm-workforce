@@ -40,7 +40,7 @@
     <div class="secwrapper">
         <div class="secrow">
             <div class="secleft">
-              <div class="chart rounded-div"><canvas id="workforceChartSDPlan"></canvas></div>
+              <div class="chart rounded-div"><canvas id="workforceChartSDAvai"></canvas></div>
             </div>
             <div class="secright">
               <div class="chart rounded-div"><canvas id="workforceChartSDPlanQtr"></canvas></div>
