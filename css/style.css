@@ -154,7 +154,7 @@ h1 a {
   padding: 0px 32px 20px 32px;
 }
 
-.chartheader p {
+.chartheader {
   font-size: 20px;
   color: #616161,
   font-weight: bold;
@@ -162,13 +162,13 @@ h1 a {
   display: flex;
   justify-content: center;
   align-items: center;
-  backgroun-color: green;
+  background-color: green;
 }
-.chartbody p {
+.chartbody {
   font-size: 16px;
   color: #616161,
   font-weight: normal;
-  backgroun-color: yellow;
+  background-color: yellow;
 }
 
 .chart {
