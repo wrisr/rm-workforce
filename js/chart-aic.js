@@ -1250,3 +1250,176 @@ new Chart(ctxplanqtr, {
         }
     }
 });
+
+
+/*
+/* Available R&A - Month
+*/
+const ctxavaira = document.getElementById('workforceChartAICAvaiRA');
+new Chart(ctxavaira, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(112, 173, 71)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'Available R&A per Month',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphAIC!A54:A54',
+                indexLabels: 'GraphAIC!B51:P51',
+                data: 'GraphAIC!B54:P54'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(112, 173, 71)',
+                padding: 0
+            }
+        }
+    }
+});
+
+/*
+/* % R&A PLAN - QTR
+*/
+const ctxplanqtrra = document.getElementById('workforceChartAICPlanQtrRA');
+new Chart(ctxplanqtrra, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(197, 90, 17)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: '% R&A Plan per Quarter',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphAIC!A56:A56',
+                indexLabels: 'GraphAIC!B55:F55',
+                data: 'GraphAIC!B56:F56'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(197, 90, 17)',
+                padding: 0
+            }
+        }
+    }
+});
