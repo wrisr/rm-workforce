@@ -983,8 +983,8 @@ new Chart(ctxcoe, {
 /*
 /* % PLAN - Month
 */
-const ctxplan = document.getElementById('workforceChartTDEPlan');
-new Chart(ctxplan, {
+const ctxavai = document.getElementById('workforceChartTDEAvai');
+new Chart(ctxavai, {
     type: 'bar',
     displayColors: true,
     interaction: {
@@ -1010,7 +1010,7 @@ new Chart(ctxplan, {
         title: {
             display: true,
             fontSize: 14,
-            text: '% TDE Plan per Month',
+            text: 'Available TDE per Month',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1081,7 +1081,7 @@ new Chart(ctxplanqtr, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(112, 173, 71)',
+            borderColor: 'rgba(197, 90, 17)',
             fill: false,
             order: 1,
             datalabels: {
@@ -1145,7 +1145,7 @@ new Chart(ctxplanqtr, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'rgba(197, 90, 17)',
                 padding: 0
             }
         }
