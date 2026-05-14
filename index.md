@@ -36,16 +36,20 @@
         Executive Summary
       </div>
       <div class="chartbody">
-        <p>1</p>
-      </div>
-      <div class="chartsubbody">
-        1.1<br>
-        1.2<br>
+        1
+        <div class="chartsubbody">
+          1.1<br>
+          1.2
+        </div>
       </div>
       <div class="chartbody">
-        <p>- 2</p>
-        <p>- 3</p>
-        <p>...</p>
+        - 2
+      </div>
+      <div class="chartbody">
+        - 3
+      </div>
+      <div class="chartbody">
+        ...
       </div>
     </div>
     <div class="chart rounded-div">
