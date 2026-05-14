@@ -31,6 +31,16 @@
   </div>
   
   <div class="section">
+    Executive Summary
+    <div class="chart rounded-div">
+      - 1
+      - 2
+      - 3
+      ...
+    </div>
+  </div>
+  
+  <div class="section">
     <div class="chart rounded-div">
       <canvas id="workforceChartDO"></canvas>
     </div>
