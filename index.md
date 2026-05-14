@@ -33,7 +33,7 @@
   <div class="section">
     <div class="chart rounded-div">
       <div class="chartheader">
-        <p>Executive Summary</p>
+        Executive Summary
       </div>
       <div class="chartbody">
         <p>- 1</p>
