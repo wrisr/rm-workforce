@@ -1046,9 +1046,9 @@ new Chart(ctxavai, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphTDE!A152:A152',
+                datasetLabels: 'GraphTDE!A153:A153',
                 indexLabels: 'GraphTDE!B151:P151',
-                data: 'GraphTDE!B152:P152'
+                data: 'GraphTDE!B153:P153'
             },
             datalabels: {
                 formatter: (value, ctx) => {
