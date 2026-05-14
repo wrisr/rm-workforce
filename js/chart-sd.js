@@ -2930,7 +2930,7 @@ new Chart(ctxavaiqa, {
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphSD!A124:A124',
                 indexLabels: 'GraphSD!B121:P121',
-                data: 'GraphSD!B54:P54'
+                data: 'GraphSD!B124:P124'
             },
             datalabels: {
                 formatter: (value, ctx) => {
@@ -3016,7 +3016,7 @@ new Chart(ctxplanqtrqa, {
                 //rowMapping: 'dataset',
                 datasetLabels: 'GraphSD!A126:A126',
                 indexLabels: 'GraphSD!B125:F125',
-                data: 'GraphSD!B56:F56'
+                data: 'GraphSD!B126:F126'
             },
             datalabels: {
                 formatter: (value, ctx) => {
