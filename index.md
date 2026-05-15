@@ -45,8 +45,8 @@
       <div class="chartbody">
         - 2 <a href="#index-dept">link to Per Department</a>
         <div class="chartsubbody">
-          2.1 <a href="#index-dept-cps">link to Per Resource Type</a><br>
-          2.2 <a href="#index-dept=pse">link to Per Resource Type</a>
+          2.1 <a href="#index-dept-cps">link to Per Resource Type : CPS</a><br>
+          2.2 <a href="#index-dept-pse">link to Per Resource Type : PSE</a>
         </div>
       </div>
       <div class="chartbody">
