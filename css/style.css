@@ -221,4 +221,7 @@ h1 a {
   font-family: 'MindSans', sans-serif;
   font-size: 10px;
   text-align: center;
+  width:100%;
+  border:none;
+  height:100px;
 }
