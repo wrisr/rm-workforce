@@ -36,14 +36,18 @@
         Executive Summary
       </div>
       <div class="chartbody">
-        1
+        1 <a href="#index-resource">link to Per Resource Type</a>
         <div class="chartsubbody">
           1.1<br>
           1.2
         </div>
       </div>
       <div class="chartbody">
-        - 2
+        - 2 <a href="#index-dept">link to Per Department</a>
+        <div class="chartsubbody">
+          2.1 <a href="#index-dept-cps">link to Per Resource Type</a><br>
+          2.2 <a href="#index-dept=pse">link to Per Resource Type</a>
+        </div>
       </div>
       <div class="chartbody">
         - 3
@@ -70,7 +74,7 @@
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="index-resource">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartDOPR"></canvas>
@@ -83,10 +87,10 @@
     </div>
   </div>
   
-  <div class="section">
+  <div class="section" id="index-dept">
     Per Department
     <div class="secwrapper">
-        <div class="secrow">
+        <div class="secrow" id="index-dept-cps">
             <div class="secleft">
               <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSQTR"></canvas></div></a>
             </div>
@@ -94,7 +98,7 @@
               <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartCPSPlanQtr"></canvas></div></a>
             </div>
         </div>
-        <div class="secrow">
+        <div class="secrow" id="index-dept-pse">
             <div class="secleft">
               <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEQTR"></canvas></div></a>
             </div>
