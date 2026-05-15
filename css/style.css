@@ -152,6 +152,7 @@ h1 a {
   font-weight: bold;
   font-size: 20px;
   padding: 0px 32px 20px 32px;
+  scroll-margin-top: 100px;
 }
 
 .chart {
@@ -195,6 +196,7 @@ h1 a {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  scroll-margin-top: 200px;
 }
 .secleft {
   display: flex;
