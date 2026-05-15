@@ -38,7 +38,7 @@
       <div class="chartbody">
         1 <a href="#index-resource">link to Per Resource Type</a>
         <div class="chartsubbody">
-          1.1<br>
+          1.1 <a href="#index-main-avaiplan">link to Avai / Plan</a><br>
           1.2
         </div>
       </div>
@@ -63,7 +63,7 @@
       <canvas id="workforceChartDOQTR"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow">
+        <div class="secrow" id="index-main-avaiplan">
             <div class="secleft">
               <div class="chart rounded-div"><canvas id="workforceChartDOAvai"></canvas></div>
             </div>
