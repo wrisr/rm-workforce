@@ -147,6 +147,9 @@
     </div>
   </div>
 
+  <footer>
+    <iframe src="footer.html" style="width:100%; border:none; height:100px;"></iframe>
+  </footer>
+
 </body>
 
-<iframe src="footer.html" style="width:100%; border:none; height:100px;"></iframe>
