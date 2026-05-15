@@ -149,4 +149,4 @@
 
 </body>
 
-<?php include 'footer.html'; ?>
+<iframe src="footer.html" style="width:100%; border:none; height:100px;"></iframe>
