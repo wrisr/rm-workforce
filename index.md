@@ -148,3 +148,5 @@
   </div>
 
 </body>
+
+<?php include 'footer.html'; ?>
