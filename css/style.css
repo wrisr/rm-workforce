@@ -3,10 +3,6 @@
   src: url("MindSansVF.ttf") format('truetype');
 }
 
-body {
-  font-family: 'MindSans', sans-serif;
-}
-
 /*
 **
 ** header
@@ -15,7 +11,7 @@ body {
 
 h1 {
   color: #ffffff;
-  /* font-family: 'MindSans', sans-serif; */
+  font-family: 'MindSans', sans-serif;
   font-weight: bold;
   font-size: 16px;
   height: 48px;
@@ -40,7 +36,7 @@ h1 a {
   background-color: #f5f5f5;   /* Sets page background */
   /* background-color: red;   /* Sets page background */
   color: #455A64;               /* Sets text color */
-  /* font-family: 'MindSans', Arial, sans-serif; */
+  font-family: 'MindSans', sans-serif;
 }
 
 /*
@@ -58,7 +54,7 @@ h1 a {
   transition: 0.5s;
   padding-top: 60px;
   font-size: 14px;
-  /* font-family: 'MindSans', Arial, sans-serif; */
+  font-family: 'MindSans', sans-serif;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -97,7 +93,7 @@ h1 a {
 */
 
 .subtitle {
-  /* font-family: 'MindSans', Arial, sans-serif; */
+  font-family: 'MindSans', sans-serif;
   font-weight: bold;
   font-size: 20px;
   padding: 0px 32px 0px 32px;
@@ -152,7 +148,7 @@ h1 a {
 
 .section {
   color: #424242;
-  /* font-family: 'MindSans', Arial, sans-serif; */
+  font-family: 'MindSans', sans-serif;
   font-weight: bold;
   font-size: 20px;
   padding: 0px 32px 20px 32px;
@@ -163,7 +159,7 @@ h1 a {
 .chart {
   color: #616161;
   font-weight: normal;
-  /* font-family: 'MindSans', Arial, sans-serif; */
+  font-family: 'MindSans', sans-serif;
   margin: 20px 0px 0px 0px;
 }
 .chartheader {
@@ -229,7 +225,7 @@ iframe {
 }
 .footer {
   color: #9E9E9E;
-  /* font-family: 'MindSans', sans-serif; */
+  font-family: 'MindSans', sans-serif;
   font-size: 10px;
   text-align: center;
 }
