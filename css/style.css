@@ -219,7 +219,7 @@ h1 a {
 iframe {
   width:100%;
   border:none;
-  /* height:100px;  */
+  height:100px;
 }
 
 .footer {
