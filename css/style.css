@@ -216,13 +216,16 @@ h1 a {
   margin-left: 10px;
 }
 
+iframe {
+  width:100%;
+  border:none;
+  height:100px;
+}
+
 .footer {
   color: #424242;
   font-family: 'MindSans', sans-serif;
   font-size: 10px;
   text-align: center;
-  width:100%;
-  border:none;
-  height:100px;
   background-color: blue;
 }
