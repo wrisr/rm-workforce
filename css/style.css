@@ -229,7 +229,7 @@ iframe {
 }
 .footer {
   color: #9E9E9E;
-  font-family: 'MindSans', sans-serif;
+  /* font-family: 'MindSans', sans-serif; */
   font-size: 10px;
   text-align: center;
 }
