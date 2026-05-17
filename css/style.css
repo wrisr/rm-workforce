@@ -223,6 +223,9 @@ iframe {
   border:none;
   height:40px;
 }
+hr {
+  background-color: red;
+}
 .footer {
   color: #9E9E9E;
   font-family: 'MindSans', sans-serif;
