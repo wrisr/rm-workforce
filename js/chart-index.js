@@ -2199,16 +2199,16 @@ new Chart(ctxrvn, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(0, 151, 67)',
+            borderColor: 'rgba(189, 215, 238)',
             borderWidth: 2,
             borderRadius: 10,
-            backgroundColor: 'rgba(0, 151, 67)'
+            backgroundColor: 'rgba(189, 215, 238)'
         }, {
-            backgroundColor: 'rgba(199, 89, 18)'
+            backgroundColor: 'rgba(248, 203, 173)'
         }, {
-            backgroundColor: 'rgba(2, 125, 56)'
+            backgroundColor: 'rgba(155, 194, 230)'
         }, {
-            backgroundColor: 'rgba(131, 60, 11)'
+            backgroundColor: 'rgba(244, 176, 132)'
         }]
     },
     plugins: [ChartDataSource],
