@@ -2199,9 +2199,6 @@ new Chart(ctxrvn, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
             backgroundColor: 'rgba(165, 165, 165)'
         }, {
             backgroundColor: 'rgba(255, 191, 0)'
