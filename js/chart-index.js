@@ -2203,17 +2203,19 @@ new Chart(ctxrvn, {
             x: {
                 stacked: true,
                 title: {
-                  color: 'green',
-                  display: true,
-                  text: 'Month'
+                    color: 'green',
+                    display: true,
+                    fontSize: 20,
+                    text: 'Month'
                 }
             },
             y: {
                 beginAtZero: true,
                 title: {
-                  color: 'red',
-                  display: true,
-                  text: 'Month'
+                    color: 'red',
+                    display: true,
+                    fontSize: 20,
+                    text: 'Month'
                 }
             }
         },
