@@ -2170,19 +2170,19 @@ new Chart(ctxrvn, {
         }, {
             backgroundColor: 'rgba(165, 165, 165)',
             order: 3,
-            stack: 'groupps'
+            stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(255, 191, 0)',
-            order: 3,
-            stack: 'groupps'
+            order: 4,
+            stack: 'groupactual'
         }, {
             backgroundColor: 'rgba(91, 155, 213)',
-            order: 4,
-            stack: 'grouppd'
+            order: 3,
+            stack: 'groupplan'
         }, {
             backgroundColor: 'rgba(113, 173, 71)',
             order: 4,
-            stack: 'grouppd'
+            stack: 'groupactual'
         }]
     },
     plugins: [ChartDataSource],
@@ -2388,7 +2388,7 @@ new Chart(ctxrvnpd, {
         title: {
             display: true,
             fontSize: 14,
-            text: 'Project Revenue 2026',
+            text: 'Product Revenue 2026',
             padding: 20,
             fontColor: '#616161',
         },
