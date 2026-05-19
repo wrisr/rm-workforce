@@ -2131,7 +2131,7 @@ new Chart(ctxpa, {
 
 
 /*
-/* Project PLAN vs ACTUAL Revenue - workforceChartProjectRevenue
+/* Project PLAN vs ACTUAL Revenue
 */
 
 const ctxrvn = document.getElementById('workforceChartProjectRevenue');
@@ -2168,13 +2168,21 @@ new Chart(ctxrvn, {
                 padding: 4
             }
         }, {
-            backgroundColor: 'rgba(165, 165, 165)'
+            backgroundColor: 'rgba(165, 165, 165)',
+            order: 3,
+            stack: 'groupps'
         }, {
-            backgroundColor: 'rgba(255, 191, 0)'
+            backgroundColor: 'rgba(255, 191, 0)',
+            order: 3,
+            stack: 'groupps'
         }, {
-            backgroundColor: 'rgba(91, 155, 213)'
+            backgroundColor: 'rgba(91, 155, 213)',
+            order: 4,
+            stack: 'grouppd'
         }, {
-            backgroundColor: 'rgba(113, 173, 71)'
+            backgroundColor: 'rgba(113, 173, 71)',
+            order: 4,
+            stack: 'grouppd'
         }]
     },
     plugins: [ChartDataSource],
@@ -2212,9 +2220,9 @@ new Chart(ctxrvn, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphPJ!A32:A37',
+                datasetLabels: 'GraphPJ!A32:A33',
                 indexLabels: 'GraphPJ!B31:M31',
-                data: 'GraphPJ!B32:M37'
+                data: 'GraphPJ!B32:M33'
             },
             datalabels: {
                 formatter: (value, ctx) => {
@@ -2226,6 +2234,107 @@ new Chart(ctxrvn, {
                 borderRadius: 4,
                 //formatter: Math.round,
                 color: 'white',
+                padding: 0
+            }
+        }
+    }
+});
+
+
+
+/*
+/* Project PLAN vs ACTUAL Revenue
+*/
+
+const ctxrvnpj = document.getElementById('workforceChartProjectRevenuePS');
+new Chart(ctxrvnpj, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, 
+        {
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(6, 176, 80)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'Project Revenue 2026',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphPJ!A34:A35',
+                indexLabels: 'GraphPJ!B31:M31',
+                data: 'GraphPJ!B34:M35'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(112, 173, 71)',
                 padding: 0
             }
         }
