@@ -2109,7 +2109,7 @@ new Chart(ctxpa, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'SCG Digital Workforce 2026',
+            text: 'Utilization vs Workforce 2026',
             padding: 20,
             fontColor: '#616161',
         },
