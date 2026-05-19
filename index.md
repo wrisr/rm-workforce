@@ -55,8 +55,8 @@
       <div class="chartbody">
         ...
       </div>
-    </div>
-    <div class="chart rounded-div">
+    <!-- /div>
+    <div class="chart rounded-div" -->
       <canvas id="workforceChartDOPlanActual"></canvas>
     </div>
     <div class="chart rounded-div">
