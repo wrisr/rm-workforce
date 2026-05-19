@@ -150,6 +150,13 @@
     </div>
   </div>
   
+  <div class="section">
+    Project Revenue
+    <div class="chart rounded-div">
+      <canvas id="workforceChartProjectRevenue"></canvas>
+    </div>
+  </div>
+  
   <iframe src="footer.html"></iframe>
 
 </body>
