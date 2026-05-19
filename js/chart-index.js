@@ -2241,9 +2241,8 @@ new Chart(ctxrvn, {
 });
 
 
-
 /*
-/* Project PLAN vs ACTUAL Revenue
+/* PS PLAN vs ACTUAL Revenue
 */
 
 const ctxrvnpj = document.getElementById('workforceChartProjectRevenuePS');
@@ -2324,6 +2323,106 @@ new Chart(ctxrvnpj, {
                 datasetLabels: 'GraphPJ!A34:A35',
                 indexLabels: 'GraphPJ!B31:M31',
                 data: 'GraphPJ!B34:M35'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                formatter: Math.round,
+                color: 'rgba(112, 173, 71)',
+                padding: 0
+            }
+        }
+    }
+});
+
+
+/*
+/* PD PLAN vs ACTUAL Revenue
+*/
+
+const ctxrvnpd = document.getElementById('workforceChartProjectRevenuePD');
+new Chart(ctxrvnpd, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, 
+        {
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(6, 176, 80)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 14,
+            text: 'Project Revenue 2026',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 10,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphPJ!A36:A37',
+                indexLabels: 'GraphPJ!B31:M31',
+                data: 'GraphPJ!B36:M37'
             },
             datalabels: {
                 formatter: (value, ctx) => {
