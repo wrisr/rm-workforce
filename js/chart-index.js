@@ -2368,7 +2368,7 @@ new Chart(ctxrvnpd, {
             datalabels: {
                 align: 'end',
                 anchor: 'end',
-                padding: 4
+                padding: 2
             }
         }, 
         {
@@ -2381,7 +2381,7 @@ new Chart(ctxrvnpd, {
             datalabels: {
                 align: 'end',
                 anchor: 'end',
-                padding: 4
+                padding: 2
             }
         }]
     },
