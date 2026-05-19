@@ -1912,9 +1912,6 @@ new Chart(ctxpjt, {
     data: {
         datasets: [
         {
-            borderColor: 'rgba(68, 115, 196)',
-            borderWidth: 2,
-            borderRadius: 10,
             backgroundColor: 'rgba(68, 115, 196)',
             order: 2,
             stack: 'grouppj'
