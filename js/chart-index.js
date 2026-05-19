@@ -2165,8 +2165,8 @@ new Chart(ctxpa, {
 /* Project PLAN vs ACTUAL Revenue - workforceChartProjectRevenue
 */
 
-const ctxqtr = document.getElementById('workforceChartProjectRevenue');
-new Chart(ctxqtr, {
+const ctxrvn = document.getElementById('workforceChartProjectRevenue');
+new Chart(ctxrvn, {
     type: 'bar',
     displayColors: true,
     interaction: {
