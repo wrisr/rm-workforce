@@ -155,6 +155,16 @@
     <div class="chart rounded-div">
       <canvas id="workforceChartProjectRevenue"></canvas>
     </div>
+    <div class="secwrapper">
+        <div class="secrow">
+            <div class="secleft">
+              <div class="chart rounded-div"><canvas id="workforceChartProjectRevenuePS"></canvas></div>
+            </div>
+            <div class="secright">
+              <div class="chart rounded-div"><canvas id="workforceChartProjectRevenuePD"></canvas></div>
+            </div>
+        </div>
+    </div>
   </div>
   
   <iframe src="footer.html"></iframe>
