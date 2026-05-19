@@ -60,10 +60,6 @@ new Chart(ctx, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
@@ -182,10 +178,6 @@ new Chart(ctxqtr, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
@@ -636,10 +628,6 @@ new Chart(ctxqtrcps, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
@@ -757,10 +745,6 @@ new Chart(ctxqtrpse, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
@@ -878,10 +862,6 @@ new Chart(ctxqtrsd, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
@@ -999,10 +979,6 @@ new Chart(ctxqtraic, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
@@ -1120,10 +1096,6 @@ new Chart(ctxqtrtde, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
-            borderWidth: 2,
-            borderRadius: 10,
-            //borderSkipped: false,
             backgroundColor: 'rgba(165, 165, 165)',
             order: 4,
             stack: 'groupplan'
