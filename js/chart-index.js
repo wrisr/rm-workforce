@@ -2336,7 +2336,7 @@ new Chart(ctxrvnpj, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                formatter: Math.round,
+                //formatter: Math.round,
                 color: 'white',
                 padding: 0
             }
@@ -2438,7 +2438,7 @@ new Chart(ctxrvnpd, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                formatter: Math.round,
+                //formatter: Math.round,
                 color: 'white',
                 padding: 0
             }
