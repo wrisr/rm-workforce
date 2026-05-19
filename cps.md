@@ -31,7 +31,7 @@
   </div>
   
   <div class="section">
-    <!-- start text -->
+    <!-- start summary -->
     <div class="chart rounded-div">
       <div class="chartheaderleft">
         CPS Key Summary
@@ -57,7 +57,7 @@
         ...
       </div>
     </div>
-    <!-- end text -->
+    <!-- end summary -->
     <div class="chart rounded-div">
       <canvas id="workforceChartCPS"></canvas>
     </div>
