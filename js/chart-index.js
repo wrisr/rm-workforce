@@ -2079,7 +2079,7 @@ new Chart(ctxpa, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(6, 176, 80)',
-            backgroundColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(6, 176, 80)',
             fill: false,
             order: 3,
             datalabels: {
@@ -2095,6 +2095,7 @@ new Chart(ctxpa, {
             fill: false,
             order: 2,
             pointRadius: 0,
+            color: 'red',
             datalabels: {
                 align: 'end',
                 anchor: 'end',
@@ -2150,7 +2151,7 @@ new Chart(ctxpa, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                //formatter: Math.round,
+                formatter: Math.round,
                 color: 'white',
                 padding: 0
             }
