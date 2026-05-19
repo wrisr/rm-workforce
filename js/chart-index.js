@@ -2201,7 +2201,12 @@ new Chart(ctxrvn, {
         responsive: true,
         scales: {
             x: {
-                stacked: true
+                stacked: true,
+                title: {
+                  color: 'green',
+                  display: true,
+                  text: 'Month'
+                }
             },
             y: {
                 beginAtZero: true,
