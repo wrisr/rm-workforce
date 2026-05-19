@@ -2204,7 +2204,12 @@ new Chart(ctxrvn, {
                 stacked: true
             },
             y: {
-                beginAtZero: true
+                beginAtZero: true,
+                title: {
+                  color: 'red',
+                  display: true,
+                  text: 'Month'
+                }
             }
         },
         plugins: {
