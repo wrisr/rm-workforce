@@ -2148,6 +2148,7 @@ new Chart(ctxrvn, {
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
             backgroundColor: 'rgba(237, 125, 50)',
+            pointRadius: 0,
             fill: false,
             order: 1,
             datalabels: {
@@ -2160,6 +2161,7 @@ new Chart(ctxrvn, {
             borderWidth: 2,
             borderColor: 'rgba(6, 176, 80)',
             backgroundColor: 'rgba(6, 176, 80)',
+            pointRadius: 0,
             fill: false,
             order: 2,
             datalabels: {
