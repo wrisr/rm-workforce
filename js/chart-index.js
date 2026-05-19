@@ -2202,18 +2202,13 @@ new Chart(ctxrvn, {
             borderColor: 'rgba(0, 151, 67)',
             borderWidth: 2,
             borderRadius: 10,
-            //borderSkipped: false,
-            backgroundColor: 'rgba(0, 151, 67)',
-            order: 4
+            backgroundColor: 'rgba(0, 151, 67)'
         }, {
-            backgroundColor: 'rgba(199, 89, 18)',
-            order: 4
+            backgroundColor: 'rgba(199, 89, 18)'
         }, {
-            backgroundColor: 'rgba(2, 125, 56)',
-            order: 4
+            backgroundColor: 'rgba(2, 125, 56)'
         }, {
-            backgroundColor: 'rgba(131, 60, 11)',
-            order: 4
+            backgroundColor: 'rgba(131, 60, 11)'
         }]
     },
     plugins: [ChartDataSource],
@@ -2243,7 +2238,7 @@ new Chart(ctxrvn, {
                 stacked: true
             },
             y: {
-                stacked: true,
+                text: 'MB',
                 beginAtZero: true
             }
         },
