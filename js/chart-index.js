@@ -1828,7 +1828,7 @@ new Chart(ctxproduct, {
             borderColor: 'rgba(91, 155, 213)',
             backgroundColor: 'rgba(91, 155, 213)',
             fill: false,
-            order: 4,
+            order: 5,
             datalabels: {
                 align: 'end',
                 anchor: 'end',
