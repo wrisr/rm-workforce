@@ -2159,3 +2159,115 @@ new Chart(ctxpa, {
         }
     }
 });
+
+
+/*
+/* Project PLAN vs ACTUAL Revenue - workforceChartProjectRevenue
+*/
+
+const ctxqtr = document.getElementById('workforceChartProjectRevenue');
+new Chart(ctxqtr, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 2,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
+            borderColor: 'rgba(165, 165, 165)',
+            borderWidth: 2,
+            borderRadius: 10,
+            //borderSkipped: false,
+            backgroundColor: 'rgba(165, 165, 165)',
+            order: 4
+        }, {
+            backgroundColor: 'rgba(255, 191, 0)',
+            order: 4
+        }, {
+            backgroundColor: 'rgba(91, 155, 213)',
+            order: 4
+        }, {
+            backgroundColor: 'red',
+            order: 4
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Project/Product Revenue 2026',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphPJ!A32:A37',
+                indexLabels: 'GraphPJ!B31:M31',
+                data: 'GraphPJ!B32:M37'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
+            }
+        }
+    }
+});
