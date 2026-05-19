@@ -2220,9 +2220,9 @@ new Chart(ctxrvn, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphPJ!A32:A33',
+                datasetLabels: 'GraphPJ!A32:A37',
                 indexLabels: 'GraphPJ!B31:M31',
-                data: 'GraphPJ!B32:M33'
+                data: 'GraphPJ!B32:M37'
             },
             datalabels: {
                 formatter: (value, ctx) => {
