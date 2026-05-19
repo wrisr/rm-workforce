@@ -31,10 +31,10 @@
   </div>
   
   <div class="section">
-    <!-- start text -->
+    <!-- start summary -->
     <div class="chart rounded-div">
       <div class="chartheaderleft">
-        AIC Key Summary
+        PSE Key Summary
       </div>
       <div class="chartbody">
         1 <a href="index#index-resource">link to Per Resource Type</a>
@@ -57,7 +57,7 @@
         ...
       </div>
     </div>
-    <!-- end text -->
+    <!-- end summary -->
     <div class="chart rounded-div">
       <canvas id="workforceChartPSE"></canvas>
     </div>
