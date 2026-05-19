@@ -2258,7 +2258,7 @@ new Chart(ctxrvn, {
                     return context.dataset.backgroundColor;
                 },
                 borderRadius: 4,
-                formatter: Math.round,
+                //formatter: Math.round,
                 color: 'white',
                 padding: 0
             }
