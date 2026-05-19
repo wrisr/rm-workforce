@@ -2202,12 +2202,16 @@ new Chart(ctxrvn, {
             borderColor: 'rgba(189, 215, 238)',
             borderWidth: 2,
             borderRadius: 10,
+            borderDash: [0, 5],
             backgroundColor: 'rgba(189, 215, 238)'
         }, {
+            borderDash: [0, 5],
             backgroundColor: 'rgba(248, 203, 173)'
         }, {
+            borderDash: [5, 5],
             backgroundColor: 'rgba(155, 194, 230)'
         }, {
+            borderDash: [5, 5],
             backgroundColor: 'rgba(244, 176, 132)'
         }]
     },
