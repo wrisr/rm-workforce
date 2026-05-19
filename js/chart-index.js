@@ -2177,8 +2177,8 @@ new Chart(ctxrvn, {
         datasets: [{
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(68, 114, 196)',
-            backgroundColor: 'rgba(68, 114, 196)',
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 1,
             datalabels: {
@@ -2189,8 +2189,8 @@ new Chart(ctxrvn, {
         }, {
             type: 'line',
             borderWidth: 2,
-            borderColor: 'rgba(237, 125, 50)',
-            backgroundColor: 'rgba(237, 125, 50)',
+            borderColor: 'rgba(6, 176, 80)',
+            backgroundColor: 'rgba(6, 176, 80)',
             fill: false,
             order: 2,
             datalabels: {
@@ -2199,20 +2199,16 @@ new Chart(ctxrvn, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(189, 215, 238)',
+            borderColor: 'rgba(235, 110, 25)',
             borderWidth: 2,
             borderRadius: 10,
-            borderDash: [0, 5],
-            backgroundColor: 'rgba(189, 215, 238)'
+            backgroundColor: 'rgba(235, 110, 25)'
         }, {
-            borderDash: [0, 5],
-            backgroundColor: 'rgba(248, 203, 173)'
+            backgroundColor: 'rgba(0, 151, 67)'
         }, {
-            borderDash: [5, 5],
-            backgroundColor: 'rgba(155, 194, 230)'
+            backgroundColor: 'rgba(215, 99, 20)'
         }, {
-            borderDash: [5, 5],
-            backgroundColor: 'rgba(244, 176, 132)'
+            backgroundColor: 'rgba(2, 125, 56)'
         }]
     },
     plugins: [ChartDataSource],
