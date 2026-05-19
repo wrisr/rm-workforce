@@ -2138,9 +2138,9 @@ new Chart(ctxpa, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphAll!A2:A7',
-                indexLabels: 'GraphAll!B1:P1',
-                data: 'GraphAll!B2:P7'
+                datasetLabels: 'GraphAll!A162:A165',
+                indexLabels: 'GraphAll!B161:P161',
+                data: 'GraphAll!B162:P165'
             },
             datalabels: {
                 formatter: (value, ctx) => {
