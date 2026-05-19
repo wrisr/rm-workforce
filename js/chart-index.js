@@ -2238,7 +2238,6 @@ new Chart(ctxrvn, {
                 stacked: true
             },
             y: {
-                text: 'MB',
                 beginAtZero: true
             }
         },
