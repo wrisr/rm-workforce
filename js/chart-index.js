@@ -2258,6 +2258,7 @@ new Chart(ctxrvnpj, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 1,
             datalabels: {
@@ -2270,6 +2271,7 @@ new Chart(ctxrvnpj, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(6, 176, 80)',
+            backgroundColor: 'rgba(6, 176, 80)',
             fill: false,
             order: 1,
             datalabels: {
@@ -2333,7 +2335,7 @@ new Chart(ctxrvnpj, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'white',
                 padding: 0
             }
         }
@@ -2358,6 +2360,7 @@ new Chart(ctxrvnpd, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
             fill: false,
             order: 1,
             datalabels: {
@@ -2370,6 +2373,7 @@ new Chart(ctxrvnpd, {
             type: 'line',
             borderWidth: 2,
             borderColor: 'rgba(6, 176, 80)',
+            backgroundColor: 'rgba(6, 176, 80)',
             fill: false,
             order: 1,
             datalabels: {
@@ -2433,7 +2437,7 @@ new Chart(ctxrvnpd, {
                 },
                 borderRadius: 4,
                 formatter: Math.round,
-                color: 'rgba(112, 173, 71)',
+                color: 'white',
                 padding: 0
             }
         }
