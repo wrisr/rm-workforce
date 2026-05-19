@@ -2201,31 +2201,11 @@ new Chart(ctxrvn, {
         responsive: true,
         scales: {
             x: {
-                stacked: true,
-                title: {
-                    color: 'green',
-                    display: true,
-                    fontSize: 20,
-                    text: 'Month'
-                }
+                stacked: true
             },
             y: {
-                beginAtZero: true,
-                title: {
-                    color: 'red',
-                    display: true,
-                    fontSize: 20,
-                    text: 'Month'
-                }
-            },
-            yAxes: [{
-              id: 'y',
-              display: true,
-              title: {
-                display: true,
-                text: 'value'
-              }
-            }]
+                beginAtZero: true
+            }
         },
         plugins: {
             datasource: {
