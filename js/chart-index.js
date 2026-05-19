@@ -2091,6 +2091,7 @@ new Chart(ctxpa, {
             type: 'line',
             borderWidth: 1,
             borderColor: 'rgba(132, 60, 11)',
+            backgroundColor: 'rgba(132, 60, 11)',
             borderDash: [5, 5],
             fill: false,
             order: 2,
