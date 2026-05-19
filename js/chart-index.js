@@ -2199,20 +2199,20 @@ new Chart(ctxrvn, {
                 padding: 4
             }
         }, {
-            borderColor: 'rgba(165, 165, 165)',
+            borderColor: 'rgba(0, 151, 67)',
             borderWidth: 2,
             borderRadius: 10,
             //borderSkipped: false,
-            backgroundColor: 'rgba(165, 165, 165)',
+            backgroundColor: 'rgba(0, 151, 67)',
             order: 4
         }, {
-            backgroundColor: 'rgba(255, 191, 0)',
+            backgroundColor: 'rgba(199, 89, 18)',
             order: 4
         }, {
-            backgroundColor: 'rgba(91, 155, 213)',
+            backgroundColor: 'rgba(2, 125, 56)',
             order: 4
         }, {
-            backgroundColor: 'red',
+            backgroundColor: 'rgba(131, 60, 11)',
             order: 4
         }]
     },
