@@ -2217,7 +2217,15 @@ new Chart(ctxrvn, {
                     fontSize: 20,
                     text: 'Month'
                 }
-            }
+            },
+            yAxes: [{
+              id: 'y',
+              display: true,
+              title: {
+                display: true,
+                text: 'value'
+              }
+            }]
         },
         plugins: {
             datasource: {
