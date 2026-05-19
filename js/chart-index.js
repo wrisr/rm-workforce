@@ -2036,3 +2036,124 @@ new Chart(ctxpjt, {
         }
     }
 });
+
+
+/*
+/* PLAN vs ACTUAL
+*/
+
+const ctxpa = document.getElementById('workforceChartDOPlanActual');
+new Chart(ctxpa, {
+    type: 'bar',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(68, 114, 196)',
+            backgroundColor: 'rgba(68, 114, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(237, 125, 50)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 3,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
+            type: 'line',
+            borderWidth: 2,
+            borderColor: 'rgba(6, 176, 80)',
+            backgroundColor: 'rgba(237, 125, 50)',
+            fill: false,
+            order: 3,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }, {
+            type: 'line',
+            borderWidth: 1,
+            borderColor: 'rgba(132, 60, 11)',
+            borderDash: [5, 5],
+            fill: false,
+            order: 2,
+            pointRadius: 0,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'SCG Digital Workforce 2026',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphAll!A2:A7',
+                indexLabels: 'GraphAll!B1:P1',
+                data: 'GraphAll!B2:P7'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
+            }
+        }
+    }
+});
