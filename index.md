@@ -56,13 +56,13 @@
         ...
       </div>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="index-planactual">
       <canvas id="workforceChartDOPlanActual"></canvas>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="index-main-mth">
       <canvas id="workforceChartDO"></canvas>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="index-main-qtr">
       <canvas id="workforceChartDOQTR"></canvas>
     </div>
     <div class="secwrapper">
@@ -109,7 +109,7 @@
               <a href="pse"><div class="chart rounded-div"><canvas id="workforceChartPSEPlanQtr"></canvas></div></a>
             </div>
         </div>
-        <div class="secrow">
+        <div class="secrow" id="index-dept-sd">
             <div class="secleft">
               <a href="sd"><div class="chart rounded-div"><canvas id="workforceChartSDQTR"></canvas></div></a>
             </div>
@@ -117,7 +117,7 @@
               <a href="sd"><div class="chart rounded-div"><canvas id="workforceChartSDPlanQtr"></canvas></div></a>
             </div>
         </div>
-        <div class="secrow">
+        <div class="secrow" id="index-dept-aic">
             <div class="secleft">
               <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICQTR"></canvas></div></a>
             </div>
@@ -125,7 +125,7 @@
               <a href="aic"><div class="chart rounded-div"><canvas id="workforceChartAICPlanQtr"></canvas></div></a>
             </div>
         </div>
-        <div class="secrow">
+        <div class="secrow" id="index-dept-tde">
             <div class="secleft">
               <a href="tde"><div class="chart rounded-div"><canvas id="workforceChartTDEQTR"></canvas></div></a>
             </div>
@@ -136,27 +136,27 @@
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="index-product">
     DO Product
     <div class="chart rounded-div">
       <canvas id="workforceChartProduct"></canvas>
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="index-project-top">
     Top 5 Project
     <div class="chart rounded-div">
       <canvas id="workforceChartProjectPerTeam"></canvas>
     </div>
   </div>
   
-  <div class="section">
+  <div class="section" id="index-revenue">
     Project Revenue
     <div class="chart rounded-div">
       <canvas id="workforceChartProjectRevenue"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow">
+        <div class="secrow" id="index-revenue-pspd">
             <div class="secleft">
               <div class="chart rounded-div"><canvas id="workforceChartProjectRevenuePS"></canvas></div>
             </div>
