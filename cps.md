@@ -65,8 +65,8 @@
       <canvas id="workforceChartCPSQTR"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow">
-            <div class="secleft" id="cps-main-avaiplan">
+        <div class="secrow" id="cps-main-avaiplan">
+            <div class="secleft">
               <div class="chart rounded-div"><canvas id="workforceChartCPSAvai"></canvas></div>
             </div>
             <div class="secright">
