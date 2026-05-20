@@ -58,14 +58,14 @@
       </div>
     </div>
     <!-- end summary -->
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="sd-main-mth">
       <canvas id="workforceChartSD"></canvas>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="sd-main-qtr">
       <canvas id="workforceChartSDQTR"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow">
+        <div class="secrow" id="sd-main-avaiplan">
             <div class="secleft">
               <div class="chart rounded-div"><canvas id="workforceChartSDAvai"></canvas></div>
             </div>
@@ -76,7 +76,7 @@
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="sd-resource">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartSDPR"></canvas>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-design">
     SD Design
     <div class="chart rounded-div">
       <canvas id="workforceChartSDDesign"></canvas>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-data">
     SD Data Technology
     <div class="chart rounded-div">
       <canvas id="workforceChartSDData"></canvas>
@@ -123,7 +123,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-sa">
     SD Solution Architecture
     <div class="chart rounded-div">
       <canvas id="workforceChartSDSA"></canvas>
@@ -140,7 +140,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-sre">
     SD Site Reliability Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartSDSRE"></canvas>
@@ -157,7 +157,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-sec">
     SD Cyber Security
     <div class="chart rounded-div">
       <canvas id="workforceChartSDSEC"></canvas>
@@ -174,7 +174,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-pm">
     SD Project Management
     <div class="chart rounded-div">
       <canvas id="workforceChartSDPM"></canvas>
@@ -191,7 +191,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-ba">
     SD Technology Analyst
     <div class="chart rounded-div">
       <canvas id="workforceChartSDBA"></canvas>
@@ -208,7 +208,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-qa">
     SD Technology QA
     <div class="chart rounded-div">
       <canvas id="workforceChartSDQA"></canvas>
@@ -225,7 +225,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="sd-sect-tm">
     SD Technology Management
     <div class="chart rounded-div">
       <canvas id="workforceChartSDTM"></canvas>
