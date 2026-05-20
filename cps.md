@@ -58,15 +58,15 @@
       </div>
     </div>
     <!-- end summary -->
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="cps-main-mth">
       <canvas id="workforceChartCPS"></canvas>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="cps-main-qtr">
       <canvas id="workforceChartCPSQTR"></canvas>
     </div>
     <div class="secwrapper">
         <div class="secrow">
-            <div class="secleft">
+            <div class="secleft" id="cps-main-avaiplan">
               <div class="chart rounded-div"><canvas id="workforceChartCPSAvai"></canvas></div>
             </div>
             <div class="secright">
@@ -76,7 +76,7 @@
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="cps-resource">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSPR"></canvas>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="cps-sect-bd">
     CPS Business Development & Partnerships
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSBD"></canvas>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="cps-sect-po">
     CPS Product Commercialization
     <div class="chart rounded-div">
       <canvas id="workforceChartCPSPO"></canvas>
