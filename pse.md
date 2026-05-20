@@ -58,14 +58,14 @@
       </div>
     </div>
     <!-- end summary -->
-    <div class="chart rounded-div" id="sd-main-mth">
+    <div class="chart rounded-div" id="pse-main-mth">
       <canvas id="workforceChartPSE"></canvas>
     </div>
-    <div class="chart rounded-div" id="sd-main-qtr">
+    <div class="chart rounded-div" id="pse-main-qtr">
       <canvas id="workforceChartPSEQTR"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow" id="sd-main-avaiplan">
+        <div class="secrow" id="pse-main-avaiplan">
             <div class="secleft">
               <a href="cps"><div class="chart rounded-div"><canvas id="workforceChartPSEAvai"></canvas></div></a>
             </div>
@@ -76,7 +76,7 @@
     </div>
   </div>
     
-  <div class="section" id="sd-resource">
+  <div class="section" id="pse-resource">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartPSEPR"></canvas>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="section" id="sd-sect-pe">
+  <div class="section" id="pse-sect-pe">
     PSE Platform Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartPSEPE"></canvas>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="section" id="sd-sect-se">
+  <div class="section" id="pse-sect-se">
     PSE Software Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartPSESE"></canvas>
