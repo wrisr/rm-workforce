@@ -1841,7 +1841,7 @@ new Chart(ctxproject, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'DO Product',
+            text: 'Project Focus Group',
             padding: 20,
             fontColor: '#616161',
         },
@@ -1877,9 +1877,9 @@ new Chart(ctxproject, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphPJ!A42:A45',
+                datasetLabels: 'GraphPJ!A42:A46',
                 indexLabels: 'GraphPJ!B41:P41',
-                data: 'GraphPJ!B42:P45'
+                data: 'GraphPJ!B42:P46'
             },
             datalabels: {
                 formatter: (value, ctx) => {
