@@ -38,22 +38,31 @@
       <p class="chartbody">
         • เฉลี่ย Q2 2025 – Q1 2026 [Plan 86.10%]
         <p class="chartsubbody">
-          • ปริมาณคน > ปริมาณงาน (diff average รายปี)
-          • Top Allocation	SD-Data 119% / SD-BA 108% / SD-SA&SRE 101%
-          • Top Available	SD-Design 58% [Available 42%] / PS-Sales 73% [Available 27%] / R&D-IoT 74% [Available 26%]
-          • Top Diff FTE	SE +10 FTE / SD-Design +4 FTE / PS-Sales +3 FTE	~ คนเกิน
+          • ปริมาณคน > ปริมาณงาน (diff average รายปี)<br>
+          • Top Allocation	SD-Data 119% / SD-BA 108% / SD-SA&SRE 101%<br>
+          • Top Available	SD-Design 58% [Available 42%] / PS-Sales 73% [Available 27%] / R&D-IoT 74% [Available 26%]<br>
+          • Top Diff FTE	SE +10 FTE / SD-Design +4 FTE / PS-Sales +3 FTE	~ คนเกิน<br>
           • Plan	86.48 % (Available ~ 73.74 FTE per month)
         </p>
       </p>
       <p class="chartbody">
-        - 2 <a href="#index-dept">link to Per Department</a>
+        • Q2 2025 [Plan 95.92%]
         <p class="chartsubbody">
-          2.1 <a href="#index-dept-cps">link to Per Resource Type : CPS</a><br>
-          2.2 <a href="#index-dept-pse">link to Per Resource Type : PSE</a>
+          • June มีปริมาณ Plan FTE สูงสุด [98.49%] เนื่องจากมีงานเข้ามาแน่นอนแล้วในช่วงปัจจุบัน ** บางโปรเจคยังไม่ start June<br>
+          • ส่วนต่าง ยังเป็นตัวเลขที่สามารถจัดการได้ โดยการโยกพนักงานมาจาก Internal Project ได้<br>
+          • Q2 Top Allocation	SD-CyberSec 128% / SD-BA 119% / SD-Data 119% / SD-PM 107% / SD-SA&SRE 103%	<br>
+          • Q2 Top Available	SD-Design 73% [Available 27%] / R&D-IoT 86% [Available 14%] / PSI 87% [Available 13%]	<br>
+          • Q2 Top Diff FTE	SE +6 FTE / SD-Design +3 FTE
         </p>
       </p>
       <p class="chartbody">
-        - 3
+        Q1 2026 [Plan 65.05%]
+        <p class="chartsubbody">
+          • Available เป็นจำนวนมาก เกิดจากความไม่แน่นอนในโปรเจคใหม่ที่จะเข้ามาในปีหน้า รวมถึงมีโปรเจคที่จบตั้งแต่ปี 2025 และยังไม่มีแผนขยาย<br>
+          • Top Allocation	SD-Data 109%<br>
+          • Top Available	SD-Design 15% [Available 85%]<br>
+          • Top Diff FTE	SE +18.83 FTE				~ คนเกิน
+        </p>
       </p>
       <p class="chartbody">
         ...
