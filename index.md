@@ -153,7 +153,7 @@
   </div>
     
   <div class="section" id="index-project">
-    Per Product Focus Group
+    Per Project Focus Group
     <div class="chart rounded-div">
       <canvas id="workforceChartProject"></canvas>
     </div>
