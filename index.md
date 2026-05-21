@@ -35,23 +35,14 @@
       <div class="chartheader">
         Executive Summary
       </div>
-      <li class="chartbody">
-        เฉลี่ย Q2 2025 – Q1 2026 [Plan 86.10%]
-      </li>
-          <li class="chartsubbody">ปริมาณคน > ปริมาณงาน (diff average รายปี)</li>
-          <li class="chartsubbody">Top Allocation	SD-Data 119% / SD-BA 108% / SD-SA&SRE 101%</li>
-          <li class="chartsubbody">Top Available	SD-Design 58% [Available 42%] / PS-Sales 73% [Available 27%] / R&D-IoT 74% [Available 26%]</li>
-          <li class="chartsubbody">Top Diff FTE	SE +10 FTE / SD-Design +4 FTE / PS-Sales +3 FTE	~ คนเกิน</li>
-          <li class="chartsubbody">Plan	86.48 % (Available ~ 73.74 FTE per month)</li>
-      *****
       <p class="chartbody">
-        <li>เฉลี่ย Q2 2025 – Q1 2026 [Plan 86.10%]</li>
+        • เฉลี่ย Q2 2025 – Q1 2026 [Plan 86.10%]
         <p class="chartsubbody">
-          <li>ปริมาณคน > ปริมาณงาน (diff average รายปี)</li>
-          <li>Top Allocation	SD-Data 119% / SD-BA 108% / SD-SA&SRE 101%</li>
-          <li>Top Available	SD-Design 58% [Available 42%] / PS-Sales 73% [Available 27%] / R&D-IoT 74% [Available 26%]</li>
-          <li>Top Diff FTE	SE +10 FTE / SD-Design +4 FTE / PS-Sales +3 FTE	~ คนเกิน</li>
-          <li>Plan	86.48 % (Available ~ 73.74 FTE per month)</li>
+          • ปริมาณคน > ปริมาณงาน (diff average รายปี)
+          • Top Allocation	SD-Data 119% / SD-BA 108% / SD-SA&SRE 101%
+          • Top Available	SD-Design 58% [Available 42%] / PS-Sales 73% [Available 27%] / R&D-IoT 74% [Available 26%]
+          • Top Diff FTE	SE +10 FTE / SD-Design +4 FTE / PS-Sales +3 FTE	~ คนเกิน
+          • Plan	86.48 % (Available ~ 73.74 FTE per month)
         </p>
       </p>
       <p class="chartbody">
