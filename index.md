@@ -35,7 +35,7 @@
       <div class="chartheader">
         Executive Summary
       </div>
-      <p class="chartbody">
+      <div class="chartbody">
         1 <a href="#index-resource">link to Per Resource Type</a>
         <p class="chartsubbody">
           1.1 <a href="#index-main-avaiplan">link to Avai / Plan</a><br>
