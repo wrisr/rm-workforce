@@ -153,6 +153,13 @@
   </div>
     
   <div class="section" id="index-product">
+    Per Product Focus Group
+    <div class="chart rounded-div">
+      <canvas id="workforceChartProject"></canvas>
+    </div>
+  </div>
+    
+  <div class="section" id="index-product">
     DO Product
     <div class="chart rounded-div">
       <canvas id="workforceChartProduct"></canvas>
