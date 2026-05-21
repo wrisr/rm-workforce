@@ -1823,6 +1823,17 @@ new Chart(ctxproject, {
                 anchor: 'end',
                 padding: 4
             }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(91, 155, 213)',
+            backgroundColor: 'rgba(91, 155, 213)',
+            fill: false,
+            order: 5,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }]
     },
     plugins: [ChartDataSource],
