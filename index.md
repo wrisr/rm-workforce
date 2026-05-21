@@ -152,7 +152,7 @@
     </div>
   </div>
     
-  <div class="section" id="index-product">
+  <div class="section" id="index-project">
     Per Product Focus Group
     <div class="chart rounded-div">
       <canvas id="workforceChartProject"></canvas>
