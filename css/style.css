@@ -177,12 +177,12 @@ h1 a {
 .chartbody {
   font-size: 16px;
   padding: 0px 20px 0px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .chartsubbody {
   font-size: 14px;
-  padding: 0px 0px 0px 20px;
-  margin-bottom: 5px;
+  padding: 0px 20px 0px 40px;
+  margin-bottom: 10px;
 }
 
 .rounded-div {
