@@ -35,26 +35,26 @@
       <div class="chartheader">
         Executive Summary
       </div>
-      <div class="chartbody">
+      <p class="chartbody">
         1 <a href="#index-resource">link to Per Resource Type</a>
-        <div class="chartsubbody">
+        <p class="chartsubbody">
           1.1 <a href="#index-main-avaiplan">link to Avai / Plan</a><br>
           1.2
-        </div>
-      </div>
-      <div class="chartbody">
+        </p>
+      </p>
+      <p class="chartbody">
         - 2 <a href="#index-dept">link to Per Department</a>
-        <div class="chartsubbody">
+        <p class="chartsubbody">
           2.1 <a href="#index-dept-cps">link to Per Resource Type : CPS</a><br>
           2.2 <a href="#index-dept-pse">link to Per Resource Type : PSE</a>
-        </div>
-      </div>
-      <div class="chartbody">
+        </p>
+      </p>
+      <p class="chartbody">
         - 3
-      </div>
-      <div class="chartbody">
+      </p>
+      <p class="chartbody">
         ...
-      </div>
+      </p>
     </div>
     <div class="chart rounded-div" id="index-planactual">
       <canvas id="workforceChartDOPlanActual"></canvas>
