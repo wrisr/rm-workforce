@@ -1768,6 +1768,125 @@ new Chart(ctxplanqtrtde, {
 });
 
 /*
+/* Project
+*/
+const ctxproject = document.getElementById('workforceChartProject');
+new Chart(ctxproject, {
+    type: 'line',
+    displayColors: true,
+    interaction: {
+        mode: 'index',
+        intersect: false
+    },
+    data: {
+        datasets: [{
+            borderWidth: 2,
+            borderColor: 'rgba(68, 115, 196)',
+            backgroundColor: 'rgba(68, 115, 196)',
+            fill: false,
+            order: 1,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(237, 126, 49)',
+            backgroundColor: 'rgba(237, 126, 49)',
+            fill: false,
+            order: 2,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(165, 165, 165)',
+            backgroundColor: 'rgba(165, 165, 165)',
+            fill: false,
+            order: 3,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(254, 192, 2)',
+            backgroundColor: 'rgba(254, 192, 2)',
+            fill: false,
+            order: 4,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
+        }]
+    },
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'DO Product',
+            padding: 20,
+            fontColor: '#616161',
+        },
+        legend: {
+            position: 'bottom',
+            labels: {
+                usePointStyle: true
+            }
+        },
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+            titleFontSize: 12,
+            position: 'nearest'
+        },
+        responsive: true,
+        scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true,
+                beginAtZero: true
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        plugins: {
+            datasource: {
+                url: 'workforceresult.xlsx',
+                type: 'sheet',
+                //rowMapping: 'dataset',
+                datasetLabels: 'GraphPJ!A42:A45',
+                indexLabels: 'GraphPJ!B41:P41',
+                data: 'GraphPJ!B42:P45'
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    return;
+                },
+                backgroundColor: function(context) {
+                    return context.dataset.backgroundColor;
+                },
+                borderRadius: 4,
+                //formatter: Math.round,
+                color: 'white',
+                padding: 0
+            }
+        }
+    }
+});
+
+/*
 /* Product
 */
 const ctxproduct = document.getElementById('workforceChartProduct');
@@ -1834,6 +1953,17 @@ new Chart(ctxproduct, {
                 anchor: 'end',
                 padding: 4
             }
+        },{
+            borderWidth: 2,
+            borderColor: 'rgba(6, 176, 80)',
+            backgroundColor: 'rgba(6, 176, 80)',
+            fill: false,
+            order: 5,
+            datalabels: {
+                align: 'end',
+                anchor: 'end',
+                padding: 4
+            }
         }]
     },
     plugins: [ChartDataSource],
@@ -1877,9 +2007,9 @@ new Chart(ctxproduct, {
                 url: 'workforceresult.xlsx',
                 type: 'sheet',
                 //rowMapping: 'dataset',
-                datasetLabels: 'GraphPJ!A2:A6',
+                datasetLabels: 'GraphPJ!A2:A7',
                 indexLabels: 'GraphPJ!B1:P1',
-                data: 'GraphPJ!B2:P6'
+                data: 'GraphPJ!B2:P7'
             },
             datalabels: {
                 formatter: (value, ctx) => {
