@@ -46,13 +46,15 @@
           SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
         </span>
         <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Top Available</span>
-        <span class="chartsubbodydata">
-          <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-avai">[Available 41.08%]</span> / 
-          <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-avai">[Available 37.38%]</span> / 
-          <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-avai">[Available 32.38%]</span> /
-          <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-avai">[Available 32.11%]</span> 
-        </span>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Available CTN</div>
+          <div class="chartsubbodydata">
+            <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-avai">[Available 41.08%]</span> / 
+            <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-avai">[Available 37.38%]</span> / 
+            <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-avai">[Available 32.38%]</span> /
+            <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-avai">[Available 32.11%]</span> 
+          </div>
+        </div>
         <br>
         <span class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</span>
         <span class="chartsubbodydata">
@@ -85,13 +87,13 @@
           <a href="aic#aic-sect-iot">AIC-IoT</a> 85.00% <span class="text-avai">[Available 15.00%]</span> 
         </span>
         <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Q2 Top Diff FTE</span>
-        <span class="chartsubbodydata">
+        <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Diff FTE</div>
+        <div class="chartsubbodydata">
           <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+2.6 FTE</span> / 
           <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+0.97 FTE</span> / 
           <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+0.92 FTE</span> / 
           <a href="aic#aic-sect-iot">AIC-IoT</a> <span class="text-avai">+0.9 FTE</span> 
-        </span>
+        </div>
         <br>
         &#8226;&ensp;ยังเป็นตัวเลขที่สามารถจัดการได้ โดยทีมที่พนักงานเกิน (PSE-SE) สามารถโยกมาทำ Internal Project ได้
         <br>
