@@ -115,6 +115,11 @@
           <a href="sd#sd-sect-design">SD-Design</a> 27.86% <span class="text-avai">[Available 72.14%]</span> / 
           <a href="aic#aic-sect-iot">AIC-IoT</a> 28% <span class="text-avai">[Available 72%]</span> 
         </span>
+        <br>
+        <span class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</span>
+        <span class="chartsubbodydata">
+          <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai"> +16.35 FTE</span>
+        </span>
       </div>
     </div>
     <div class="chart rounded-div" id="index-planactual">
