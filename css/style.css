@@ -167,6 +167,7 @@ h1 a {
   font-weight: bold;
 }
 .chartsubbodydata {
+  /* height: 100%; */
 }
 
 .text-red {
