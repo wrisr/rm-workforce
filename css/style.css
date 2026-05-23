@@ -146,6 +146,12 @@ h1 a {
   text-decoration: none;
 } */
 
+table, th, td, tr {
+  border:0px;
+  padding: 0px 20px 20px 20px;
+}
+</style> 
+
 .section {
   color: #424242;
   font-family: 'MindSans', sans-serif;
