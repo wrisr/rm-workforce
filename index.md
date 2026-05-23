@@ -40,7 +40,7 @@
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
-        &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
+          &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
         </div>
         <div class="chartsubbodycontainer">
           <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
@@ -77,55 +77,67 @@
         &#8227;&ensp;Q2 2026 <span class="text-blue">[Plan 91.08%]</span>
       </div>
       <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
         &#8226;&ensp;May มีปริมาณ Plan FTE สูงสุด [92.03%] เนื่องจากมีงานเข้ามาแน่นอนแล้วในช่วงปัจจุบัน
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Q2 Top Allocation</span>
-        <span class="chartsubbodydata">
-          SD-SRE 130.08% / SD-QA 105.79% / SD-BA 104.75% / CPS-BD 103.94%
-        </span>
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Q2 Top Available</span>
-        <span class="chartsubbodydata">
-          <a href="sd#sd-sect-tm">SD-TM</a> 78.08% <span class="text-avai">[Available 21.92%]</span> / 
-          <a href="aic#aic-sect-sai">AIC-SAI</a> 81.92% <span class="text-avai">[Available 18.08%]</span> / 
-          <a href="aic#aic-sect-iot">AIC-IoT</a> 85.00% <span class="text-avai">[Available 15.00%]</span> 
-        </span>
-        <br>
-        <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Diff FTE</div>
-        <div class="chartsubbodydata">
-          <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+2.6 FTE</span> / 
-          <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+0.97 FTE</span> / 
-          <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+0.92 FTE</span> / 
-          <a href="aic#aic-sect-iot">AIC-IoT</a> <span class="text-avai">+0.9 FTE</span> 
         </div>
-        <br>
-        &#8226;&ensp;ยังเป็นตัวเลขที่สามารถจัดการได้ โดยทีมที่พนักงานเกิน (PSE-SE) สามารถโยกมาทำ Internal Project ได้
-        <br>
-        &#8226;&ensp;ส่วนทีมที่พนักงานขาด (SD-SRE) กำลังอยู่ในช่วงการสรรหาพนักงานใหม่มาเพิ่มเติม
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Allocation</div>
+          <div class="chartsubbodydata">
+            SD-SRE 130.08% / SD-QA 105.79% / SD-BA 104.75% / CPS-BD 103.94%
+          </div>
+        </div>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Available</div>
+          <div class="chartsubbodydata">
+            <a href="sd#sd-sect-tm">SD-TM</a> 78.08% <span class="text-avai">[Available 21.92%]</span> / 
+            <a href="aic#aic-sect-sai">AIC-SAI</a> 81.92% <span class="text-avai">[Available 18.08%]</span> / 
+            <a href="aic#aic-sect-iot">AIC-IoT</a> 85.00% <span class="text-avai">[Available 15.00%]</span> 
+          </div>
+        </div>
+          <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Diff FTE</div>
+          <div class="chartsubbodydata">
+            <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+2.6 FTE</span> / 
+            <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+0.97 FTE</span> / 
+            <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+0.92 FTE</span> / 
+            <a href="aic#aic-sect-iot">AIC-IoT</a> <span class="text-avai">+0.9 FTE</span> 
+          </div>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ยังเป็นตัวเลขที่สามารถจัดการได้ โดยทีมที่พนักงานเกิน (PSE-SE) สามารถโยกมาทำ Internal Project ได้
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ส่วนทีมที่พนักงานขาด (SD-SRE) กำลังอยู่ในช่วงการสรรหาพนักงานใหม่มาเพิ่มเติม
+        </div>
       </div>
       <div class="chartbody">
         &#8227;&ensp;Q1 2027 <span class="text-blue">[Plan 64.30%]</span>
       </div>
       <div class="chartsubbody">
-        &#8226;&ensp;Available เป็นจำนวนมาก เกิดจากความไม่แน่นอนในโปรเจคใหม่ที่จะเข้ามาในปีหน้า รวมถึงมีโปรเจคที่จบตั้งแต่ปี 2026 และยังไม่มีแผนขยาย
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Top Allocation</span>
-        <span class="chartsubbodydata">
-          SD-TM 130%
-        </span>
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Top Available</span>
-        <span class="chartsubbodydata">
-          <a href="aic#aic-sect-sai">AIC-SAI</a> 10% <span class="text-avai">[Available 90%]</span> / 
-          <a href="sd#sd-sect-pm">SD-PM</a> 25% <span class="text-avai">[Available 75%]</span> /  
-          <a href="sd#sd-sect-design">SD-Design</a> 27.86% <span class="text-avai">[Available 72.14%]</span> / 
-          <a href="aic#aic-sect-iot">AIC-IoT</a> 28% <span class="text-avai">[Available 72%]</span> 
-        </span>
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</span>
-        <span class="chartsubbodydata">
-          <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai"> +16.35 FTE</span>
-        </span>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;Available เป็นจำนวนมาก เกิดจากความไม่แน่นอนในโปรเจคใหม่ที่จะเข้ามาในปีหน้า รวมถึงมีโปรเจคที่จบตั้งแต่ปี 2026 และยังไม่มีแผนขยาย
+        </div>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
+          <div class="chartsubbodydata">
+            SD-TM 130%
+          </div>
+        </div>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Available</div>
+          <div class="chartsubbodydata">
+            <a href="aic#aic-sect-sai">AIC-SAI</a> 10% <span class="text-avai">[Available 90%]</span> / 
+            <a href="sd#sd-sect-pm">SD-PM</a> 25% <span class="text-avai">[Available 75%]</span> /  
+            <a href="sd#sd-sect-design">SD-Design</a> 27.86% <span class="text-avai">[Available 72.14%]</span> / 
+            <a href="aic#aic-sect-iot">AIC-IoT</a> 28% <span class="text-avai">[Available 72%]</span> 
+          </div>
+        </div>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</div>
+          <div class="chartsubbodydata">
+            <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai"> +16.35 FTE</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="chart rounded-div" id="index-planactual">
