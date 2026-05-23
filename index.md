@@ -37,6 +37,7 @@
       </div>
       <div class="chartbody">
         &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-blue">[Plan 81.59%]</span>
+      </div>
         <div class="chartsubbody">
           &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
           <br>
@@ -64,7 +65,6 @@
             81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
           </span>
         </div>
-      </div>
       <div class="chartbody">
         test another body
         <div class="chartsubbody">
