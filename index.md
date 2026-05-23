@@ -43,22 +43,26 @@
           <span class="chartsubbodytitle">&#8226;&ensp;Top Allocation</span>
           SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
           <br>
-          <span class="chartsubbodytitle">&#8226;&ensp;Top Available TEST</span>
+          <span class="chartsubbodytitle">&#8226;&ensp;Top Available</span>
           <span class="chartsubbodydata">
-                                    <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-green">[Available 41.08%]</span> / 
-                                    <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-green">[Available 37.38%]</span> / 
-                                    <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-green">[Available 32.38%]</span> / 
-                                    <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-green">[Available 32.11%]</span> 
+            <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-green">[Available 41.08%]</span> / 
+            <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-green">[Available 37.38%]</span> / 
+            <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-green">[Available 32.38%]</span> /
+            <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-green">[Available 32.11%]</span> 
           </span>
           <br>
           <span class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</span>
-                                    <a href="pse#pse-sect-se">PSE-SE</a> +7.2 FTE / 
-                                    <a href="aic#aic-sect-aie">AIC-AIE</a> +3 FTE / 
-                                    <a href="aic#aic-sect-iot">AIE-IoT</a> +1.7 FTE / 
-                                    <a href="sd#aic-sect-data">SD-Data</a> +1.7 FTE
+          <span class="chartsubbodydata">
+            <a href="pse#pse-sect-se">PSE-SE</a> +7.2 FTE /
+            <a href="aic#aic-sect-aie">AIC-AIE</a> +3 FTE / 
+            <a href="aic#aic-sect-iot">AIE-IoT</a> +1.7 FTE / 
+            <a href="sd#aic-sect-data">SD-Data</a> +1.7 FTE
+          </span>
           <br>
-         <span class="chartsubbodytitle">Average Plan</span>
-          81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
+          <span class="chartsubbodytitle">Average Plan</span>
+          <span class="chartsubbodydata">
+            81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
+          </span>
         </p>
       </p>
       <p class="chartbody">
