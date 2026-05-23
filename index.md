@@ -39,13 +39,15 @@
         &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-blue">[Plan 81.59%]</span>
       </div>
       <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
         &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Top Allocation</span>
-        <span class="chartsubbodydata">
-          SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
-        </span>
-        <br>
+        </div>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
+          <div class="chartsubbodydata">
+            SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
+          </div>
+        </div>
         <div class="chartsubbodycontainer">
           <div class="chartsubbodytitle">&#8226;&ensp;Top Available CTN</div>
           <div class="chartsubbodydata">
@@ -55,19 +57,21 @@
             <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-avai">[Available 32.11%]</span> 
           </div>
         </div>
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</span>
-        <span class="chartsubbodydata">
-          <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+7.2 FTE</span> /
-          <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+3 FTE</span> / 
-          <a href="aic#aic-sect-iot">AIE-IoT</a> <span class="text-avai">+1.7 FTE</span> / 
-          <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+1.7 FTE</span>
-        </span>
-        <br>
-        <span class="chartsubbodytitle">&#8226;&ensp;Average Plan</span>
-        <span class="chartsubbodydata">
-          81.59 % (Available ~ <span class="text-avai">+27.68 FTE</span> per month)
-        </span>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</div>
+          <div class="chartsubbodydata">
+            <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+7.2 FTE</span> /
+            <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+3 FTE</span> / 
+            <a href="aic#aic-sect-iot">AIE-IoT</a> <span class="text-avai">+1.7 FTE</span> / 
+            <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+1.7 FTE</span>
+          </div>
+        </div>
+        <div class="chartsubbodycontainer">
+          <div class="chartsubbodytitle">&#8226;&ensp;Average Plan</div>
+          <div class="chartsubbodydata">
+            81.59 % (Available ~ <span class="text-avai">+27.68 FTE</span> per month)
+          </div>
+        </div>
       </div>
       <div class="chartbody">
         &#8227;&ensp;Q2 2026 <span class="text-blue">[Plan 91.08%]</span>
