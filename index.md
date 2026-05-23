@@ -36,7 +36,7 @@
         Executive Summary
       </div>
       <div class="chartbody">
-        &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-blue">[Plan 81.59%]</span>
+        &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-plan">[Plan 81.59%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;Q2 2026 <span class="text-blue">[Plan 91.08%]</span>
+        &#8227;&ensp;Q2 2026 <span class="text-plan">[Plan 91.08%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -111,7 +111,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;Q1 2027 <span class="text-blue">[Plan 64.30%]</span>
+        &#8227;&ensp;Q1 2027 <span class="text-plan">[Plan 64.30%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
