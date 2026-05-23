@@ -48,33 +48,73 @@
         <br>
         <span class="chartsubbodytitle">&#8226;&ensp;Top Available</span>
         <span class="chartsubbodydata">
-          <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-green">[Available 41.08%]</span> / 
-          <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-green">[Available 37.38%]</span> / 
-          <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-green">[Available 32.38%]</span> /
-          <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-green">[Available 32.11%]</span> 
+          <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-avai">[Available 41.08%]</span> / 
+          <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-avai">[Available 37.38%]</span> / 
+          <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-avai">[Available 32.38%]</span> /
+          <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-avai">[Available 32.11%]</span> 
         </span>
         <br>
         <span class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</span>
         <span class="chartsubbodydata">
-          <a href="pse#pse-sect-se">PSE-SE</a> +7.2 FTE /
-          <a href="aic#aic-sect-aie">AIC-AIE</a> +3 FTE / 
-          <a href="aic#aic-sect-iot">AIE-IoT</a> +1.7 FTE / 
-          <a href="sd#sd-sect-data">SD-Data</a> +1.7 FTE
+          <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+7.2 FTE</span> /
+          <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+3 FTE</span> / 
+          <a href="aic#aic-sect-iot">AIE-IoT</a> <span class="text-avai">+1.7 FTE</span> / 
+          <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+1.7 FTE</span>
         </span>
         <br>
         <span class="chartsubbodytitle">&#8226;&ensp;Average Plan</span>
         <span class="chartsubbodydata">
-          81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
+          81.59 % (Available ~ <span class="text-avai">+27.68 FTE</span> per month)
         </span>
       </div>
       <div class="chartbody">
-        test another body
+        &#8227;&ensp;Q2 2026 <span class="text-blue">[Plan 91.08%]</span>
+      </div>
+      <div class="chartsubbody">
+        &#8226;&ensp;May มีปริมาณ Plan FTE สูงสุด [92.03%] เนื่องจากมีงานเข้ามาแน่นอนแล้วในช่วงปัจจุบัน
+        <br>
+        <span class="chartsubbodytitle">&#8226;&ensp;Q2 Top Allocation</span>
+        <span class="chartsubbodydata">
+          SD-SRE 130.08% / SD-QA 105.79% / SD-BA 104.75% / CPS-BD 103.94%
+        </span>
+        <br>
+        <span class="chartsubbodytitle">&#8226;&ensp;Q2 Top Available</span>
+        <span class="chartsubbodydata">
+          <a href="sd#sd-sect-tm">SD-TM</a> 78.08% <span class="text-avai">[Available 21.92%]</span> / 
+          <a href="aic#aic-sect-sai">AIC-SAI</a> 81.92% <span class="text-avai">[Available 18.08%]</span> / 
+          <a href="aic#aic-sect-iot">AIC-IoT</a> 85.00% <span class="text-avai">[Available 15.00%]</span> 
+        </span>
+        <br>
+        <span class="chartsubbodytitle">&#8226;&ensp;Q2 Top Diff FTE</span>
+        <span class="chartsubbodydata">
+          <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+2.6 FTE</span> / 
+          <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+0.97 FTE</span> / 
+          <a href="sd#sd-sect-data">SD-Data</a> <span class="text-avai">+0.92 FTE</span> / 
+          <a href="aic#aic-sect-iot">AIC-IoT</a> <span class="text-avai">+0.9 FTE</span> 
+        </span>
+        <br>
+        &#8226;&ensp;ยังเป็นตัวเลขที่สามารถจัดการได้ โดยทีมที่พนักงานเกิน (PSE-SE) สามารถโยกมาทำ Internal Project ได้
+        <br>
+        &#8226;&ensp;ส่วนทีมที่พนักงานขาด (SD-SRE) กำลังอยู่ในช่วงการสรรหาพนักงานใหม่มาเพิ่มเติม
       </div>
       <div class="chartbody">
-        test another body
-        <div class="chartsubbody">
-          test sub...
-        </div>
+        &#8227;&ensp;Q1 2027 <span class="text-blue">[Plan 64.30%]</span>
+      </div>
+      <div class="chartsubbody">
+        &#8226;&ensp;Available เป็นจำนวนมาก เกิดจากความไม่แน่นอนในโปรเจคใหม่ที่จะเข้ามาในปีหน้า รวมถึงมีโปรเจคที่จบตั้งแต่ปี 2026 และยังไม่มีแผนขยาย
+        <br>
+        <span class="chartsubbodytitle">&#8226;&ensp;Top Allocation</span>
+        <span class="chartsubbodydata">
+          SD-TM 130%
+        </span>
+        <br>
+        <span class="chartsubbodytitle">&#8226;&ensp;Top Available</span>
+        <span class="chartsubbodydata">
+          <a href="aic#aic-sect-sai">AIC-SAI</a> 10% <span class="text-avai">[Available 90%]</span> / 
+          <a href="sd#sd-sect-pm">SD-PM</a> 25% <span class="text-avai">[Available 75%]</span> /  
+          <a href="sd#sd-sect-design">SD-Design</a> 27.86% <span class="text-avai">[Available 72.14%]</span> / 
+          <a href="aic#aic-sect-iot">AIC-IoT</a> 28% <span class="text-avai">[Available 72%]</span> 
+        </span>
       </div>
     </div>
     <div class="chart rounded-div" id="index-planactual">
