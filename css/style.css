@@ -169,15 +169,35 @@ h1 a {
   /* height: 100%; */
 }
 
-.text-red {
-  color: #ff0606;
-}
-.text-green {
-  color: #22b357;
-}
-.text-blue {
+
+.text-blue, .text-plan {
   color: #4472c4;
 }
+.text-orange, .text-staff {
+  color: #ed7d32;
+}
+.text-grey, .text-pr {
+  color: #a5a5a5;
+}
+.text-yellow, .text-ct {
+  color: #ffbf00;
+}
+.text-lightblue, .text-os {
+  color: #5b9bd5;
+}
+.text-green, .text-avai {
+  color: #71ad47;
+}
+.text-darkgreen, .text-actual {
+  color: #06b050;
+}
+.text-red {
+  color: #ff0000;
+}
+.text-darkred {
+  color: #c00000;
+}
+
 .text-bold {
   font-weight: bold;
 }
