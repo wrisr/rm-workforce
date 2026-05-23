@@ -191,7 +191,10 @@ table, th, td, tr {
   margin-bottom: 10px;
 }
 .chartsubbody a {
-  color: red;
+  font-weight: bold;
+}
+.chartsubbody .subtitle {
+  width: 120px;
 }
 
 .text-red {
@@ -201,7 +204,7 @@ table, th, td, tr {
   color: #22b357;
 }
 .text-blue {
-  color: ##4472c4;
+  color: #4472c4;
 }
 .text-bold {
   font-weight: bold;
