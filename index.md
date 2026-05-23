@@ -1,4 +1,4 @@
-<head>
+<img width="286" height="21" alt="image" src="https://github.com/user-attachments/assets/2cb039d2-7e12-4bf6-8017-74bd1679c5d2" /><head>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -36,17 +36,25 @@
         Executive Summary
       </div>
       <p class="chartbody">
-        &#8227;&ensp;เฉลี่ย Q2 2025 – Q1 2026 <span class="text-blue">[Plan 86.10%]</span>
+        &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-blue">[Plan 81.59%]</span>
         <p class="chartsubbody">
           &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
           <br>
-          &#8226;&ensp;Top Allocation&emsp;&emsp;SD-Data 119% / SD-BA 108% / SD-SA&SRE 101%
+          &#8226;&ensp;Top Allocation&emsp;&emsp;SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
           <br>
-          &#8226;&ensp;Top Available&emsp;&emsp;&emsp;<a href="sd#sd-sect-design">SD-Design</a> 58% <span class="text-green text-italic">[Available 42%]</span> / PS-Sales 73% [Available 27%] / R&D-IoT 74% [Available 26%]
+          &#8226;&ensp;Top Available&emsp;&emsp;&emsp; 
+                                    <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-green">[Available 41.08%]</span> / 
+                                    <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-green">[Available 37.38%]</span> / 
+                                    <a href="aic#aic-sect-iot">AIC-IoT</a> 67.62% <span class="text-green">[Available 32.38%]</span> / 
+                                    <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-green">[Available 32.11%]</span> 
           <br>
-          &#8226;&ensp;Top Diff FTE&emsp;&emsp;SE +10 FTE / SD-Design +4 FTE / PS-Sales +3 FTE	~ คนเกิน
+          &#8226;&ensp;Top Diff FTE&emsp;&emsp;
+                                    <a href="pse#pse-sect-se">PSE-SE</a> +7.2 FTE / 
+                                    <a href="aic#aic-sect-aie">AIC-AIE</a> +3 FTE / 
+                                    <a href="aic#aic-sect-iot">AIE-IoT</a> +1.7 FTE / 
+                                    <a href="sd#aic-sect-data">SD-Data</a> +1.7 FTE
           <br>
-          &#8226;&ensp;Plan	86.48 % (Available ~ 73.74 FTE per month)
+          &#8226;&ensp;Average Plan	81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
         </p>
       </p>
       <p class="chartbody">
