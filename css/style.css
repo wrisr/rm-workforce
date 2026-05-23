@@ -193,7 +193,7 @@ table, th, td, tr {
 .chartsubbody a {
   font-weight: bold;
 }
-.subtitle {
+.chartsubbodytitle {
   max-width: 120px;
   height: auto;
   display: inline-block;
