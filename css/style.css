@@ -168,9 +168,12 @@ h1 a {
 .chartsubbodytitle {
   min-width: 120px;
   display: inline-block;
+  height: 100%
+  vertical-align: top;
 }
 .chartsubbodydata {
   display: inline-block;
+  width: 85%
 }
 
 
