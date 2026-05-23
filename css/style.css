@@ -160,6 +160,7 @@ h1 a {
 }
 .chartsubbody a {
   font-weight: bold;
+  color: #4472c4;
 }
 .chartsubbodytitle {
   min-width: 120px;
