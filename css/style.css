@@ -164,7 +164,6 @@ h1 a {
 .chartsubbodytitle {
   min-width: 120px;
   display: inline-block;
-  font-weight: bold;
 }
 .chartsubbodydata {
   /* height: 100%; */
