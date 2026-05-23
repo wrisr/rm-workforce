@@ -170,7 +170,7 @@ h1 a {
   display: inline-block;
 }
 .chartsubbodydata {
-  /* height: 100%; */
+  display: inline-block;
 }
 
 
