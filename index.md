@@ -35,17 +35,24 @@
       <div class="chartheader">
         Executive Summary
       </div>
-      <table class="chartbody">
-        <tr class="chartsubbody">
-          <td>&#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)</td>
+      <table>
+        <tr class="chartbody">
+          <td colspan="2">
+            &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-blue">[Plan 81.59%]</span>
+          </td>
         </tr>
-        <tr>
+        <tr class="chartsubbody">
+          <td colspan="2">
+            &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
+          </td>
+        </tr>
+        <tr class="chartsubbody">
           <td>&#8226;&ensp;Top Allocation</td>
           <td>
             SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
           </td>
         </tr>
-        <tr>
+        <tr class="chartsubbody">
           <td>&#8226;&ensp;Top Available</td>
           <td>
             <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-green">[Available 41.08%]</span> / 
@@ -54,7 +61,7 @@
             <a href="sd#sd-sect-design">SD-Design</a> 67.89% <span class="text-green">[Available 32.11%]</span> 
           </td>
         </tr>
-        <tr>
+        <tr class="chartsubbody">
           <td>&#8226;&ensp;Top Diff FTE</td>
           <td>
             <a href="pse#pse-sect-se">PSE-SE</a> +7.2 FTE / 
@@ -63,7 +70,7 @@
             <a href="sd#aic-sect-data">SD-Data</a> +1.7 FTE 
           </td>
         </tr>
-        <tr>
+        <tr class="chartsubbody">
           <td>&#8226;&ensp;Average Plan</td>
           <td>
             81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
