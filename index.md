@@ -1,4 +1,4 @@
-<img width="286" height="21" alt="image" src="https://github.com/user-attachments/assets/2cb039d2-7e12-4bf6-8017-74bd1679c5d2" /><head>
+<head>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
