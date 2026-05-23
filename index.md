@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="chartsubbodycontainer">
-          <div class="chartsubbodytitle">&#8226;&ensp;Top Available CTN</div>
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Available</div>
           <div class="chartsubbodydata">
             <a href="aic#aic-sect-sai">AIC-SAI</a> 58.92% <span class="text-avai">[Available 41.08%]</span> / 
             <a href="aic#aic-sect-aie">AIC-AIE</a> 62.62% <span class="text-avai">[Available 37.38%]</span> / 
