@@ -35,9 +35,9 @@
       <div class="chartheader">
         Executive Summary
       </div>
-      <p class="chartbody">
+      <div class="chartbody">
         &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-blue">[Plan 81.59%]</span>
-        <p class="chartsubbody">
+        <div class="chartsubbody">
           &#8226;&ensp;ปริมาณคน > ปริมาณงาน (diff average รายปี)
           <br>
           <span class="chartsubbodytitle">&#8226;&ensp;Top Allocation</span>
@@ -56,37 +56,18 @@
             <a href="pse#pse-sect-se">PSE-SE</a> +7.2 FTE /
             <a href="aic#aic-sect-aie">AIC-AIE</a> +3 FTE / 
             <a href="aic#aic-sect-iot">AIE-IoT</a> +1.7 FTE / 
-            <a href="sd#aic-sect-data">SD-Data</a> +1.7 FTE
+            <a href="sd#sd-sect-data">SD-Data</a> +1.7 FTE
           </span>
           <br>
-          <span class="chartsubbodytitle">Average Plan</span>
+          <span class="chartsubbodytitle">&#8226;&ensp;Average Plan</span>
           <span class="chartsubbodydata">
             81.59 % (Available ~ <span class="text-green">+27.68 FTE</span> per month)
           </span>
-        </p>
-      </p>
-      <p class="chartbody">
-        • Q2 2025 [Plan 95.92%]
-        <p class="chartsubbody">
-          • June มีปริมาณ Plan FTE สูงสุด [98.49%] เนื่องจากมีงานเข้ามาแน่นอนแล้วในช่วงปัจจุบัน ** บางโปรเจคยังไม่ start June<br>
-          • ส่วนต่าง ยังเป็นตัวเลขที่สามารถจัดการได้ โดยการโยกพนักงานมาจาก Internal Project ได้<br>
-          • Q2 Top Allocation	SD-CyberSec 128% / SD-BA 119% / SD-Data 119% / SD-PM 107% / SD-SA&SRE 103%	<br>
-          • Q2 Top Available	SD-Design 73% [Available 27%] / R&D-IoT 86% [Available 14%] / PSI 87% [Available 13%]	<br>
-          • Q2 Top Diff FTE	SE +6 FTE / SD-Design +3 FTE
-        </p>
-      </p>
-      <p class="chartbody">
-        Q1 2026 [Plan 65.05%]
-        <p class="chartsubbody">
-          • Available เป็นจำนวนมาก เกิดจากความไม่แน่นอนในโปรเจคใหม่ที่จะเข้ามาในปีหน้า รวมถึงมีโปรเจคที่จบตั้งแต่ปี 2025 และยังไม่มีแผนขยาย<br>
-          • Top Allocation	SD-Data 109%<br>
-          • Top Available	SD-Design 15% [Available 85%]<br>
-          • Top Diff FTE	SE +18.83 FTE				~ คนเกิน
-        </p>
-      </p>
-      <p class="chartbody">
-        ...
-      </p>
+        </div>
+      </div>
+      <div class="chartbody">
+        test another body
+      </div>
     </div>
     <div class="chart rounded-div" id="index-planactual">
       <canvas id="workforceChartDOPlanActual"></canvas>
