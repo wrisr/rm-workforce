@@ -81,13 +81,13 @@
         &#8226;&ensp;May มีปริมาณ Plan FTE สูงสุด [92.03%] เนื่องจากมีงานเข้ามาแน่นอนแล้วในช่วงปัจจุบัน
         </div>
         <div class="chartsubbodycontainer">
-          <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Allocation</div>
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
           <div class="chartsubbodydata">
             SD-SRE 130.08% / SD-QA 105.79% / SD-BA 104.75% / CPS-BD 103.94%
           </div>
         </div>
         <div class="chartsubbodycontainer">
-          <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Available</div>
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Available</div>
           <div class="chartsubbodydata">
             <a href="sd#sd-sect-tm">SD-TM</a> 78.08% <span class="text-avai">[Available 21.92%]</span> / 
             <a href="aic#aic-sect-sai">AIC-SAI</a> 81.92% <span class="text-avai">[Available 18.08%]</span> / 
@@ -95,7 +95,7 @@
           </div>
         </div>
           <div class="chartsubbodycontainer">
-          <div class="chartsubbodytitle">&#8226;&ensp;Q2 Top Diff FTE</div>
+          <div class="chartsubbodytitle">&#8226;&ensp;Top Diff FTE</div>
           <div class="chartsubbodydata">
             <a href="pse#pse-sect-se">PSE-SE</a> <span class="text-avai">+2.6 FTE</span> / 
             <a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-avai">+0.97 FTE</span> / 
