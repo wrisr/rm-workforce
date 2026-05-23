@@ -194,7 +194,7 @@ table, th, td, tr {
   font-weight: bold;
 }
 .chartsubbodytitle {
-  max-width: 120px;
+  min-width: 120px;
   height: auto;
   display: inline-block;
 }
