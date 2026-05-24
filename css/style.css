@@ -164,6 +164,7 @@ h1 a {
 }
 .chartsubbodycontainer {
   display: block;
+  padding-bottom: 3px;
 }
 .chartsubbodytitle {
   min-width: 120px;
