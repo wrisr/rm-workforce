@@ -126,7 +126,7 @@
         <div class="chartsubbodycontainer">
           <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
           <div class="chartsubbodydata">
-            <a href="sd#sd-sect-tm">SD-TM 130%</a>
+            <a href="sd#sd-sect-tm">SD-TM</a> 130%
           </div>
         </div>
         <div class="chartsubbodycontainer">
