@@ -58,14 +58,14 @@
       </div>
     </div>
     <!-- end summary -->
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="tde-main-mth">
       <canvas id="workforceChartTDE"></canvas>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="tde-main-qtr">
       <canvas id="workforceChartTDEQTR"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow">
+        <div class="secrow" id="tde-main-avaiplan">
             <div class="secleft">
               <div class="chart rounded-div"><canvas id="workforceChartTDEAvai"></canvas></div>
             </div>
@@ -76,7 +76,7 @@
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="tde-resource">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartTDEPR"></canvas>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="tde-sect-fi">
     TDE Financial Management
     <div class="chart rounded-div">
       <canvas id="workforceChartTDEFI"></canvas>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="tde-sect-rm">
     TDE Resource Management
     <div class="chart rounded-div">
       <canvas id="workforceChartTDERM"></canvas>
@@ -123,7 +123,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="tde-sect-ted">
     TDE Talent Experience & Development
     <div class="chart rounded-div">
       <canvas id="workforceChartTDETED"></canvas>
@@ -140,7 +140,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="tde-sect-coe">
     TDE Center of Excellences
     <div class="chart rounded-div">
       <canvas id="workforceChartTDECoE"></canvas>
