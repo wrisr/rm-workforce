@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-plan">[Plan 62.62%]</span>
+        &#8227;&ensp;<a href="aic#aic-sect-aie">AIET AI Engineering</a> <span class="text-plan">[Plan 62.62%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="aic#aic-sect-iot">AIC-IoT</a> <span class="text-plan">[Plan 67.62%]</span>
+        &#8227;&ensp;<a href="aic#aic-sect-iot">AIET IoT Engineering</a> <span class="text-plan">[Plan 67.62%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="aic#aic-sect-sai">AIC-SAI</a> <span class="text-plan">[Plan 58.92%]</span>
+        &#8227;&ensp;<a href="aic#aic-sect-sai">AIET Spatial AI Engineering</a> <span class="text-plan">[Plan 58.92%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
