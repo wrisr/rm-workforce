@@ -34,27 +34,80 @@
     <!-- start summary -->
     <div class="chart rounded-div">
       <div class="chartheaderleft">
-        AIC Key Summary
+        AIC Workforce Summary Q2/2026
       </div>
       <div class="chartbody">
-        1 <a href="index#index-resource">link to Per Resource Type</a>
-        <div class="chartsubbody">
-          1.1 <a href="index#index-main-avaiplan">link to Avai / Plan</a><br>
-          1.2
+        &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-plan">[Plan 68.23%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ภาพรวม กราฟ Plan ลงเป็นระนาบเดียวกัน เนื่องจากความไม่แน่นอนในอนาคต
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;งานที่จะรับจากทาง AE/BD ยังมีความไม่แน่นอน และไม่แน่ใจจะเริ่มเมื่อไหร่
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;จำนวนพนักงานในปัจจุบัน ยังสามารถรองรับงานที่จะเข้ามาในอนาคตได้
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;Note: ไม่มีพนักงานภายใต้ Product Innovation แล้ว นับตั้งแต่ Q2/2026 เป็นต้นมา
         </div>
       </div>
       <div class="chartbody">
-        - 2 <a href="index#index-dept">link to Per Department</a>
-        <div class="chartsubbody">
-          2.1 <a href="index#index-dept-cps">link to Per Resource Type : CPS</a><br>
-          2.2 <a href="index#index-dept-pse">link to Per Resource Type : PSE</a>
+        &#8227;&ensp;<a href="aic#aic-sect-aie">AIC-AIE</a> <span class="text-plan">[Plan 62.62%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณคนมากกว่าปริมาณงาน โดยมีส่วนต่างสูงสุดอยู่ที่ Q1/2027 โดยมีการ Plan อยู่ที่ 46.06% <span class="text-avai">[Available +4.3 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;งานที่จะรับจากทาง AE/BD ยังมีความไม่แน่นอน และไม่แน่ใจจะเริ่มเมื่อไหร่
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;Plan สำหรับการทำ Research & Explore ประมาณ 0.05 FTE สำหรับพนักงาน 1 คน ต่อเดือน
         </div>
       </div>
       <div class="chartbody">
-        - 3
+        &#8227;&ensp;<a href="aic#aic-sect-iot">AIC-IoT</a> <span class="text-plan">[Plan 67.62%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณคนมากกว่าปริมาณงาน โดยมีส่วนต่างสูงสุดอยู่ที่ Q1/2027 โดยมีการ Plan อยู่ที่ 28.00% <span class="text-avai">[Available +3.6 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;งานพาร์ท IoT ส่วนใหญ่จะจบจบภายในปี 2026
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;Plan สำหรับการทำ Research & Explore ประมาณ 0.05 FTE สำหรับพนักงาน 1 คน ต่อเดือน
+        </div>
       </div>
       <div class="chartbody">
-        ...
+        &#8227;&ensp;<a href="aic#aic-sect-sai">AIC-SAI</a> <span class="text-plan">[Plan 58.92%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณคนมากกว่าปริมาณงาน โดยมีส่วนต่างสูงสุดอยู่ที่ Q1/2027 โดยมีการ Plan อยู่ที่ 10.00% <span class="text-avai">[Available +3.6 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ประเมิณ Plan จากหัวข้อ Research ที่ดูแลอยู่ในปัจจุบันเท่านั้น ซึ่งงานส่วนใหญ่จะจบภายในสิ้นปี 2026
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;สำหรับหัวข้อ Research ในปี 2027 จะดูปลาย Q3 ว่าจะลง Research ในส่วนไหน ซึ่งข้อมูลการ Plan อาจะมีการเปลี่ยนแปลงในรอบการประเมิณถัดไป
+        </div>
+      </div>
+      <div class="chartbody">
+        &#8227;&ensp;<a href="sd#sd-sect-tm">SD-TM</a> <span class="text-plan">[Plan 103.52%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณมากกว่าจำนวนพนักงาน สูงที่สุดในช่วง Q1/2027 โดย Plan อยู่ที่ 130% <span class="text-red">[Available -1.2 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;เนื่องจากโปรเจค New CDAS ต้องการ TM Support 24x7 จึงต้องมีพนักงาน Standby on-call 2 คน สลับนอกเวลางานกันคนละสัปดาห์
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ตัวเลขการประเมินอาจมีการเปลี่ยนแปลงอีกครั้ง หากได้รับการคอนเฟิร์มโมเดลการจ้างงานในเดือนมิถุนายนนี้
+        </div>
       </div>
     </div>
     <!-- end summary -->
