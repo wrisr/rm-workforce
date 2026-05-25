@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="pse#pse-sect-pe">PSE-SE</a> <span class="text-plan">[Plan 82.42%]</span>
+        &#8227;&ensp;<a href="pse#pse-sect-se">PSE-SE</a> <span class="text-plan">[Plan 82.42%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
