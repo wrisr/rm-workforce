@@ -89,24 +89,10 @@
           &#8226;&ensp;ปริมาณคนมากกว่าปริมาณงาน โดยมีส่วนต่างสูงสุดอยู่ที่ Q1/2027 โดยมีการ Plan อยู่ที่ 10.00% <span class="text-avai">[Available +3.6 FTE]</span>
         </div>
         <div class="chartsubbodycontainer">
-          &#8226;&ensp;ประเมิณ Plan จากหัวข้อ Research ที่ดูแลอยู่ในปัจจุบันเท่านั้น ซึ่งงานส่วนใหญ่จะจบภายในสิ้นปี 2026
+          &#8226;&ensp;ประเมิน Plan จากหัวข้อ Research ที่ดูแลอยู่ในปัจจุบันเท่านั้น ซึ่งงานส่วนใหญ่จะจบภายในสิ้นปี 2026
         </div>
         <div class="chartsubbodycontainer">
-          &#8226;&ensp;สำหรับหัวข้อ Research ในปี 2027 จะดูปลาย Q3 ว่าจะลง Research ในส่วนไหน ซึ่งข้อมูลการ Plan อาจะมีการเปลี่ยนแปลงในรอบการประเมิณถัดไป
-        </div>
-      </div>
-      <div class="chartbody">
-        &#8227;&ensp;<a href="sd#sd-sect-tm">SD-TM</a> <span class="text-plan">[Plan 103.52%]</span>
-      </div>
-      <div class="chartsubbody">
-        <div class="chartsubbodycontainer">
-          &#8226;&ensp;ปริมาณมากกว่าจำนวนพนักงาน สูงที่สุดในช่วง Q1/2027 โดย Plan อยู่ที่ 130% <span class="text-red">[Available -1.2 FTE]</span>
-        </div>
-        <div class="chartsubbodycontainer">
-          &#8226;&ensp;เนื่องจากโปรเจค New CDAS ต้องการ TM Support 24x7 จึงต้องมีพนักงาน Standby on-call 2 คน สลับนอกเวลางานกันคนละสัปดาห์
-        </div>
-        <div class="chartsubbodycontainer">
-          &#8226;&ensp;ตัวเลขการประเมินอาจมีการเปลี่ยนแปลงอีกครั้ง หากได้รับการคอนเฟิร์มโมเดลการจ้างงานในเดือนมิถุนายนนี้
+          &#8226;&ensp;สำหรับหัวข้อ Research ในปี 2027 จะดูปลาย Q3 ว่าจะลง Research ในส่วนไหน ซึ่งข้อมูลการ Plan อาจะมีการเปลี่ยนแปลงในรอบการประเมินถัดไป
         </div>
       </div>
     </div>
