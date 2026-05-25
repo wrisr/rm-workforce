@@ -34,7 +34,7 @@
     <!-- start summary -->
     <div class="chart rounded-div">
       <div class="chartheaderleft">
-        CPS Workforce Summary Q2/2026
+        PSE Workforce Summary Q2/2026
       </div>
       <div class="chartbody">
         &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-plan">[Plan 84.98%]</span>
