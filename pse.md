@@ -60,7 +60,7 @@
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
-          &#8226;&ensp;กราฟตกมากสุดในช่วง Q1/2027 โดย Plan อยู่ที่ 60% เนื่องจากความไม่แน่นอนของโปรเจคในอนาคต
+          &#8226;&ensp;กราฟตกมากสุดในช่วง Q1/2027 โดย Plan อยู่ที่ 60% <span class="text-avai">[Available +16 FTE]</span><br> เนื่องจากความไม่แน่นอนของโปรเจคในอนาคต
         </div>
         <div class="chartsubbodycontainer">
           &#8226;&ensp;บางโปรเจค จบภายในปี 2026 และยังไม่มีกำหนดต่อไปถึงปีหน้า
