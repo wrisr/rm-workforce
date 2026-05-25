@@ -34,27 +34,57 @@
     <!-- start summary -->
     <div class="chart rounded-div">
       <div class="chartheaderleft">
-        SD Key Summary
+        CPS Workforce Summary Q2/2026
       </div>
       <div class="chartbody">
-        1 <a href="index#index-resource">link to Per Resource Type</a>
-        <div class="chartsubbody">
-          1.1 <a href="index#index-main-avaiplan">link to Avai / Plan</a><br>
-          1.2
+        &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-plan">[Plan 90.10%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ภาพรวม กราฟ Plan ลงเป็นระนาบเดียวกัน เนื่องจากความไม่แน่นอนในอนาคต
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ยังมี Available ในการรับงานในอนาคตเพิ่มเติม ยกเว้น SRE, QA, TM
         </div>
       </div>
       <div class="chartbody">
-        - 2 <a href="index#index-dept">link to Per Department</a>
-        <div class="chartsubbody">
-          2.1 <a href="index#index-dept-cps">link to Per Resource Type : CPS</a><br>
-          2.2 <a href="index#index-dept-pse">link to Per Resource Type : PSE</a>
+        &#8227;&ensp;<a href="sd#sd-sect-sre">SD-SRE</a> <span class="text-plan">[Plan 105.46%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณมากกว่าจำนวนพนักงาน สูงที่สุดในช่วง Q2 โดย Plan อยู่ที่ 130.08% <span class="text-red">[Available -0.6 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;กำลังอยู่ในช่วงการสรรหาพนักงานใหม่มาเพิ่มเติม เพื่อรองรับงานปัจจุบัน และในอนาคตที่จะเข้ามาเพิ่มเติม
         </div>
       </div>
       <div class="chartbody">
-        - 3
+        &#8227;&ensp;<a href="sd#sd-sect-qa">SD-QA</a> <span class="text-plan">[Plan 106.10%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณมากกว่าจำนวนพนักงาน สูงที่สุดในช่วง Q3 โดย Plan อยู่ที่ 128.89% <span class="text-red">[Available -3.5 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;สามารถใช้พนักงาน Outsource จาก Doppio มาเพื่อช่วยงานเพิ่มเติม
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;Note: Doppio usage during Jan-Apr 2026 ~ 509.22 from 1,900 MDs
+        </div>
       </div>
       <div class="chartbody">
-        ...
+        &#8227;&ensp;<a href="sd#sd-sect-tm">SD-TM</a> <span class="text-plan">[Plan 103.52%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ปริมาณมากกว่าจำนวนพนักงาน สูงที่สุดในช่วง Q1/2027 โดย Plan อยู่ที่ 130% <span class="text-red">[Available -1.2 FTE]</span>
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;เนื่องจากโปรเจค New CDAS ต้องการ TM Support 24x7 จึงต้องมีพนักงาน Standby on-call 2 คน สลับนอกเวลางานกันคนละสัปดาห์
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ตัวเลขการประเมินอาจมีการเปลี่ยนแปลงอีกครั้ง หากได้รับการคอนเฟิร์มโมเดลการจ้างงานในเดือนมิถุนายนนี้
+        </div>
       </div>
     </div>
     <!-- end summary -->
