@@ -58,14 +58,14 @@
       </div>
     </div>
     <!-- end summary -->
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="aic-main-mth">
       <canvas id="workforceChartAIC"></canvas>
     </div>
-    <div class="chart rounded-div">
+    <div class="chart rounded-div" id="aic-main-qtr">
       <canvas id="workforceChartAICQTR"></canvas>
     </div>
     <div class="secwrapper">
-        <div class="secrow">
+        <div class="secrow" id="aic-main-avaiplan">
             <div class="secleft">
               <div class="chart rounded-div"><canvas id="workforceChartAICAvai"></canvas></div>
             </div>
@@ -76,7 +76,7 @@
     </div>
   </div>
     
-  <div class="section">
+  <div class="section" id="aic-resource">
     Per Resource Type
     <div class="chart rounded-div">
       <canvas id="workforceChartAICPR"></canvas>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="aic-sect-ra">
     AIC AI Research & Alliance
     <div class="chart rounded-div">
       <canvas id="workforceChartAICRA"></canvas>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="aic-sect-aie">
     AIC AIET AI Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartAICAIE"></canvas>
@@ -123,7 +123,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="aic-sect-iot">
     AIC AIET IoT Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartAICIoT"></canvas>
@@ -140,7 +140,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="aic-sect-sai">
     AIC AIET Spatial AI Engineering
     <div class="chart rounded-div">
       <canvas id="workforceChartAICSAI"></canvas>
@@ -157,7 +157,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="aic-sect-pi">
     AIC Product Innovation
     <div class="chart rounded-div">
       <canvas id="workforceChartAICPI"></canvas>
