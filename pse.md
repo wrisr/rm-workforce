@@ -34,27 +34,43 @@
     <!-- start summary -->
     <div class="chart rounded-div">
       <div class="chartheaderleft">
-        PSE Key Summary
+        CPS Workforce Summary Q2/2026
       </div>
       <div class="chartbody">
-        1 <a href="index#index-resource">link to Per Resource Type</a>
-        <div class="chartsubbody">
-          1.1 <a href="index#index-main-avaiplan">link to Avai / Plan</a><br>
-          1.2
+        &#8227;&ensp;Q2 2026 – Q1 2027 <span class="text-plan">[Plan 84.98%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ผลต่างที่มีระหว่างเดือน ยังเป็นตัวเลขที่สามารถจัดการได้
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ช่วงที่ Resource Available สามารถโยกมาทำ Internal Project ได้
         </div>
       </div>
       <div class="chartbody">
-        - 2 <a href="index#index-dept">link to Per Department</a>
-        <div class="chartsubbody">
-          2.1 <a href="index#index-dept-cps">link to Per Resource Type : CPS</a><br>
-          2.2 <a href="index#index-dept-pse">link to Per Resource Type : PSE</a>
+        &#8227;&ensp;<a href="pse#pse-sect-pe">PSE-PE</a> <span class="text-plan">[Plan 100%]</span>
+      </div>
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;Fully Plan เนื่องจากดูแล AI Platform เต็มตัว
         </div>
       </div>
       <div class="chartbody">
-        - 3
+        &#8227;&ensp;<a href="pse#pse-sect-pe">PSE-SE</a> <span class="text-plan">[Plan 82.42%]</span>
       </div>
-      <div class="chartbody">
-        ...
+      <div class="chartsubbody">
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;กราฟตกมากสุดในช่วง Q1/2027 โดย Plan อยู่ที่ 60% เนื่องจากความไม่แน่นอนของโปรเจคในอนาคต
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;บางโปรเจค จบภายในปี 2026 และยังไม่มีกำหนดต่อไปถึงปีหน้า
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ตัวเลขการประเมินอาจมีการเปลี่ยนแปลงอีกครั้ง หากได้รับการคอนเฟิร์มการต่อสัญญาจาก BD
+        </div>
+        <div class="chartsubbodycontainer">
+          &#8226;&ensp;ช่วงที่ Resource Available สามารถโยกมาทำ Internal Project ได้
+        </div>
       </div>
     </div>
     <!-- end summary -->
