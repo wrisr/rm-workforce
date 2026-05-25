@@ -45,7 +45,9 @@
         <div class="chartsubbodycontainer">
           <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
           <div class="chartsubbodydata">
-            SD-QA 106.10% / SD-SRE 105.46% / SD-TM 103.52%
+            <a href="sd#sd-sect-qa">SD-QA</a> 106.10%<br>
+            <a href="sd#sd-sect-sre">SD-SRE</a> 105.46%<br>
+            <a href="sd#sd-sect-tm">SD-TM</a> 103.52%
           </div>
         </div>
         <div class="chartsubbodycontainer">
@@ -83,7 +85,10 @@
         <div class="chartsubbodycontainer">
           <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
           <div class="chartsubbodydata">
-            SD-SRE 130.08% / SD-QA 105.79% / SD-BA 104.75% / CPS-BD 103.94%
+            <a href="sd#sd-sect-sre">SD-SRE</a> 130.08%<br>
+            <a href="sd#sd-sect-qa">SD-QA</a> 105.79%<br>
+            <a href="sd#sd-sect-ba">SD-BA</a> 104.75%<br>
+            <a href="cps#cps-sect-bd">CPS-BD</a> 103.94%
           </div>
         </div>
         <div class="chartsubbodycontainer">
@@ -120,7 +125,7 @@
         <div class="chartsubbodycontainer">
           <div class="chartsubbodytitle">&#8226;&ensp;Top Allocation</div>
           <div class="chartsubbodydata">
-            SD-TM 130%
+            <a href="sd#sd-sect-tm">SD-TM 130%</a>
           </div>
         </div>
         <div class="chartsubbodycontainer">
