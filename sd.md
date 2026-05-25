@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="sd#sd-sect-sre">SD-SRE</a> <span class="text-plan">[Plan 105.46%]</span>
+        &#8227;&ensp;<a href="sd#sd-sect-sre">Site Reliability Engineering</a> <span class="text-plan">[Plan 105.46%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="sd#sd-sect-qa">SD-QA</a> <span class="text-plan">[Plan 106.10%]</span>
+        &#8227;&ensp;<a href="sd#sd-sect-qa">Technology QA</a> <span class="text-plan">[Plan 106.10%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="sd#sd-sect-tm">SD-TM</a> <span class="text-plan">[Plan 103.52%]</span>
+        &#8227;&ensp;<a href="sd#sd-sect-tm">Technology Management</a> <span class="text-plan">[Plan 103.52%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
