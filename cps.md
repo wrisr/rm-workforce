@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="cps#cps-sect-bd">CPS-BD</a> <span class="text-plan">[Plan 89.70%]</span>
+        &#8227;&ensp;<a href="cps#cps-sect-bd">Business Development & Partnerships</a> <span class="text-plan">[Plan 89.70%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="chartbody">
-        &#8227;&ensp;<a href="cps#cps-sect-po">CPS-PO</a> <span class="text-plan">[Plan 100%]</span>
+        &#8227;&ensp;<a href="cps#cps-sect-po">Product Commercialization</a> <span class="text-plan">[Plan 100%]</span>
       </div>
       <div class="chartsubbody">
         <div class="chartsubbodycontainer">
